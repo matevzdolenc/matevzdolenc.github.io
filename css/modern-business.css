@@ -26,6 +26,13 @@ body {
   margin-top: 15px;
 }
 
+/* NavBar */
+
+.navbar {
+  background:rgba(0,0,0,0.8); !important;
+}
+
+
 /* Page Sections */
 .section,
 .section-colored {
