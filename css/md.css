@@ -108,3 +108,7 @@ header.carousel .fill {
 .github-link a:hover {
   color: #4686c3;
 }
+
+#brand-image {
+  height: 25px;
+}

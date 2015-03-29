@@ -1,4 +1,4 @@
-name: M | D
+name: <img id="brand-image" src="/img/md-logo-white.png" alt="md" />
 markdown: redcarpet
 highlighter: pygments
 # highlighter: rouge
