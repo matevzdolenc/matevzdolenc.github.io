@@ -2,7 +2,7 @@
 layout: python-video
 title: Python za inženirje - 006 - Izpis tabele
 ---
-    
+
 <div class="section">
   <div class="container">
 
@@ -26,10 +26,38 @@ title: Python za inženirje - 006 - Izpis tabele
         <li><a href"https://docs.python.org/3/tutorial/introduction.html#lists">Primeri uporabe seznamov</a></li>
       </ul>
 	  </div>
-	  <div class="col-lg-8 col-md-8 col-sm-8">
+	  <div class="col-lg-8 col-md-8 col-sm-8 text-center">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/-fEbZELu6cQ?rel=0" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 
   </div><!-- /.container -->
+</div><!-- /.section -->
+
+<div class="section">
+  <div class="container">
+
+    <div class="row">
+	    <div class="col-lg-12">
+	      <h4>Izvorna koda</h4>
+	    </div>
+		</div><!-- /.row -->
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <p><a href="/python/src/006/tabela.py">tabela.py</a></p>
+
+<div class="highlight"><pre><span class="c">#!/usr/bin/env python</span>
+
+<span class="kn">import</span> <span class="nn">math</span>
+
+<span class="n">radiji</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">radiji</span><span class="p">:</span>
+    <span class="n">pl</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">r</span><span class="o">**</span><span class="mi">2</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&quot;{:3d} {:.3f}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="n">pl</span><span class="p">))</span>
+</pre></div>
+
+
+</div><!-- /.container -->
 </div><!-- /.section -->

@@ -27,10 +27,61 @@ title-short: 011 - Bisekcija 2
         <li><a href="http://effbot.org/pyfaq/tutor-what-is-if-name-main-for.htm">Zakaj uporaba __name__ == "__main__"</a></li>
       </ul>
 	  </div>
-	  <div class="col-lg-8 col-md-8 col-sm-8">
+	  <div class="col-lg-8 col-md-8 col-sm-8 text-center">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/HHglfHqN-lE?rel=0" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 
   </div><!-- /.container -->
+</div><!-- /.section -->
+
+<div class="section">
+  <div class="container">
+
+    <div class="row">
+	    <div class="col-lg-12">
+	      <h4>Izvorna koda</h4>
+	    </div>
+		</div><!-- /.row -->
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <p><a href="/python/src/011/bisekcija-funkcija.py">bisekcija-funkcija.py</a></p>
+<div class="highlight"><pre><span class="c">#!/usr/bin/env python</span>
+
+<span class="c"># Poiščimo ničlo funkcije po metodi Bisekcije</span>
+<span class="c"># f(x) = 2x - 2</span>
+
+<span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="mi">2</span><span class="o">*</span><span class="n">x</span> <span class="o">-</span> <span class="mi">2</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="o">-</span><span class="mf">5.0</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="mf">10.0</span>
+    <span class="n">e</span> <span class="o">=</span> <span class="mf">0.0001</span>
+    <span class="nb">iter</span> <span class="o">=</span> <span class="mi">0</span>
+
+    <span class="k">while</span> <span class="p">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">a</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">e</span><span class="p">:</span>
+        <span class="nb">iter</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="n">c</span> <span class="o">=</span> <span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span> <span class="o">/</span> <span class="mf">2.0</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">&quot;{:10} {:10.4f} {:10.4f}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">iter</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">b</span> <span class="o">-</span> <span class="n">a</span><span class="p">))</span>
+        <span class="k">if</span> <span class="n">f</span><span class="p">(</span><span class="n">a</span><span class="p">)</span> <span class="o">*</span> <span class="n">f</span><span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">a</span> <span class="o">=</span> <span class="n">c</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">b</span> <span class="o">=</span> <span class="n">c</span>
+
+    <span class="k">print</span><span class="p">()</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&quot;Ničla funkcije: {:.4f}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">c</span><span class="p">))</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&quot;Število iteracij:&quot;</span><span class="p">,</span> <span class="nb">iter</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span>
+</pre></div>
+
+
+      </div>
+    </div>
+
+
+</div><!-- /.container -->
 </div><!-- /.section -->

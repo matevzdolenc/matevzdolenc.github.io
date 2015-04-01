@@ -26,10 +26,54 @@ title-short: 009 - Kontrola podatkov
         <li><a href="https://docs.python.org/3/tutorial/controlflow.html#if-statements">Pogojni stavek "if"</a></li>
       </ul>
 	  </div>
-	  <div class="col-lg-8 col-md-8 col-sm-8">
+	  <div class="col-lg-8 col-md-8 col-sm-8 text-center">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/e2p256fxpCA?rel=0" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 
   </div><!-- /.container -->
+</div><!-- /.section -->
+
+<div class="section">
+  <div class="container">
+
+    <div class="row">
+	    <div class="col-lg-12">
+	      <h4>Izvorna koda</h4>
+	    </div>
+		</div><!-- /.row -->
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <p><a href="/python/src/009/tabela.py">tabela.py</a></p>
+<div class="highlight"><pre><span class="c">#!/usr/bin/env python</span>
+
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+
+<span class="n">prvi</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">&quot;Podaj začetno vrednost: &quot;</span><span class="p">))</span>
+<span class="n">zadnji</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">&quot;Podaj končno vrednost: &quot;</span><span class="p">))</span>
+
+<span class="k">if</span> <span class="n">prvi</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">zadnji</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&quot;Napaka. Vrednosti morata biti večji od 0.&quot;</span><span class="p">)</span>
+    <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">prvi</span> <span class="o">&lt;</span> <span class="n">zadnji</span><span class="p">:</span>
+    <span class="n">korak</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">zadnji</span> <span class="o">=</span> <span class="n">zadnji</span> <span class="o">+</span> <span class="mi">1</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">korak</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span>
+    <span class="n">zadnji</span> <span class="o">=</span> <span class="n">zadnji</span> <span class="o">-</span> <span class="mi">1</span>
+
+<span class="n">s</span> <span class="o">=</span> <span class="s">&quot;{:&gt;6} | {:&gt;10} | {:&gt;10}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s">&quot;Radij&quot;</span><span class="p">,</span> <span class="s">&quot;Ploščina&quot;</span><span class="p">,</span> <span class="s">&quot;Obseg&quot;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">&quot;-&quot;</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">))</span>
+<span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">prvi</span><span class="p">,</span> <span class="n">zadnji</span><span class="p">,</span> <span class="n">korak</span><span class="p">):</span>
+    <span class="n">pl</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">r</span><span class="o">**</span><span class="mi">2</span>
+    <span class="n">ob</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">math</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">r</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&quot;{:6d} | {:10.3f} | {:10.3f}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="n">pl</span><span class="p">,</span> <span class="n">ob</span><span class="p">))</span>
+</pre></div>
+
+
+</div><!-- /.container -->
 </div><!-- /.section -->
