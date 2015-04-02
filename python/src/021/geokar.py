@@ -4,8 +4,8 @@ import geometrijske_karakteristike as gk
 import sys
 import sqlite3
 
-def izpisi_vrednost(n, v):
-    return "{:>5} = {:.3f}\n".format(n, v)
+def izpisi_vrednost(naslov, vrednost):
+    print("{:>5} = {:.3f}".format(naslov, vrednost))
 
 
 def vnos_podatkov():
@@ -68,7 +68,7 @@ def main():
     print("Vnos podatkov ...")
     n, x, y = vnos_podatkov()
 
-    # Izračun ploščine prereza
+    # Izračun količin
     print("Izračun ...")
     vrednosti = izracun(n, x, y)
 

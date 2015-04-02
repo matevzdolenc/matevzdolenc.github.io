@@ -3,11 +3,11 @@
 import geometrijske_karakteristike as gk
 import sys
 
-def izpisi_vrednost(n, v):
-    print("{:>5} = {:.3f}".format(n, v))
+def izpisi_vrednost(naslov, vrednost):
+    print("{:>5} = {:.3f}".format(naslov, vrednost))
 
-def izpisi_vrednost_dat(n, v, dat):
-    dat.write("{:>5} = {:.3f}\n".format(n, v))
+def izpisi_vrednost_dat(naslov, vrednost, dat):
+    dat.write("{:>5} = {:.3f}\n".format(naslov, vrednost))
 
 def main():
     # Vnos podatkov
@@ -29,7 +29,7 @@ def main():
 
     dat.close()
 
-    # Izračun ploščine prereza
+    # Izračun količin
     print()
     print("Izračun ...")
     Ax = gk.Ax(n, x, y)
