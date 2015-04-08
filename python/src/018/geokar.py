@@ -2,9 +2,10 @@
 
 import geometrijske_karakteristike as gk
 import sys
+import collections
 
 def izpisi_vrednost(naslov, vrednost):
-    print("{:>5} = {:.3f}".format(naslov, vrednost))
+    return "{:>5} = {:.3f}\n".format(naslov, vrednost)
 
 
 def vnos_podatkov():
@@ -30,7 +31,7 @@ def vnos_podatkov():
 
 
 def izracun(n, x, y):
-    vrednosti = {}
+    vrednosti = collections.OrderedDict()
     vrednosti["Ax"] = gk.Ax(n, x, y)
     vrednosti["Sx"] = gk.Sx(n, x, y)
     vrednosti["Sy"] = gk.Sy(n, x, y)
@@ -45,8 +46,8 @@ def izracun(n, x, y):
 
 def izpis(vrednosti):
     s = ""
-    for key in vrednosti:
-        s = s + izpisi_vrednost(key, vrednosti[key])
+    for k in vrednosti:
+        s = s + izpisi_vrednost(k, vrednosti[k])
 
     izpis_na_zaslon(s)
     izpis_v_datoteko(s)
