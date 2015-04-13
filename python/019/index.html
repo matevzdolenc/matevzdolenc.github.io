@@ -1,0 +1,351 @@
+---
+layout: python-video
+title: Python za inženirje - 018 - Geometrijske karakteristike - preureditev
+title-short: 018 - Geometrijske karakteristike - preureditev
+---
+
+<div class="section">
+  <div class="container">
+
+    <div class="row">
+	    <div class="col-lg-12">
+	      <ol class="breadcrumb">
+          <li><a href="/">Home</a></li>
+	        <li><a href="/python">Python za inženirje</a></li>
+	        <li class="active">{{page.title-short}}</li>
+	      </ol>
+	      <h3 class="page-header">{{page.title-short}}</h3>
+	    </div>
+		</div><!-- /.row -->
+
+  <div class="row">
+	  <div class="col-lg-4 col-md-4 col-sm-4">
+      <p>Program za izračun geometrijskih karakteristik poligonalnih prerezov. Uporaba XML datotek - branje in zapisovanje podatkov.</p>
+	    <p>Povezave:</p>
+      <ul>
+      </ul>
+	  </div>
+	  <div class="col-lg-8 col-md-8 col-sm-8 text-center">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/wUYlEhxOPWc?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  </div><!-- /.container -->
+</div><!-- /.section -->
+
+<div class="section">
+  <div class="container">
+
+    <div class="row">
+	    <div class="col-lg-12">
+	      <h4>Izvorna koda</h4>
+	    </div>
+		</div><!-- /.row -->
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <p><a href="/python/src/019/geokar.py">geokar.py</a></p>
+
+<div class="highlight"><pre><span class="c">#! /usr/bin/env python</span>
+
+<span class="kn">import</span> <span class="nn">geometrijske_karakteristike</span> <span class="kn">as</span> <span class="nn">gk</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">xml.etree.cElementTree</span> <span class="kn">as</span> <span class="nn">et</span>
+<span class="kn">import</span> <span class="nn">collections</span>
+
+<span class="k">def</span> <span class="nf">izpisi_vrednost</span><span class="p">(</span><span class="n">naslov</span><span class="p">,</span> <span class="n">vrednost</span><span class="p">):</span>
+    <span class="k">return</span> <span class="s">&quot;{:&gt;5} = {:.3f}</span><span class="se">\n</span><span class="s">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">naslov</span><span class="p">,</span> <span class="n">vrednost</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">vnos_podatkov</span><span class="p">():</span>
+    <span class="c"># Vnos podatkov</span>
+    <span class="n">xml_tree</span> <span class="o">=</span> <span class="n">et</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+
+    <span class="n">xml_prerez</span> <span class="o">=</span> <span class="n">xml_tree</span><span class="o">.</span><span class="n">getroot</span><span class="p">()</span>
+    <span class="n">xml_tocke</span> <span class="o">=</span> <span class="n">xml_prerez</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s">&quot;tocke&quot;</span><span class="p">)</span>
+    <span class="n">xml_tocke_seznam</span> <span class="o">=</span> <span class="n">xml_tocke</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s">&quot;tocka&quot;</span><span class="p">)</span>
+
+    <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">xml_tocke_seznam</span><span class="p">)</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="n">xml_tocka</span> <span class="ow">in</span> <span class="n">xml_tocke_seznam</span><span class="p">:</span>
+        <span class="n">tocka_id</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">xml_tocka</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&quot;id&quot;</span><span class="p">))</span>
+        <span class="n">tocka_x</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">xml_tocka</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s">&quot;x&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+        <span class="n">tocka_y</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">xml_tocka</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s">&quot;y&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+        <span class="n">x</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="n">tocka_id</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">tocka_x</span><span class="p">)</span>
+        <span class="n">y</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="n">tocka_id</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">tocka_y</span><span class="p">)</span>
+
+    <span class="n">x</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+    <span class="n">y</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+
+    <span class="k">return</span> <span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span>
+
+
+<span class="k">def</span> <span class="nf">izracun</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="n">vrednosti</span> <span class="o">=</span> <span class="n">collections</span><span class="o">.</span><span class="n">OrderedDict</span><span class="p">()</span>
+    <span class="n">vrednosti</span><span class="p">[</span><span class="s">&quot;Ax&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">gk</span><span class="o">.</span><span class="n">Ax</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+    <span class="n">vrednosti</span><span class="p">[</span><span class="s">&quot;Sx&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">gk</span><span class="o">.</span><span class="n">Sx</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+    <span class="n">vrednosti</span><span class="p">[</span><span class="s">&quot;Sy&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">gk</span><span class="o">.</span><span class="n">Sy</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+    <span class="n">vrednosti</span><span class="p">[</span><span class="s">&quot;Iy&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">gk</span><span class="o">.</span><span class="n">Iy</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+    <span class="n">vrednosti</span><span class="p">[</span><span class="s">&quot;Ixy&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">gk</span><span class="o">.</span><span class="n">Ixy</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+    <span class="n">vrednosti</span><span class="p">[</span><span class="s">&quot;xt&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">gk</span><span class="o">.</span><span class="n">xt</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+    <span class="n">vrednosti</span><span class="p">[</span><span class="s">&quot;yt&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">gk</span><span class="o">.</span><span class="n">yt</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+    <span class="n">vrednosti</span><span class="p">[</span><span class="s">&quot;Ixt&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">gk</span><span class="o">.</span><span class="n">Ixt</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+    <span class="n">vrednosti</span><span class="p">[</span><span class="s">&quot;Iyt&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">gk</span><span class="o">.</span><span class="n">Iyt</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+    <span class="n">vrednosti</span><span class="p">[</span><span class="s">&quot;Ixyt&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">gk</span><span class="o">.</span><span class="n">Ixyt</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">vrednosti</span>
+
+
+<span class="k">def</span> <span class="nf">izpis</span><span class="p">(</span><span class="n">vrednosti</span><span class="p">):</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="s">&quot;&quot;</span>
+    <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">vrednosti</span><span class="p">:</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="n">s</span> <span class="o">+</span> <span class="n">izpisi_vrednost</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">vrednosti</span><span class="p">[</span><span class="n">k</span><span class="p">])</span>
+
+    <span class="n">izpis_na_zaslon</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+    <span class="n">izpis_v_datoteko</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">izpis_na_zaslon</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">izpis_v_datoteko</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+    <span class="n">dat</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="s">&quot;w&quot;</span><span class="p">)</span>
+    <span class="n">dat</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+    <span class="n">dat</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="c"># Vnos podatkov</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&quot;Vnos podatkov ...&quot;</span><span class="p">)</span>
+    <span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">vnos_podatkov</span><span class="p">()</span>
+
+    <span class="c"># Izračun količin</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&quot;Izračun ...&quot;</span><span class="p">)</span>
+    <span class="n">vrednosti</span> <span class="o">=</span> <span class="n">izracun</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+
+    <span class="c"># Izpis rezultatov</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&quot;Izpis ...&quot;</span><span class="p">)</span>
+    <span class="n">izpis</span><span class="p">(</span><span class="n">vrednosti</span><span class="p">)</span>
+
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&quot;__main__&quot;</span><span class="p">:</span> <span class="n">main</span><span class="p">()</span>
+</pre></div>
+
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <p><a href="/python/src/019/geometrijske_karakteristike.py">geometrijske_karakteristike.py</a></p>
+
+<div class="highlight"><pre><span class="c">#! /usr/bin/env python</span>
+
+<span class="c"># Funkcije za izračun geometrijskih karakteristik</span>
+
+<span class="k">def</span> <span class="nf">Ax</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="n">v</span> <span class="o">=</span> <span class="mf">0.0</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="n">v</span> <span class="o">=</span> <span class="n">v</span> <span class="o">+</span> <span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">*</span> <span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+
+    <span class="k">return</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="n">v</span>
+
+<span class="k">def</span> <span class="nf">Sx</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="n">v</span> <span class="o">=</span> <span class="mf">0.0</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="n">v</span> <span class="o">=</span> <span class="n">v</span> <span class="o">+</span> <span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">*</span> <span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">*</span> <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="o">-</span><span class="mf">1.</span> <span class="o">/</span> <span class="mf">6.</span> <span class="o">*</span> <span class="n">v</span>
+
+<span class="k">def</span> <span class="nf">Sy</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="n">v</span> <span class="o">=</span> <span class="mf">0.0</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="n">v</span> <span class="o">=</span> <span class="n">v</span> <span class="o">+</span> <span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">*</span> <span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">*</span> <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="mf">1.</span> <span class="o">/</span> <span class="mf">6.</span> <span class="o">*</span> <span class="n">v</span>
+
+<span class="k">def</span> <span class="nf">Ix</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="n">v</span> <span class="o">=</span> <span class="mf">0.0</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="n">v</span> <span class="o">=</span> <span class="n">v</span> <span class="o">+</span> <span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">*</span> <span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">**</span><span class="mi">3</span> <span class="o">+</span>  <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">**</span><span class="mi">2</span> <span class="o">*</span> <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">+</span> <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">**</span><span class="mi">3</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="o">-</span><span class="mf">1.</span> <span class="o">/</span> <span class="mf">12.</span> <span class="o">*</span> <span class="n">v</span>
+
+<span class="k">def</span> <span class="nf">Iy</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="n">v</span> <span class="o">=</span> <span class="mf">0.0</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="n">v</span> <span class="o">=</span> <span class="n">v</span> <span class="o">+</span> <span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">*</span> <span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">**</span><span class="mi">3</span> <span class="o">+</span>  <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">**</span><span class="mi">2</span> <span class="o">*</span> <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">**</span><span class="mi">3</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="mf">1.</span> <span class="o">/</span> <span class="mf">12.</span> <span class="o">*</span> <span class="n">v</span>
+
+<span class="k">def</span> <span class="nf">Ixy</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="n">v</span> <span class="o">=</span> <span class="mf">0.0</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="n">v</span> <span class="o">=</span> <span class="n">v</span> <span class="o">+</span> <span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">*</span> <span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="mi">3</span><span class="o">*</span> <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">*</span> <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span> <span class="o">+</span> <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">*</span> <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span>
+
+    <span class="k">return</span> <span class="o">-</span><span class="mf">1.</span> <span class="o">/</span> <span class="mf">24.</span> <span class="o">*</span> <span class="n">v</span>
+
+<span class="k">def</span> <span class="nf">xt</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">Sy</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span> <span class="o">/</span> <span class="n">Ax</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">yt</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">Sx</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span> <span class="o">/</span> <span class="n">Ax</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">Ixt</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">Ix</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span> <span class="o">-</span> <span class="n">yt</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span> <span class="o">*</span> <span class="n">Ax</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">Iyt</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">Iy</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span> <span class="o">-</span> <span class="n">xt</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span> <span class="o">*</span> <span class="n">Ax</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">Ixyt</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">Ixy</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span> <span class="o">+</span> <span class="n">xt</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span> <span class="o">*</span> <span class="n">yt</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span> <span class="o">*</span> <span class="n">Ax</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+</pre></div>
+
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <p><a href="/python/src/019/geokar-txt2xml.py">geokar-txt2xml.py</a></p>
+
+<div class="highlight"><pre><span class="c">#! /usr/bin/env python</span>
+
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">xml.etree.cElementTree</span> <span class="kn">as</span> <span class="nn">et</span>
+
+<span class="k">def</span> <span class="nf">vnos_podatkov</span><span class="p">():</span>
+    <span class="c"># Vnos podatkov</span>
+    <span class="n">dat</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="s">&quot;r&quot;</span><span class="p">)</span>
+
+    <span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">dat</span><span class="o">.</span><span class="n">readline</span><span class="p">())</span>
+
+    <span class="n">x</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="n">vrstica</span> <span class="o">=</span> <span class="n">dat</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span>
+        <span class="n">besede</span> <span class="o">=</span> <span class="n">vrstica</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+        <span class="n">x</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">besede</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
+        <span class="n">y</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">besede</span><span class="p">[</span><span class="mi">1</span><span class="p">]))</span>
+
+    <span class="n">x</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+    <span class="n">y</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+
+    <span class="n">dat</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+    <span class="k">return</span> <span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span>
+
+
+<span class="k">def</span> <span class="nf">izpis_v_xml_datoteko</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="n">xml_prerez</span> <span class="o">=</span> <span class="n">et</span><span class="o">.</span><span class="n">Element</span><span class="p">(</span><span class="s">&quot;prerez&quot;</span><span class="p">)</span>
+
+    <span class="n">xml_tocke</span> <span class="o">=</span> <span class="n">et</span><span class="o">.</span><span class="n">SubElement</span><span class="p">(</span><span class="n">xml_prerez</span><span class="p">,</span> <span class="s">&quot;tocke&quot;</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="n">xml_tocka</span> <span class="o">=</span> <span class="n">et</span><span class="o">.</span><span class="n">SubElement</span><span class="p">(</span><span class="n">xml_tocke</span><span class="p">,</span> <span class="s">&quot;tocka&quot;</span><span class="p">)</span>
+        <span class="n">xml_tocka</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s">&quot;id&quot;</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))</span>
+
+        <span class="n">xml_x</span> <span class="o">=</span> <span class="n">et</span><span class="o">.</span><span class="n">SubElement</span><span class="p">(</span><span class="n">xml_tocka</span><span class="p">,</span> <span class="s">&quot;x&quot;</span><span class="p">)</span>
+        <span class="n">xml_x</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+        <span class="n">xml_y</span> <span class="o">=</span> <span class="n">et</span><span class="o">.</span><span class="n">SubElement</span><span class="p">(</span><span class="n">xml_tocka</span><span class="p">,</span> <span class="s">&quot;y&quot;</span><span class="p">)</span>
+        <span class="n">xml_y</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+
+    <span class="n">xml_tree</span> <span class="o">=</span> <span class="n">et</span><span class="o">.</span><span class="n">ElementTree</span><span class="p">(</span><span class="n">xml_prerez</span><span class="p">)</span>
+    <span class="n">xml_tree</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">encoding</span><span class="o">=</span><span class="s">&#39;utf-8&#39;</span><span class="p">,</span> <span class="n">xml_declaration</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="c"># Vnos podatkov</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&quot;Vnos podatkov ...&quot;</span><span class="p">)</span>
+    <span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">vnos_podatkov</span><span class="p">()</span>
+
+    <span class="c"># Izpis podatkov v XML datoteko</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&quot;Izpis v XML ...&quot;</span><span class="p">)</span>
+    <span class="n">izpis_v_xml_datoteko</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&quot;__main__&quot;</span><span class="p">:</span> <span class="n">main</span><span class="p">()</span>
+</pre></div>
+
+      </div>
+    </div>
+
+</div><!-- /.container -->
+</div><!-- /.section -->
+
+<div class="section">
+  <div class="container">
+
+<div class="row">
+  <div class="col-lg-12">
+    <h4>Podatki in rezultati</h4>
+  </div>
+</div><!-- /.row -->
+
+<div class="row">
+
+  <div class="col-lg-4 col-md-4 col-sm-4">
+    <p><a href="/python/src/podatki/primer-1.txt">primer-1.txt</a></p>
+
+<div class="highlight"><pre><span class="c">4</span><span class="p"></span>
+<span class="c">0 0</span><span class="p"></span>
+<span class="c">1 0</span><span class="p"></span>
+<span class="c">1 1</span><span class="p"></span>
+<span class="c">0 1</span><span class="p"></span>
+</pre></div>
+
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-4">
+    <p><a href="/python/src/podatki/primer-1.xml">primer-1.xml</a></p>
+
+<div class="highlight"><pre><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span>
+<span class="nt">&lt;prerez&gt;</span>
+  <span class="nt">&lt;tocke&gt;</span>
+    <span class="nt">&lt;tocka</span> <span class="na">id=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;x&gt;</span>0.0<span class="nt">&lt;/x&gt;</span>
+      <span class="nt">&lt;y&gt;</span>0.0<span class="nt">&lt;/y&gt;</span>
+    <span class="nt">&lt;/tocka&gt;</span>
+    <span class="nt">&lt;tocka</span> <span class="na">id=</span><span class="s">&quot;2&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;x&gt;</span>1.0<span class="nt">&lt;/x&gt;</span>
+      <span class="nt">&lt;y&gt;</span>0.0<span class="nt">&lt;/y&gt;</span>
+    <span class="nt">&lt;/tocka&gt;</span>
+    <span class="nt">&lt;tocka</span> <span class="na">id=</span><span class="s">&quot;3&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;x&gt;</span>1.0<span class="nt">&lt;/x&gt;</span>
+      <span class="nt">&lt;y&gt;</span>1.0<span class="nt">&lt;/y&gt;</span>
+    <span class="nt">&lt;/tocka&gt;</span>
+    <span class="nt">&lt;tocka</span> <span class="na">id=</span><span class="s">&quot;4&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;x&gt;</span>0.0<span class="nt">&lt;/x&gt;</span>
+      <span class="nt">&lt;y&gt;</span>1.0<span class="nt">&lt;/y&gt;</span>
+    <span class="nt">&lt;/tocka&gt;</span>
+  <span class="nt">&lt;/tocke&gt;</span>
+<span class="nt">&lt;/prerez&gt;</span>
+</pre></div>
+
+  </div>
+
+
+  <div class="col-lg-4 col-md-4 col-sm-4">
+    <p><a href="/python/src/018/primer-1-rez.txt">primer-1-rez.txt</a></p>
+
+<div class="highlight"><pre><span class="p">   </span><span class="c">Ax = 1.000</span><span class="p"></span>
+<span class="p">   </span><span class="c">Sx = 0.500</span><span class="p"></span>
+<span class="p">   </span><span class="c">Sy = 0.500</span><span class="p"></span>
+<span class="p">   </span><span class="c">Ix = 0.333</span><span class="p"></span>
+<span class="p">   </span><span class="c">Iy = 0.333</span><span class="p"></span>
+<span class="p">  </span><span class="c">Ixy = -0.250</span><span class="p"></span>
+<span class="p">   </span><span class="c">xt = 0.500</span><span class="p"></span>
+<span class="p">   </span><span class="c">yt = 0.500</span><span class="p"></span>
+<span class="p">  </span><span class="c">Ixt = 0.083</span><span class="p"></span>
+<span class="p">  </span><span class="c">Iyt = 0.083</span><span class="p"></span>
+<span class="c"> Ixyt = 0.000</span><span class="p"></span>
+</pre></div>
+
+  </div>
+</div>
+
+
+</div><!-- /.container -->
+</div><!-- /.section -->
