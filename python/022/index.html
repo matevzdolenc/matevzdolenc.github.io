@@ -1,0 +1,236 @@
+---
+layout: python-video
+title: Python za inženirje - 022 - Geometrijske karakteristike - različni zapisi
+title-short: 022 - Geometrijske karakteristike - različni zapisi
+---
+
+<div class="section">
+  <div class="container">
+
+    <div class="row">
+	    <div class="col-lg-12">
+	      <ol class="breadcrumb">
+          <li><a href="/">Home</a></li>
+	        <li><a href="/python">Python za inženirje</a></li>
+	        <li class="active">{{page.title-short}}</li>
+	      </ol>
+	      <h3 class="page-header">{{page.title-short}}</h3>
+	    </div>
+		</div><!-- /.row -->
+
+  <div class="row">
+	  <div class="col-lg-4 col-md-4 col-sm-4">
+      <p>Program za izračun geometrijskih karakteristik poligonalnih prerezov. Izdelava programa za izpis pogovorno vnešenih
+      podatkov v različne zapise (TXT, XML, JSON, SQLite).</p>
+	    <p>Povezave:</p>
+      <ul>
+      </ul>
+	  </div>
+	  <div class="col-lg-8 col-md-8 col-sm-8 text-center">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/DeTIclUz8Aw?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  </div><!-- /.container -->
+</div><!-- /.section -->
+
+<div class="section">
+  <div class="container">
+
+    <div class="row">
+	    <div class="col-lg-12">
+	      <h4>Izvorna koda</h4>
+	    </div>
+		</div><!-- /.row -->
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <p><a href="/python/src/022/geokar-podatki2any.py">geokar-podatki2any.py</a></p>
+
+<div class="highlight"><pre><span class="c">#! /usr/bin/env python</span>
+
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">xml.etree.cElementTree</span> <span class="kn">as</span> <span class="nn">et</span>
+<span class="kn">import</span> <span class="nn">sqlite3</span>
+<span class="kn">import</span> <span class="nn">json</span>
+
+<span class="k">def</span> <span class="nf">izpis_v_txt_datoteko</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&quot;Izpis v TXT ...&quot;</span><span class="p">)</span>
+    <span class="n">dat</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s">&quot;.txt&quot;</span><span class="p">,</span> <span class="s">&quot;w&quot;</span><span class="p">)</span>
+
+    <span class="n">dat</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">&quot;{}</span><span class="se">\n</span><span class="s">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">n</span><span class="p">))</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="n">dat</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">&quot;{} {}</span><span class="se">\n</span><span class="s">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]))</span>
+
+    <span class="n">dat</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+
+<span class="k">def</span> <span class="nf">izpis_v_xml_datoteko</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&quot;Izpis v XML ...&quot;</span><span class="p">)</span>
+    <span class="n">xml_prerez</span> <span class="o">=</span> <span class="n">et</span><span class="o">.</span><span class="n">Element</span><span class="p">(</span><span class="s">&quot;prerez&quot;</span><span class="p">)</span>
+
+    <span class="n">xml_tocke</span> <span class="o">=</span> <span class="n">et</span><span class="o">.</span><span class="n">SubElement</span><span class="p">(</span><span class="n">xml_prerez</span><span class="p">,</span> <span class="s">&quot;tocke&quot;</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="n">xml_tocka</span> <span class="o">=</span> <span class="n">et</span><span class="o">.</span><span class="n">SubElement</span><span class="p">(</span><span class="n">xml_tocke</span><span class="p">,</span> <span class="s">&quot;tocka&quot;</span><span class="p">)</span>
+        <span class="n">xml_tocka</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s">&quot;id&quot;</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))</span>
+
+        <span class="n">xml_x</span> <span class="o">=</span> <span class="n">et</span><span class="o">.</span><span class="n">SubElement</span><span class="p">(</span><span class="n">xml_tocka</span><span class="p">,</span> <span class="s">&quot;x&quot;</span><span class="p">)</span>
+        <span class="n">xml_x</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+        <span class="n">xml_y</span> <span class="o">=</span> <span class="n">et</span><span class="o">.</span><span class="n">SubElement</span><span class="p">(</span><span class="n">xml_tocka</span><span class="p">,</span> <span class="s">&quot;y&quot;</span><span class="p">)</span>
+        <span class="n">xml_y</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+
+    <span class="n">xml_tree</span> <span class="o">=</span> <span class="n">et</span><span class="o">.</span><span class="n">ElementTree</span><span class="p">(</span><span class="n">xml_prerez</span><span class="p">)</span>
+    <span class="n">xml_tree</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s">&quot;.xml&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s">&#39;utf-8&#39;</span><span class="p">,</span> <span class="n">xml_declaration</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">izpis_v_json_datoteko</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&quot;Izpis v JSON ...&quot;</span><span class="p">)</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s">&quot;n&quot;</span><span class="p">:</span> <span class="n">n</span><span class="p">,</span> <span class="s">&quot;x&quot;</span><span class="p">:</span> <span class="n">x</span><span class="p">[:</span><span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="s">&quot;y&quot;</span><span class="p">:</span> <span class="n">y</span><span class="p">[:</span><span class="nb">len</span><span class="p">(</span><span class="n">y</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">]}</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s">&quot;.json&quot;</span><span class="p">,</span> <span class="s">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">dat</span><span class="p">:</span>
+        <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">dat</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">izpis_v_sqlite_datoteko</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&quot;Izpis v SQLite ...&quot;</span><span class="p">)</span>
+    <span class="c"># Ustvari SQLite bazo in določi tabelo</span>
+    <span class="n">db</span> <span class="o">=</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s">&quot;.sqlite&quot;</span><span class="p">)</span>
+    <span class="n">cursor</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
+    <span class="n">sql_command</span> <span class="o">=</span> <span class="s">&quot;&quot;&quot;</span>
+<span class="s">    CREATE TABLE IF NOT EXISTS tocke (</span>
+<span class="s">    id INTEGER PRIMARY KEY,</span>
+<span class="s">    x DOUBLE,</span>
+<span class="s">    y DOUBLE);&quot;&quot;&quot;</span>
+    <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql_command</span><span class="p">)</span>
+    <span class="n">db</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
+
+    <span class="c"># Odstrani vse zapise</span>
+    <span class="n">sql_command</span> <span class="o">=</span> <span class="s">&quot;&quot;&quot; DELETE FROM tocke;&quot;&quot;&quot;</span>
+    <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql_command</span><span class="p">)</span>
+    <span class="n">db</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="c"># format_str = &quot;&quot;&quot;INSERT INTO tocke (id, x, y) VALUES (&quot;{id}&quot;, &quot;{x_sql}&quot;, &quot;{y_sql}&quot;);&quot;&quot;&quot;</span>
+        <span class="c"># sql_command = format_str.format(id=i+1, x_sql=x[i], y_sql=y[i])</span>
+        <span class="n">sql_command</span> <span class="o">=</span> <span class="s">&quot;&quot;&quot;INSERT INTO tocke (id, x, y) VALUES (&quot;{}&quot;, &quot;{}&quot;, &quot;{}&quot;);&quot;&quot;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+        <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql_command</span><span class="p">)</span>
+        <span class="n">db</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
+
+    <span class="n">db</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+
+<span class="k">def</span> <span class="nf">vnos_podatkov</span><span class="p">():</span>
+    <span class="c"># Vnos podatkov</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&quot;Vnos podatkov ...&quot;</span><span class="p">)</span>
+    <span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">&quot;Podaj število točk: &quot;</span><span class="p">))</span>
+
+    <span class="n">x</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="n">vrstica</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">&quot;Točka {}: &quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">))</span>
+        <span class="n">besede</span> <span class="o">=</span> <span class="n">vrstica</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+        <span class="n">x</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">besede</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
+        <span class="n">y</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">besede</span><span class="p">[</span><span class="mi">1</span><span class="p">]))</span>
+
+    <span class="k">return</span> <span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="c"># Vnos podatkov</span>
+    <span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">vnos_podatkov</span><span class="p">()</span>
+
+    <span class="c"># Izpis podatkov</span>
+    <span class="n">izpis_v_txt_datoteko</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+    <span class="n">izpis_v_xml_datoteko</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+    <span class="n">izpis_v_json_datoteko</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+    <span class="n">izpis_v_sqlite_datoteko</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&quot;__main__&quot;</span><span class="p">:</span> <span class="n">main</span><span class="p">()</span>
+</pre></div>
+
+
+      </div>
+    </div>
+
+</div><!-- /.container -->
+</div><!-- /.section -->
+
+<div class="section">
+  <div class="container">
+
+<div class="row">
+  <div class="col-lg-12">
+    <h4>Podatki in rezultati</h4>
+  </div>
+</div><!-- /.row -->
+
+<div class="row">
+
+  <div class="col-lg-4 col-md-4 col-sm-4">
+    <p><a href="/python/src/podatki/primer-1.txt">primer-1.txt</a></p>
+
+<div class="highlight"><pre><span class="c">4</span><span class="p"></span>
+<span class="c">0 0</span><span class="p"></span>
+<span class="c">1 0</span><span class="p"></span>
+<span class="c">1 1</span><span class="p"></span>
+<span class="c">0 1</span><span class="p"></span>
+</pre></div>
+
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-4">
+    <p><a href="/python/src/podatki/primer-1.xml">primer-1.xml</a></p>
+
+<div class="highlight"><pre><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span>
+<span class="nt">&lt;prerez&gt;</span>
+  <span class="nt">&lt;tocke&gt;</span>
+    <span class="nt">&lt;tocka</span> <span class="na">id=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;x&gt;</span>0.0<span class="nt">&lt;/x&gt;</span>
+      <span class="nt">&lt;y&gt;</span>0.0<span class="nt">&lt;/y&gt;</span>
+    <span class="nt">&lt;/tocka&gt;</span>
+    <span class="nt">&lt;tocka</span> <span class="na">id=</span><span class="s">&quot;2&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;x&gt;</span>1.0<span class="nt">&lt;/x&gt;</span>
+      <span class="nt">&lt;y&gt;</span>0.0<span class="nt">&lt;/y&gt;</span>
+    <span class="nt">&lt;/tocka&gt;</span>
+    <span class="nt">&lt;tocka</span> <span class="na">id=</span><span class="s">&quot;3&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;x&gt;</span>1.0<span class="nt">&lt;/x&gt;</span>
+      <span class="nt">&lt;y&gt;</span>1.0<span class="nt">&lt;/y&gt;</span>
+    <span class="nt">&lt;/tocka&gt;</span>
+    <span class="nt">&lt;tocka</span> <span class="na">id=</span><span class="s">&quot;4&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;x&gt;</span>0.0<span class="nt">&lt;/x&gt;</span>
+      <span class="nt">&lt;y&gt;</span>1.0<span class="nt">&lt;/y&gt;</span>
+    <span class="nt">&lt;/tocka&gt;</span>
+  <span class="nt">&lt;/tocke&gt;</span>
+<span class="nt">&lt;/prerez&gt;</span>
+</pre></div>
+
+  </div>
+
+
+  <div class="col-lg-4 col-md-4 col-sm-4">
+    <p><a href="/python/src/podatki/primer-1.json">primer-1.json</a></p>
+
+<div class="highlight"><pre><span class="p">{</span>
+  <span class="nt">&quot;n&quot;</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+  <span class="nt">&quot;x&quot;</span><span class="p">:</span> <span class="p">[</span>
+    <span class="mi">0</span><span class="p">,</span>
+    <span class="mi">1</span><span class="p">,</span>
+    <span class="mi">1</span><span class="p">,</span>
+    <span class="mi">0</span>
+  <span class="p">],</span>
+  <span class="nt">&quot;y&quot;</span><span class="p">:</span> <span class="p">[</span>
+    <span class="mi">0</span><span class="p">,</span>
+    <span class="mi">0</span><span class="p">,</span>
+    <span class="mi">1</span><span class="p">,</span>
+    <span class="mi">1</span>
+  <span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+
+  </div>
+
+  </div>
+</div>
+
+
+</div><!-- /.container -->
+</div><!-- /.section -->
