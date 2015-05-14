@@ -39,6 +39,13 @@ header-img: /img/header-xml-1.png
   </div><!-- /.row -->
 
   <div class="row">
+    <div class="col-md-12">
+      <h3 class="page-header"></h3>
+      <div id="chart_div"></div>
+    </div>
+  </div>
+
+  <div class="row">
     <div class="col-lg-12">
       <h3 class="page-header">Seminar</h2>
     </div>
@@ -466,3 +473,53 @@ header-img: /img/header-xml-1.png
   </div><!-- /.section -->
 
 </div><!-- /.container -->
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+google.load('visualization', '1', {packages: ['corechart', 'bar']});
+google.setOnLoadCallback(drawBasic);
+
+function drawBasic() {
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('number', 'Teden');
+      data.addColumn('number', 'Število študentov')
+
+      data.addRows([
+        [1, 0],
+        [2, 46],
+        [3, 44],
+        [4, 37],
+        [5, 41],
+        [6, 38],
+        [7, 46],
+        [8, 29],
+        [9, 29],
+        [10, 31],
+        [11, 30],
+        [12, 0],
+        [13, 0],
+        [14, 0],
+        [15, 0],
+      ]);
+
+      var options = {
+        title: 'Prisotnost na predavanjih po tednih',
+        hAxis: {
+          title: 'Teden',
+          gridlines: { count: 15 }
+        },
+        vAxis: {
+          title: 'Število študentov'
+        },
+        legend: {
+          position: 'none'
+        },
+      };
+
+      var chart = new google.visualization.ColumnChart(
+        document.getElementById('chart_div'));
+
+      chart.draw(data, options);
+    }
+</script>
