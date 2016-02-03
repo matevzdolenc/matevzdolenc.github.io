@@ -8,11 +8,11 @@
     <title>{{ page.title }}</title>
 
     {% include stylesheets.html %}
-    
+
   </head>
 
   <body>
-    
+
     {% include navbar.html %}
 
   <div class="section">
@@ -28,7 +28,7 @@
           <h3 class="page-header">{{ page.lecture }} <small>{{ page.module }} - {{ page.year }}</small></h3>
         </div>
       </div><!-- /.row -->
-      
+
       <div class="row">
         <div class="col-lg-12">
           <img class="img-responsive" src="{{ page.header-img }}">
@@ -36,13 +36,14 @@
       </div><!-- /.row -->
     </div><!-- /.container -->
   </div><!-- /.section -->
+
+  {{ content }}
+
+  {% include disqus.html %}
+
+  {% include footer.html %}
+
+  {% include scripts.html %}
   
-    {{ content }}
-  
-  
-    {% include footer.html %}
-    
-    {% include scripts.html %}
-    
   </body>
 </html>
