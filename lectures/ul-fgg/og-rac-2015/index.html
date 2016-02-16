@@ -1,0 +1,117 @@
+---
+layout: ul-lecture
+title: Računalništvo, OG - 2015/16
+title-short: og-rac-2015
+lecture: Računalništvo
+module: OG
+year: 2015/16
+header-img: /img/header-xml-1.png
+comments: true
+disqus-id: og-rac-2015
+---
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-8">
+      <h3 class="page-header">Opis</h3>
+      <p>Cilj predmeta je pridobiti osnovna računalniška znanja, ki so potrebna v nadaljevanju študija ter
+        kasneje pri samostojnem inženirskem delu. Predmetnospecifične kompetence, ki jih študent pridobi pri
+        tem predmetu, so:</p>
+        <ul>
+          <li>poznavanje in razumevanje sodobne računalniške in informacijske tehnologije,</li>
+          <li>poznavanje in razumevanje osnovnih konceptov sodobnega razvoja inženirske programske opreme,</li>
+          <li>poznavanje in razumevanje temeljnega znanja, ki mu omogoča nadaljnje samoizobraževanje oz.
+            nadgradnjo pridobljenih znanj s področja računalniške tehnologije.</li>
+        </ul>
+    </div>
+
+    <div class="col-md-4">
+      <h3 class="page-header">Info</h3>
+      <p><strong>Urnik:</strong></p>
+      <ul>
+        <li>predavanja | ponedeljek, 13-15 (P-II/6)</li>
+        <li>seminar | ponedeljek, 15-16 (P-II/6)</li>
+        <li>vaje | po skupinah</li>
+      </ul>
+      <p><strong>Govorilne ure:</strong><br />ponedeljek 9-10, soba 035</p>
+      <p><strong>Informacije:</strong><br />matevz.dolenc@fgg.uni-lj.si (v subject obvezno napišite OG-RAC)</p>
+    </div>
+  </div><!-- /.row -->
+
+  <div class="row">
+    <div class="col-md-12">
+      <h3 class="page-header"></h3>
+      <div id="chart_div"></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-8">
+          <h4>sreda, 23.2.2016</h4>
+        </div>
+        <div class="col-lg-4 col-md-4">
+        </div>
+      </div><!-- /.row -->
+      <div class="row">
+        <div class="col-lg-8 col-md-8">
+        </div>
+        <div class="col-lg-4 col-md-4">
+        </div>
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+  </div><!-- /.section -->
+
+</div><!-- /.container -->
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+google.load('visualization', '1', {packages: ['corechart', 'bar']});
+google.setOnLoadCallback(drawBasic);
+
+function drawBasic() {
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('number', 'Teden');
+      data.addColumn('number', 'Število študentov')
+
+      data.addRows([
+        [1, 0],
+        [2, 0],
+        [3, 0],
+        [4, 0],
+        [5, 0],
+        [6, 0],
+        [7, 0],
+        [8, 0],
+        [9, 0],
+        [10, 0],
+        [11, 0],
+        [12, 0],
+        [13, 0],
+        [14, 0],
+        [15, 0],
+      ]);
+
+      var options = {
+        title: 'Prisotnost na predavanjih po tednih',
+        hAxis: {
+          title: 'Teden',
+          gridlines: { count: 15 }
+        },
+        vAxis: {
+          title: 'Število študentov'
+        },
+        legend: {
+          position: 'none'
+        },
+      };
+
+      var chart = new google.visualization.ColumnChart(
+        document.getElementById('chart_div'));
+
+      chart.draw(data, options);
+    }
+</script>
