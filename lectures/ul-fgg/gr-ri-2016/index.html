@@ -1,0 +1,144 @@
+---
+layout: ul-lecture
+title: Računalništvo in informatika, GR - 2016/17
+title-short: gr-ri-2016
+lecture: Računalništvo in informatika
+module: GR-RI
+year: 2016/17
+header-img: /img/header-xml-1.png
+comments: false
+disqus-id: gr-ri-2016
+---
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-8 col-xs-12">
+      <h3 class="page-header">Opis</h3>
+      <p>Študent pridobi osnovno teoretično in praktično znanje o računalništvu in informatiki
+        ter je sposoben samostojno uporabljati računalniško tehnologijo pri študiju oz. običajnih
+        inženirskih nalogah. Spozna sodobne računalniške in informacijske tehnologije ter pridobi
+        temeljno znanje, ki mu omogoča nadaljnje samoizobraževanje oz. nadgradnjo pridobljenih znanj
+        s področja računalniške tehnologije.</p>
+    </div>
+
+    <div class="col-md-4 col-xs-12">
+      <h3 class="page-header">Info</h3>
+      <p><strong>Urnik:</strong></p>
+      <ul>
+        <li>predavanja | torek, 12-14 (P-II/6)</li>
+        <li>vaje | po skupinah</li>
+      </ul>
+      <p><strong>Govorilne ure:</strong><br />ponedeljek 9-10, soba 035</p>
+      <p><strong>Informacije:</strong><br />matevz.dolenc@fgg.uni-lj.si (v subject obvezno napišite GR-RI)</p>
+    </div>
+  </div><!-- /.row -->
+
+  <div class="row">
+    <div class="col-md-12 col-xs-12">
+      <h3 class="page-header"></h3>
+      <div id="chart_div"></div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12 col-xs-12">
+      <h3 class="page-header">Predavanja</h3>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-xs-12">
+          <h4>torek, 21.2.2017</h4>
+        </div>
+        <div class="col-md-4 col-xs-12">
+        </div>
+      </div><!-- /.row -->
+      <div class="row">
+        <div class="col-md-8 col-xs-12">
+        <ul>
+          <li><a href="http://media.matevzdolenc.com/ul-fgg/gr-ri-2016/gr-ri-1516.pdf">Uvod v predmet</a> - vsebina, program, osnovne informacije</li>
+          <li>Razvoj programske opreme
+            <ul>
+              <li><a href="http://media.matevzdolenc.com/ul-fgg/gr-ri-2015/agilni-manifest.pdf">Agilni manifest</a></li>
+              <li><a href="http://media.matevzdolenc.com/ul-fgg/gr-ri-2015/agilne-metodologije.pdf">Agilne metodologije</a></li>
+            </ul>
+          </li>
+          <li>Uvod v Python
+            <ul>
+              <li>Zakaj Python</li>
+              <li>Namestitev (<a href="http://python.org">Python.org</a>, <a href="http://www.continuum.io">Continuum Analytics (Anaconda)</a>)</li>
+              <li><a href="https://docs.python.org/3/">Dokumentacija</a></li>
+              <li>Izvedba in zagon enostavnega Python programa/skripte (Spyder, iPython)</li>
+              <li>Uporabljeni ukazi: input(), print(), float(), import, math.pi</li>
+            </ul>
+          </li>
+          <li>Izvorna koda:
+            <ul>
+              <li>Python: <a href="http://media.matevzdolenc.com/python/src/krog-1.py">krog-1.py</a></li>
+            </ul>
+          </li>
+          <li>Naloga: Namestitev programskega sistema Python na domačem računalniku.</li>
+        </ul>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <a href="/img/py-ploscina-kroga-ipython.png"><img alt="" class="img-responsive" src="/img/py-ploscina-kroga-ipython.png"></a>
+          <a href="/img/py-ploscina-kroga-spyder.png"><img alt="" class="img-responsive" src="/img/py-ploscina-kroga-spyder.png"></a>
+        </div>
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+  </div><!-- /.section -->
+
+</div><!-- /.container -->
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+google.load('visualization', '1', {packages: ['corechart', 'bar']});
+google.setOnLoadCallback(drawBasic);
+
+function drawBasic() {
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('number', 'Teden');
+      data.addColumn('number', 'Število študentov')
+
+      data.addRows([
+        [1, 0],
+        [2, 0],
+        [3, 0],
+        [4, 0],
+        [5, 0],
+        [6, 0],
+        [7, 0],
+        [8, 0],
+        [9, 0],
+        [10, 0],
+        [11, 0],
+        [12, 0],
+        [13, 0],
+        [14, 0],
+        [15, 0],
+      ]);
+
+      var options = {
+        title: 'Prisotnost na predavanjih po tednih',
+        hAxis: {
+          title: 'Teden',
+          gridlines: { count: 15 }
+        },
+        vAxis: {
+          title: 'Število študentov'
+        },
+        legend: {
+          position: 'none'
+        },
+      };
+
+      var chart = new google.visualization.ColumnChart(
+        document.getElementById('chart_div'));
+
+      chart.draw(data, options);
+    }
+</script>
