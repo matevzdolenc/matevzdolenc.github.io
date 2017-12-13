@@ -392,14 +392,96 @@ disqus-id: tun-aop-2017
             <li><a href="http://media.matevzdolenc.com/ul-fgg/tun-aop-2016/KML-podatki.txt">KML-podatki.txt</a></li>
             <li><a href="http://media.matevzdolenc.com/ul-fgg/tun-aop-2016/primer.kml">primer.kml</a></li>
           </ul>
-          <!-- <p>Rešitev:</p>
+          <p>Rešitev:</p>
           <ul>
             <li><a href="http://media.matevzdolenc.com/python/src/kml-studenti.py">kml-studenti.py</a></li>
-          </ul> -->
+          </ul>
         </div>
         <div class="col-lg-4 col-md-4">
           <a href="/img/kml-kraji.jpg"><img class="img-responsive" src="/img/kml-kraji.jpg"></a><br />
           <a href="/img/kml-kraji-crte.jpg"><img class="img-responsive" src="/img/kml-kraji-crte.jpg"></a>
+        </div>
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+  </div><!-- /.section -->
+
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-8">
+          <h4>sreda, 20.12.2017</h4>
+        </div>
+        <div class="col-lg-4 col-md-4">
+        </div>
+      </div><!-- /.row -->
+      <div class="row">
+        <div class="col-lg-8 col-md-8">
+          <p><a href="http://scipy.org">SciPy</a>: knjižnice <a href="http://www.numpy.org">NumPy</a>,
+            <a href="http://scipy.org/scipylib/index.html">SciPy</a> in <a href="http://matplotlib.org">matplotlib</a></p>
+          <ul>
+            <li><a href="http://wiki.scipy.org/Tentative_NumPy_Tutorial">NumPy Tutorial</li>
+            <li><a href="http://docs.scipy.org/doc/scipy-0.14.0/reference/tutorial/index.html">SciPy Tutorial</a></li>
+            <li><a href="http://wiki.scipy.org/NumPy_for_Matlab_Users">NumPy za uporbnike MATLAB-a</a></li>
+            <li><a href="http://math.nist.gov/MatrixMarket/">Matrix Market</a></li>
+            <li><a href="http://matplotlib.org/users/pyplot_tutorial.html">PyPlot tutorial</a></li>
+            <li><a href="http://matplotlib.org/examples/index.html">PyPlot primeri</a></li>
+          </ul>
+          <p>Datoteke:</p>
+          <ul>
+            <li>Preprost primer izračuna sistema linearnih enačb,
+              <a href="http://media.matevzdolenc.com/python/src/linalg-1.py">linalg-1.py</a></li>
+            <li>Izračun sistema linearnih enačb
+              <ul>
+                <li>Program, <a href="http://media.matevzdolenc.com/python/src/linalg-2.py">linalg-2.py</a></li>
+                <li>Podatki,
+                  <a href="http://math.nist.gov/MatrixMarket/data/SPARSKIT/fidap/fidapm37.html">info</a>,
+                  <a href="http://media.matevzdolenc.com/python/src/fidapm37.mtx">fidapm37.mtx</a>,
+                  <a href="http://media.matevzdolenc.com/python/src/fidapm37_rhs1.mtx">fidapm37_rhs1.mtx</a>
+                </li>
+              </ul>
+            </li>
+            <li>Uporaba knjižnice PyPlot,
+              <a href="http://media.matevzdolenc.com/python/src/geokar-plot.py">geokar-plot.py</a>,
+              <a href="http://media.matevzdolenc.com/python/src/geokar-podatki-1.txt">geokar-podatki-1.txt</a>,
+              <a href="http://media.matevzdolenc.com/python/src/geokar-podatki-2.txt">geokar-podatki-2.txt</a></li>
+          </ul>
+          <hr />
+          <p>Naloga: V programskem jeziku Python izdelaj program. Podatki za nalogo za dostopni v
+            <a href="http://media.matevzdolenc.com/ul-fgg/tun-aop-2016/podatki-studenti.txt">TXT</a> |
+            <a href="http://media.matevzdolenc.com/ul-fgg/tun-aop-2016/podatki-studenti.xml">XML</a> datoteki.</p>
+          <p>Podatki v datoteki so:</p>
+          <ul>
+            <li>1. vrstica: število vrstic s podatki</li>
+            <li>naslednje vrstice:
+              <ul>
+                <li>1. stolpec: ime kraja stalnega bivališča študenta</li>
+                <li>2. in 3. stolpec: x in y koordinati kraja</li>
+                <li>4. stolpec: število študentov, ki so iz kraja</li>
+                <li>5. stolpec: oddaljenost kraja od Ljubljane v km</li>
+              </ul>
+            </li>
+          </ul>
+          <p>Funkcionalne zahteve:</p>
+          <ul>
+            <li>Program podatke prebere iz tekstovne oz. XML datoteke in jih zapiše v izhodno datoteko druge oblike. Oblika izhodne datoteke ni predpisana.</li>
+            <li>Program naj za podatke izračuna oz. oceni ter izpiše na zaslon naslednje količine (vse količine se izračunajo za en povprečen mesec v študijskem letu):
+              <ul>
+                <li>Skupno število prevoženih kilometrov, če se vsi študenti vozijo v Ljubljano vsak dan.</li>
+                <li>Skupno število prevoženih kilometrov, če upoštevate, da se v Ljubljano vozijo le študenti, ki
+                  imajo stalno bivališče v kraju, ki je oddaljeno od Ljubljane največ 50 km.</li>
+                <li>Za zgornja primera izračunajte za vsak primer še skupno porabo goriva in skupne stroške goriva. Pri
+                  tem upoštevajte povprečno porabo goriva (0.9 l/km) in povprečno ceno za liter goriva (1.4 EUR/l)</li>
+                </ul>
+            </li>
+            <li>Program naj v izhodno tekstovno datoteko izpiše podatke za grafični prikaz porabe goriva v odvisnosti od kraja.
+              Pri tem upoštevajte, da se vsak študent pelje v Ljubljano sam. Za grafični prikaz uporabite program MS Excel.</li>
+          </ul>
+          <p>Rešitev naloge: <a href="http://media.matevzdolenc.com/python/src/izpitna-naloga.zip">izpitna-naloga.zip</a></p>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <a href="/img/fidapm37_lg_city.gif"><img class="img-responsive" src="/img/fidapm37_lg_city.gif"></a>
+          <a href="/img/py-geokar-pyplot.png"><img class="img-responsive" src="/img/py-geokar-pyplot.png"></a>
+          <a href="/img/izpitna-naloga-resitev.png"><img class="img-responsive" src="/img/izpitna-naloga-resitev.png"></a>
         </div>
       </div><!-- /.row -->
     </div><!-- /.container -->
@@ -428,7 +510,7 @@ function drawBasic() {
         [7, 13],
         [8, 11],
         [9, 0],
-        [10, 0],
+        [10, 9],
         [11, 0],
         [12, 0],
         [13, 0],
