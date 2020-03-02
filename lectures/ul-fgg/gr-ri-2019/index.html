@@ -96,6 +96,45 @@ disqus-id: gr-ri-2019
     </div><!-- /.container -->
   </div><!-- /.section -->
 
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-xs-12">
+          <h4>sreda, 4.3.2020</h4>
+        </div>
+        <div class="col-md-4 col-xs-12">
+        </div>
+      </div><!-- /.row -->
+      <div class="row">
+        <div class="col-md-8 col-xs-12">
+            <ul>
+                <li>Uvod v Python
+                    <ul>
+                        <li>Zakaj Python</li>
+                        <li>Namestitev (<a href="http://python.org">Python.org</a>, <a href="http://www.continuum.io">Continuum Analytics (Anaconda)</a>)</li>
+                        <li><a href="https://docs.python.org/3/">Dokumentacija</a></li>
+                        <li>Izvedba in zagon enostavnega Python programa/skripte (Spyder, iPython)</li>
+                        <li>Seznami v Pythonu - for in while zanka</li>
+                        <li>Uporabljeni ukazi: input(), print(), float(), import, math.pi</li>
+                    </ul>
+                </li>
+              <!-- <li>Izvorna koda:
+                <ul>
+                  <li>Python: <a href="http://media.matevzdolenc.com/python/src/krog-1.py">krog-1.py</a></li>
+                    <li>Izpis tabele krogov s seznamom,  <a href="http://media.matevzdolenc.com/python/src/krog-seznam.py">krog-seznam.py</a></li>
+                    <li>Izpis tabele krogov z uporabo range funkcije,  <a href="http://media.matevzdolenc.com/python/src/krog-range.py">krog-range.py</a></li>
+                </ul>
+              </li> -->
+            </ul>        
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <a href="/img/py-ploscina-kroga-ipython.png"><img alt="" class="img-responsive" src="/img/py-ploscina-kroga-ipython.png"></a>
+          <a href="/img/py-ploscina-kroga-spyder.png"><img alt="" class="img-responsive" src="/img/py-ploscina-kroga-spyder.png"></a>
+        </div>
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+  </div><!-- /.section -->
+
 </div><!-- /.container -->
 
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -107,28 +146,29 @@ function drawBasic() {
 
       var data = new google.visualization.DataTable();
       data.addColumn('number', 'Teden');
-      data.addColumn('number', 'Število študentov')
+      data.addColumn('number', 'Število študentov na predavanjih')
+      data.addColumn('number', 'Število študentov na vajah')
 
       data.addRows([
-        [1, 0],
-        [2, 0],
-        [3, 0],
-        [4, 0],
-        [5, 0],
-        [6, 0],
-        [7, 0],
-        [8, 0],
-        [9, 0],
-        [10, 0],
-        [11, 0],
-        [12, 0],
-        [13, 0],
-        [14, 0],
-        [15, 0],
+        [1, 0, 0],
+        [2, 0, 0],
+        [3, 0, 0],
+        [4, 0, 0],
+        [5, 0, 0],
+        [6, 0, 0],
+        [7, 0, 0],
+        [8, 0, 0],
+        [9, 0, 0],
+        [10, 0, 0],
+        [11, 0, 0],
+        [12, 0, 0],
+        [13, 0, 0],
+        [14, 0, 0],
+        [15, 0, 0],
       ]);
 
       var options = {
-        title: 'Prisotnost na predavanjih po tednih',
+        title: 'Prisotnost na predavanjih in vajah po tednih',
         hAxis: {
           title: 'Teden',
           gridlines: { count: 15 }
