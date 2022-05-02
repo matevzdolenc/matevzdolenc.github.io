@@ -413,7 +413,6 @@ disqus-id: op-2021
           <li><a href="http://www.bsi.si">Banka Slovenije</a></li>
           <li><a href="http://www.bsi.si/_data/tecajnice/dtecbs.xml">Tečajna lista</a></li>
           </ul>
-<!-- 
           <p>Rešitev:</p>
           <ul>
             <li>Primer lokalno shranjene tečajne liste z odstranjenim imenskim prostorom,
@@ -425,11 +424,51 @@ disqus-id: op-2021
               <a href="http://media.matevzdolenc.com/python/src/menjalnica-1.py">menjalnica-1.py</a></li>
             <li>Rešitev z branjem XML datoteke z Interneta, uporaba 2-D seznama,
               <a href="http://media.matevzdolenc.com/python/src/menjalnica-2.py">menjalnica-2.py</a></li>
- -->
           </ul>
         </div>
         <div class="col-lg-4 col-md-4">
           <a href="/img/py-menjalnica.png"><img class="img-responsive" src="/img/py-menjalnica.png"></a>
+        </div>
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+  </div><!-- /.section -->
+
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-8">
+          <h4>torek, 3.5.2022</h4>
+        </div>
+        <div class="col-lg-4 col-md-4">
+        </div>
+      </div><!-- /.row -->
+      <div class="row">
+        <div class="col-lg-8 col-md-8">
+          <p>Naloga: V programskem jeziku Python izdelajte program z naslednjimi zahtevami.</p>
+          <p>Podatki:</p>
+          <ul>
+            <li>Podatki so dostopni na spletnem naslovu <a href="http://www.meteo.si/met/sl/service/">http://www.meteo.si/met/sl/service/</a></li>
+            <li>Stari podatki: <a href="http://media.matevzdolenc.com/python/src/meteo-podatki.txt">meteo-podatki.txt</a></li>
+            <li>V tabeli samodejnih vremenskih postaj izberite kraj, ki je najbližje vašemu stalnemu bivališču.</li>
+            <li>Za izbran kraj si podatke lahko ogledate v HTML obliki. Upoštevajte samo prvi (Temperatura) in drugi (Vlažnost) stolpec.</li>
+          </ul>
+          <p>Funkcionalne zahteve:</p>
+          <ul>
+            <li>Izbran kraj naj se ob zagonu izdelanega programa izpiše na zaslon.</li>
+            <li>Program podatke prebere iz datoteke in jih izpiše na zaslon.</li>
+            <li>Program za podatke (temperaturo in vlažnost) določi in izpiše na zaslon naslednje vrednosti: povprečno vrednost, standardni odklon, minimalno vrednost, maksimalno vrednost</li>
+            <li>Program izračunane vrednosti zapiše v XML obliki v izhodno datoteko. Za shranjevanje podatkov uporabite XML atribute.</li>
+          </ul>
+<!-- 
+          <p>Oddaja programa:</p>
+          <ul>
+            <li>Vse potrebne datoteke (podatki, rezultati, program, ...) združite v ZIP datoteko. Datoteko poimenujete po naslednjem vzorcu: priimek_ime-vpisna_številka.zip</li>
+            <li>Datoteko oddate v spletni učilnici.</li>
+          </ul>
+ -->
+<!--           <p>Rešitev: <a href="http://media.matevzdolenc.com/python/src/meteo.zip">meteo.zip</a></p> -->
+        </div>
+        <div class="col-lg-4 col-md-4">
         </div>
       </div><!-- /.row -->
     </div><!-- /.container -->
@@ -456,8 +495,8 @@ function drawBasic() {
         [5, 8],
         [6, 9],
         [7, 9],
-        [8, 0],
-        [9, 0],
+        [8, 9],
+        [9, 4],
         [10, 0],
         [11, 0],
         [12, 0],
