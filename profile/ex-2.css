@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+/* @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700); */
 
   *, *:after, *:before {
       margin: 0;
@@ -28,7 +28,7 @@
   }
 
   body {
-      font: 300 13px/1.6 Roboto, Helvetica, Arial;
+      font: 300 13px/1.6 Helvetica, Arial;
       color: #444;
       position: relative;
       background: #448AFF;
