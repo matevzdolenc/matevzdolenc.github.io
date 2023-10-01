@@ -1,0 +1,166 @@
+---
+layout: ul-lecture
+title: Progamiranje (GIG) / Computer Programming (Erasmus), 2023/24
+title-short: prog-2023
+lecture: Programiranje / Computer Programming
+module: GIG / Erasmus
+year: 2023/24
+header-img: /img/header-vb-1.png
+---
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-8">
+      <h3 class="page-header">Opis</h3>
+      <p><i>--- Slovensko</i></p>
+      <p>Cilj predmeta je seznaniti študente z osnovnimi koncepti in tehnikami izdelave programske opreme
+        v enem izmed uveljavljenih splošnih programskih jezikov. Študent pridobi tudi zanesljiv pogled
+        v prihodnji razvoj na področju izdelave in uporabe programov. Po opravljenih vajah ter izpitu pridobi
+        študent sledeče kompetence:</p>
+        <ol>
+          <li>zna izdelati svoj računalniški program, s katerim lahko rešuje manj zahtevne inženirske probleme, </li>
+          <li>je sposoben sodelovati s profesionalnimi razvijalci programske opreme, in </li>
+          <li>je sposoben nadgraditi obstoječe znanje za reševanje zahtevnejših problemov.</li>
+        </ol>
+
+        <p><i>--- English</i></p>
+        <p>The aim of the course is to acquaint students with the basic concepts and techniques 
+          of software development in one of the established general programming languages. 
+          The student also gains a reliable view of future developments in the field of creating 
+          and using programs. After completing the exercises and the exam, the student acquires the 
+          following competencies:</p>
+          <ol>
+            <li>knows how to create his own computer program with which he can solve less demanding engineering problems,</li>
+            <li>is able to work with professional software developers, and</li>
+            <li>is able to upgrade existing knowledge to solve more challenging problems.</li>
+          </ol>
+  
+    </div>
+
+    <div class="col-md-4">
+      <h3 class="page-header">Info</h3>
+      <p><strong>Urnik:</strong><br />
+        Programiranje (GIG)<br />
+        predavanja, ponedeljek, 10 - 11 (RU-III/6)<br />
+        seminar/vaje, ponedeljek, 11 - 14 (RU-IV/8)</p>
+        <br />
+        Computer Programming (Erasmus)<br />
+        Lectures, Thursday, 11 - 12 (P-IV/2)<br />
+        Project work, Thursday, 12 - 15 (P-IV/2)</p>
+      <p><strong>Govorilne ure:</strong><br />ponedeljek 9 - 10, soba 035</p>
+      <p><strong>Informacije:</strong><br />matevz.dolenc@fgg.uni-lj.si</p>
+    </div>
+  </div><!-- /.row -->
+
+  <div class="row">
+    <div class="col-md-12">
+      <h3 class="page-header"></h3>
+      <div id="chart_div"></div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12">
+      <h3 class="page-header">Predavanja</h3>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <h4>ponedeljek, 2.10.2023</h4>
+          <ul>
+            <li>Uvod</li>
+            <li>Programiranje
+            <ul>
+              <li>Programski jeziki: C/C++, Visual Basic, Java, Python, Ruby, Objective-C, ...</li>
+              <li>Operacijski sistemi: Windows, MacOS X, iOS, Linux, Android, ...</li>
+              <li>Naprave: računalniki (namizni, prenosni, strežniki), pametne naprave (telefoni, tablice)</li>
+            </ul>
+            </li>
+            <li>Projektno delo:
+              <ul>
+                <li>Pripravite predlog projekta (programa) - 5 do 7 prosojnic.</li>
+                <li>Predstavitev predlogov: ponedeljek, 9.10.2023</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <h4>Thursday, 5.10.2023</h4>
+          <ul>
+            <li>Introduction</li>
+            <li>Computer Programming
+            <ul>
+              <li>Programming languages: C/C++, Visual Basic, Java, Python, Ruby, Objective-C, ...</li>
+              <li>Operating systems: Windows, MacOS X, iOS, Linux, Android, ...</li>
+              <li>Devices: computers (desktop, laptop, server), smart devices (phones, tablets)</li>
+            </ul>
+            </li>
+            <li>Project work:
+              <ul>
+                <li>Prepare programming project proposal - 5 to 7 slides.</li>
+                <li>Project proposal presentations: Thursday, 12.10.2023</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+  </div><!-- /.section -->
+
+</div><!-- /.container -->
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+google.load('visualization', '1', {packages: ['corechart', 'bar']});
+google.setOnLoadCallback(drawBasic);
+
+function drawBasic() {
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('number', 'Teden');
+      data.addColumn('number', 'Število študentov')
+
+      data.addRows([
+        [1, 0],
+        [2, 0],
+        [3, 0],
+        [4, 0],
+        [5, 0],
+        [6, 0],
+        [7, 0],
+        [8, 0],
+        [9, 0],
+        [10, 0],
+        [11, 0],
+        [12, 0],
+        [13, 0],
+        [14, 0],
+        [15, 0],
+      ]);
+
+      var options = {
+        title: 'Prisotnost na predavanjih po tednih',
+        hAxis: {
+          title: 'Teden',
+          gridlines: { count: 10 }
+        },
+        vAxis: {
+          baseline: 0,
+          title: 'Število študentov',
+		      ticks: [5,10]
+        },
+        legend: {
+          position: 'none'
+        },
+      };
+
+      var chart = new google.visualization.ColumnChart(
+        document.getElementById('chart_div'));
+
+      chart.draw(data, options);
+    }
+</script>
