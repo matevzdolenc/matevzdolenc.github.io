@@ -1,11 +1,16 @@
-# Generated output.
-_site/
+# Created by https://www.toptal.com/developers/gitignore/api/hugo
+# Edit at https://www.toptal.com/developers/gitignore?templates=hugo
 
-# Mac specific
 .DS_Store
 
-# Added when running `jekyll new PATH` or serving in incremental mode.
-.jekyll-metadata
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
 
-.jekyll-cache/
-.sass-cache/
+# Temporary lock file while building
+/.hugo_build.lock
+
+# End of https://www.toptal.com/developers/gitignore/api/hugo

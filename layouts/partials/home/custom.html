@@ -1,0 +1,72 @@
+{{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+<article
+  class="{{ if not .Site.Params.homepage.showRecent }}
+    h-full
+  {{ end }} flex flex-col items-center justify-center text-center"
+>
+  <header class="flex flex-col items-center mb-3">
+    {{ with .Site.Author.image }}
+      {{ $authorImage := resources.Get . }}
+      {{ if $authorImage }}
+        {{ if not $disableImageOptimization }}
+        {{ $authorImage = $authorImage.Fill "288x288" }}
+        {{ end }}
+        <img
+          class="mb-2 rounded-full h-36 w-36"
+          width="144"
+          height="144"
+          alt="{{ $.Site.Author.name | default "Author" }}"
+          src="{{ $authorImage.RelPermalink }}"
+        />
+      {{ end }}
+    {{ end }}
+    <h1 class="text-4xl font-extrabold">
+      {{ .Site.Author.name | default .Site.Title }}
+    </h1>
+    {{ with .Site.Author.headline }}
+      <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
+        {{ . | markdownify | emojify }}
+      </h2>
+    {{ end }}
+    <div class="mt-1 text-2xl">
+      {{ partialCached "author-links.html" . }}
+    </div>
+    
+    <section>
+      <p class="text-xs text-neutral-500 dark:text-neutral-400" id="demo"></p>
+	</section>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Feb 20, 2024 12:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  years = Math.floor(days / 365);
+  days = days - (years * 365);
+
+//   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+//   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+//   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = years + " years " + days + " days ";
+    
+}, 1000);
+</script>
+
+  </header>
+  <section class="prose dark:prose-invert">{{ .Content | emojify }}</section>
+</article>
+<section>
+  {{ partial "recent-articles/main.html" . }}
+</section>
