@@ -31,41 +31,40 @@
     <div class="mt-1 text-2xl">
       {{ partialCached "author-links.html" . }}
     </div>
-    
-    <section>
+  </header>
+      <section>
       <p class="text-xs text-neutral-500 dark:text-neutral-400" id="demo"></p>
 	</section>
 
 <script>
-// Set the date we're counting down to
-var countDownDate = new Date("Feb 20, 2024 12:00:00").getTime();
+Date.difference = function (dateFrom, dateTo) {
+  var diff = { TotalMs: dateTo - dateFrom };
+  diff.Days = Math.floor(diff.TotalMs / 86400000);
 
-// Update the count down every 1 second
+  var remHrs = diff.TotalMs % 86400000;
+  var remMin = remHrs % 3600000;
+  var remS   = remMin % 60000;
+
+  diff.Hours        = Math.floor(remHrs / 3600000);
+  diff.Minutes      = Math.floor(remMin / 60000);
+  diff.Seconds      = Math.floor(remS   / 1000);
+  diff.Milliseconds = Math.floor(remS % 1000);
+  return diff;
+};
+
+// Set the date we're counting down to
 var x = setInterval(function() {
 
-  // Get today's date and time
+  var countDownDate = new Date("Feb 28, 2024 12:00:00").getTime();
   var now = new Date().getTime();
-    
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-    
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  years = Math.floor(days / 365);
-  days = days - (years * 365);
 
-//   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-//   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-//   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-  // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = years + " years " + days + " days ";
+  var dateDiff = Date.difference(now, countDownDate)
+  document.getElementById("demo").innerHTML = dateDiff.Days + " days " + dateDiff.Hours + " hours " + dateDiff.Minutes + " minutes ";
     
 }, 1000);
 </script>
 
-  </header>
-  <section class="prose dark:prose-invert">{{ .Content | emojify }}</section>
+<section class="prose dark:prose-invert">{{ .Content | emojify }}</section>
 </article>
 <section>
   {{ partial "recent-articles/main.html" . }}
