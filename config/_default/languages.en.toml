@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = ""
+title = "matevzdolenc.com"
 
 [params]
   displayName = "EN"
@@ -10,15 +10,15 @@ title = ""
   dateFormat = "2 January 2006"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  description = "Late discoverer"
+  # description = "Sailing Lua around the World."
   copyright = "Copyright &copy; matevzdolenc.com | All rights reserved."
 
 [author]
   name = "Matevž Dolenc"
-  image = "img/md.png"
+  image = "img/logo.png"
   headline = "Late discoverer"
 #   bio = "A little bit about you"
-#   links = [
+   links = [
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
@@ -29,22 +29,22 @@ title = ""
 #     { dev = "https://dev.to/username" },
 #     { discord = "https://discord.gg/invitecode" },
 #     { dribbble = "https://dribbble.com/username" },
-#     { facebook = "https://www.facebook.com/matevzdolenc" },
+    { facebook = "https://www.facebook.com/matevzdolenc" },
 #     { flickr = "https://www.flickr.com/photos/username/" },
 #     { foursquare = "https://foursquare.com/username" },
-#     { github = "https://github.com/matevzdolenc" },
+    { github = "https://github.com/matevzdolenc" },
 #     { gitlab = "https://gitlab.com/username" },
 #     { google = "https://www.google.com/" },
 #     { hashnode = "https://username.hashnode.dev" },
-#     { instagram = "https://www.instagram.com/matevzdolenc/" },
+    { instagram = "https://www.instagram.com/matevzdolenc/" },
 #     { keybase = "https://keybase.io/username" },
 #     { kickstarter = "https://www.kickstarter.com/profile/username" },
 #     { lastfm = "https://lastfm.com/user/username" },
-#     { linkedin = "https://linkedin.com/in/username" },
+    { linkedin = "https://linkedin.com/in/matevzdolenc" },
 #     { mastodon = "https://mastodon.instance/@username" },
 #     { medium = "https://medium.com/username" },
 #     { microsoft = "https://www.microsoft.com/" },
-#     { orcid = "https://orcid.org/userid" },
+    { orcid = "https://orcid.org/0000-0001-7092-635X" },
 #     { patreon = "https://www.patreon.com/username" },
 #     { pinterest = "https://pinterest.com/username" },
 #     { reddit = "https://reddit.com/user/username" },
@@ -63,4 +63,4 @@ title = ""
 #     { whatsapp = "https://wa.me/phone-number" },
 #     { youtube = "https://youtube.com/username" },
 #     { ko-fi = "https://ko-fi.com/username" },
-#   ]
+  ]

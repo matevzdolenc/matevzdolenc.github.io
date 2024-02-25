@@ -32,10 +32,13 @@
       {{ partialCached "author-links.html" . }}
     </div>
   </header>
-      <section>
-      <p class="text-xs text-neutral-500 dark:text-neutral-400" id="demo"></p>
+<!-- 
+  <section>
+    <p class="text-xs text-neutral-500 dark:text-neutral-400" id="demo"></p>
 	</section>
+ -->
 
+<!-- 
 <script>
 Date.difference = function (dateFrom, dateTo) {
   var diff = { TotalMs: dateTo - dateFrom };
@@ -54,15 +57,13 @@ Date.difference = function (dateFrom, dateTo) {
 
 // Set the date we're counting down to
 var x = setInterval(function() {
-
   var countDownDate = new Date("Feb 28, 2024 12:00:00").getTime();
   var now = new Date().getTime();
-
   var dateDiff = Date.difference(now, countDownDate)
   document.getElementById("demo").innerHTML = dateDiff.Days + " days " + dateDiff.Hours + " hours " + dateDiff.Minutes + " minutes ";
-    
 }, 1000);
 </script>
+ -->
 
 <section class="prose dark:prose-invert">{{ .Content | emojify }}</section>
 </article>

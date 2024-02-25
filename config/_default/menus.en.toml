@@ -10,14 +10,62 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-#[[main]]
-#  name = "Blog"
-#  pageRef = "posts"
-#  weight = 10
+[[main]]
+name = "Blog"
+pageRef = "posts"
+weight = 10
 
-#[[main]]
-#  name = "Parent"
+# [[main]]
+#  name = "BIMpogovori"
+#  url = "http://bimpogovori.si"
+#  weight = 10
+# 
+# [[main]]
+#  name = "mojFGG"
+#  url = "https://buildingsmart.fgg.uni-lj.si"
 #  weight = 20
+
+[[main]]
+name = "Predavanja"
+pageRef = ""
+weight = 10
+
+[[main]]
+name = "Obdelava podatkov"
+parent = "Predavanja"
+pageRef = "/posts/op_2023"
+weight = 10
+
+[[main]]
+name = "Računalništvo in informatika"
+parent = "Predavanja"
+pageRef = "/posts/racinf_2023"
+weight = 20
+
+[[main]]
+name = "Računalništvo"
+parent = "Predavanja"
+pageRef = "/posts/rac_2023"
+weight = 30
+
+# 
+# [[main]]
+#  name = "BIM A+"
+#  parent = "Lectures"
+#  pageRef = "lectures/bimaplus"
+#  weight = 20
+
+# [[main]]
+#  name = "Računalništvo"
+#  parent = "Lectures"
+#  pageRef = "lectures/rac"
+#  weight = 30
+# 
+# [[main]]
+#  name = "Računalništvo in informatika"
+#  parent = "Lectures"
+#  pageRef = "lectures/racinf"
+#  weight = 40
 
 #[[main]]
 #  name = "example sub-menu 1"
@@ -31,27 +79,27 @@
 #  pageRef = "posts"
 #  weight = 20
 
-#[[subnavigation]]
-#  name = "An interesting topic"
-#  pageRef = "tags/interesting-topic"
-#  weight = 10
+[[subnavigation]]
+ name = "BIMpogovori"
+ url = "http://bimpogovori.si"
+ pre = "link"
+ weight = 10
 
-#[[subnavigation]]
-#  name = "My Awesome Category"
-#  pre = "github"
-#  pageRef = "categories/awesome"
-#  weight = 20
+[[subnavigation]]
+ name = "mojFGG"
+ url = "https://buildingsmart.fgg.uni-lj.si"
+ pre = "link"
+ weight = 20
 
-#[[main]]
+# [[main]]
 #  name = "Categories"
 #  pageRef = "categories"
 #  weight = 20
-
-#[[main]]
-#  name = "Tags"
-#  pageRef = "tags"
-#  weight = 30
-
+# 
+# [[main]]
+# name = "Tags"
+# pageRef = "tags"
+# weight = 30
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
