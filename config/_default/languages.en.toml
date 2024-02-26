@@ -19,6 +19,7 @@ title = "matevzdolenc.com"
   headline = "Late discoverer"
 #   bio = "A little bit about you"
    links = [
+	{ ul = "https://www.fgg.uni-lj.si/seznam-zaposlenih/matevz-dolenc/" },   
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
