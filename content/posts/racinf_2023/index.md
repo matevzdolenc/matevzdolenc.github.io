@@ -8,6 +8,11 @@ tags: ["ulfgg", "2023", "racinf", "predavanje"]
 showAuthor: false
 ---
 
+{{< alert icon="comment">}}
+Zgornja slika je bila ustvarjena z orodjem **Adobe Firefly 2**.
+**Ukaz:** *a laptop on a desk with, laptop screen displays python code and display; software development concept, construction site in the background*
+{{< /alert >}}
+
 ## Splošne informacije
 
 Študent pridobi osnovno teoretično in praktično znanje o računalništvu in informatiki ter je sposoben samostojno uporabljati računalniško tehnologijo pri študiju oz. običajnih inženirskih nalogah. Spozna sodobne računalniške in informacijske tehnologije ter pridobi temeljno znanje, ki mu omogoča nadaljnje samoizobraževanje oz. nadgradnjo pridobljenih znanj s področja računalniške tehnologije.

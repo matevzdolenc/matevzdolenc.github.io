@@ -8,6 +8,11 @@ tags: ["ulfgg", "2023", "rac", "predavanje"]
 showAuthor: false
 ---
 
+{{< alert icon="comment">}}
+Zgornja slika je bila ustvarjena z orodjem **Adobe Firefly 2**.
+**Ukaz:** *a laptop on a desk with plans and paper in the background, laptop screen shows spreadsheet of numbers and charts*
+{{< /alert >}}
+
 ## Splošne informacije
 
 Cilj predmeta je pridobiti osnovna računalniška znanja, ki so potrebna v nadaljevanju študija ter kasneje pri samostojnem inženirskem delu. Predmetnospecifične kompetence, ki jih študent pridobi pri tem predmetu, so:

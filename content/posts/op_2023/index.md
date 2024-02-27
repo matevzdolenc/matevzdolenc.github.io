@@ -8,7 +8,7 @@ tags: ["ulfgg", "2023", "op", "predavanje"]
 showAuthor: false
 ---
 
-{{< alert icon="Comment">}}
+{{< alert icon="comment">}}
 Zgornja slika je bila ustvarjena z orodjem **Adobe Firefly 2**.
 **Ukaz:** *a laptop on a desk with, laptop screen displays SQL, GIS and database design, google maps in the background*
 {{< /alert >}}
