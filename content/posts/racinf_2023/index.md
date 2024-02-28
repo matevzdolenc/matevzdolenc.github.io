@@ -32,7 +32,7 @@ Študent pridobi osnovno teoretično in praktično znanje o računalništvu
 ### 1. teden - sreda, 28. 2. 2024
 
 - Uvod:
-	* [Uvod v predmet- vsebina, program, osnovne informacije](/files/rac-2023.pdf)
+	* [Uvod v predmet- vsebina, program, osnovne informacije](/files/racinf-2023.pdf)
 	* [Posebnosti gradbeništva](/files/posebnosti-gradbenistva.pdf)
 - Razvoj programske opreme:
 	* [Agilni manifest](/files/agilni-manifest.pdf)
