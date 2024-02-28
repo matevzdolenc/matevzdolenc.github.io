@@ -10,7 +10,7 @@ showAuthor: false
 
 {{< alert icon="comment">}}
 Zgornja slika je bila ustvarjena z orodjem **Adobe Firefly 2**.
-**Ukaz:** *a laptop on a desk with, laptop screen displays python code and display; software development concept, construction site in the background*
+**Ukaz:** *a laptop on a desk; laptop screen displays python code; software development concept, construction site in the background*
 {{< /alert >}}
 
 ## Splošne informacije
@@ -37,5 +37,10 @@ Študent pridobi osnovno teoretično in praktično znanje o računalništvu
 - Razvoj programske opreme:
 	* [Agilni manifest](/files/agilni-manifest.pdf)
 	* [Agilne metodologije](/files/agilne-metodologije.pdf)
+- Uvod v programski jezik Python:
+	* [Zakaj Python?](http://media.matevzdolenc.com/ul-fgg/2022-2023/zakaj-python.pdf)
+	* Namestitev: [python.org](http://python.org), [Continuum Analytics - Anaconda](https://www.anaconda.com/download)
+- Naloga:
+	* Namestitev programskega sistema Python na domačem računalniku.
 	
 {{< figure src="/img/agilne-metodologije.png" caption="Agilne metodologije predstavljajo nabor vrednot." >}}
