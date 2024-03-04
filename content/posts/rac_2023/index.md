@@ -50,3 +50,34 @@ MS Word dokument in ZIP datoteko LaTeX ali Markdown zapisa oddate v spletni uči
 	* [Informacije, podatki, znanje](/files/informacije-podatki-znanje.pdf)
 	
 {{< figure src="/img/posebnosti-gradbenistva.png" caption="Posebnosti gradbeništva določajo uporabo in uvajanje informacijsko-komunikacijskih tehnologij v gradbenem sektorju." >}}
+
+### 2. teden - ponedeljek, 4. 3. 2024
+
+- LaTeX:
+	* [LaTeX](http://www.latex-project.org)
+ 	* [MiKTeX, LaTeX za Windows](http://miktex.org)
+	* [Ne najkrajši uvod v LaTeX](http://www-lp.fmf.uni-lj.si/plestenjak/vaje/latex/lshort.pdf)
+	* [LaTeX Base](https://latexbase.com/)
+	* [Primer](/files/primer-latex.zip)
+	
+- Markdown:
+	* [Markdown](http://daringfireball.net/projects/markdown/)
+	* [Markdown Tutorial](http://markdowntutorial.com/)
+	* [Markdown za Windows](http://www.maketecheasier.com/best-markdown-editor-for-windows/)
+	* [Markdown hitra navodila](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+	* [Word to Markdown Converter](https://word-to-markdown.herokuapp.com)
+	* [Markdown Live Preview](https://markdownlivepreview.com)
+	* [Primer](/files/primer-md.zip)
+
+- Digitalni dokumenti:
+	* [Digitalni dokumenti](href="http://media.matevzdolenc.com/ul-fgg/2022-2023/digitalni-dokumenti.pdf) - prednosti in slabosti, standardi, itd.
+	* Excel - naslavljanje celic: absolutno/relativno, delo s formulami: pisanje/kopiranje, ...
+
+{{< figure src="/img/md-latex-preview.png" caption="Markdown (levo) in LaTeX (desno) predogled." >}}
+
+
+
+
+
+
+
