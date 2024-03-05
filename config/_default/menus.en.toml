@@ -103,6 +103,12 @@ weight = 50
  pre = "link"
  weight = 20
 
+[[subnavigation]]
+ name = "Programiranje za inženirje"
+ url = "https://pzi.si"
+ pre = "link"
+ weight = 30
+
 # [[main]]
 #  name = "Categories"
 #  pageRef = "categories"

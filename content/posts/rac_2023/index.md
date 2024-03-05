@@ -56,7 +56,7 @@ MS Word dokument in ZIP datoteko LaTeX ali Markdown zapisa oddate v spletni uči
 - LaTeX:
 	* [LaTeX](http://www.latex-project.org)
  	* [MiKTeX, LaTeX za Windows](http://miktex.org)
-	* [Ne najkrajši uvod v LaTeX](http://www-lp.fmf.uni-lj.si/plestenjak/vaje/latex/lshort.pdf)
+	* [Ne najkrajši uvod v LaTeX](https://users.fmf.uni-lj.si/plestenjak/vaje/latex/lshort.pdf)
 	* [LaTeX Base](https://latexbase.com/)
 	* [Primer](/files/primer-latex.zip)
 	
@@ -74,10 +74,4 @@ MS Word dokument in ZIP datoteko LaTeX ali Markdown zapisa oddate v spletni uči
 	* Excel - naslavljanje celic: absolutno/relativno, delo s formulami: pisanje/kopiranje, ...
 
 {{< figure src="/img/md-latex-preview.png" caption="Markdown (levo) in LaTeX (desno) predogled." >}}
-
-
-
-
-
-
 
