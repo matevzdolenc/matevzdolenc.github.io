@@ -44,3 +44,18 @@ Študent pridobi osnovno teoretično in praktično znanje o računalništvu
 	* Namestitev programskega sistema Python na domačem računalniku.
 	
 {{< figure src="/img/agilne-metodologije.png" caption="Agilne metodologije predstavljajo nabor vrednot." >}}
+
+### 2. teden - sreda, 6. 3. 2024
+
+- Uvod v programski jezik Python:
+	* [Zakaj Python?](http://media.matevzdolenc.com/ul-fgg/2022-2023/zakaj-python.pdf)
+	* Namestitev: [python.org](http://python.org), [Continuum Analytics - Anaconda](https://www.anaconda.com/download)
+
+- Uvod v Python:
+	* Izvedba in zagon enostavnega Python programa/skripte (Spyder, iPython)
+	* Uporabljeni ukazi: input(), print(), float(), import, math.pi
+
+- Izvorna koda:
+	* Python: [krog-1.py](http://media.matevzdolenc.com/python/src/krog-1.py")
+
+{{< figure src="/img/py-ploscina-kroga-spyder.png" caption="Python program krog.py v programskem okolju Spyder." >}}
