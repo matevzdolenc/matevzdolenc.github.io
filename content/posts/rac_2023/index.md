@@ -75,3 +75,14 @@ MS Word dokument in ZIP datoteko LaTeX ali Markdown zapisa oddate v spletni uči
 
 {{< figure src="/img/md-latex-preview.png" caption="Markdown (levo) in LaTeX (desno) predogled." >}}
 
+### 3. teden - ponedeljek, 11. 3. 2024
+
+- Internet in splet:
+	* [Uvod v Internet](/files/internet.pdf) - zgodovina, protokoli, ...
+	* [Uvod v splet](/files/splet.pdf) - zgotovina, protokoli, uporaba, 1.0/2.0/3.0, ...
+    * [Uvod v splet 2.0](/files/splet-2.0-rk.pdf)
+    * [Osnove inženirske komunikacije](/files/komunikacija.pdf)
+
+{{< figure src="/img/web2.png" caption="" >}}
+
+
