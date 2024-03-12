@@ -59,3 +59,14 @@ Študent pridobi osnovno teoretično in praktično znanje o računalništvu
 	* Python: [krog-1.py](http://media.matevzdolenc.com/python/src/krog-1.py")
 
 {{< figure src="/img/py-ploscina-kroga-spyder.png" caption="Python program krog.py v programskem okolju Spyder." >}}
+
+### 3. teden - sreda, 13. 3. 2024
+
+- Uvod v Python:
+	- Zagon Python skript iz ukazne vrstice
+	- Program za izračun plošline kroga
+    - Seznami: for in while zanka
+
+- Rešitve: -
+
+{{< figure src="/img/py-izpis-tabele-krogov.png" caption="Izpis preproste tabele v konzolnem oknu." >}}
