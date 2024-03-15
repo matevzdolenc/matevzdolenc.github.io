@@ -27,6 +27,47 @@ Študent pridobi osnovno teoretično in praktično znanje o računalništvu
 - govorilne ure - ponedeljek 9-10, soba 035
 - email - [mdolenc@fgg.uni-lj.si](mailto:mdolenc@fgg.uni-lj.si)
 
+### Prisotnost
+
+{{< chart >}}
+type: 'bar',
+data: {
+  labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+  datasets: [{
+    label: 'prisotnost na predavanjih',
+    data: [76, 67, 59, , , , , , , , , , , , ],
+  }],
+},
+options: {
+	plugins: {
+		tooltip: {
+			enabled: false
+		},
+		title: {
+			display: true,
+			text: 'Prisotnost na predavanjih'
+		},
+		legend: {
+			display: false
+		},
+	},
+	scales: {
+		x: {
+			title: {
+          		display: true,
+          		text: 'teden'
+	        },
+		},
+		y: {
+			title: {
+          		display: true,
+          		text: 'število študentov'
+	        },
+		}
+	}
+}
+{{< /chart >}}
+
 ## Predavanja
 
 ### 1. teden - sreda, 28. 2. 2024
@@ -67,6 +108,21 @@ Študent pridobi osnovno teoretično in praktično znanje o računalništvu
 	- Program za izračun plošline kroga
     - Seznami: for in while zanka
 
-- Rešitve: -
+- Izvorna koda:
+	* [krog-1.py](http://media.matevzdolenc.com/python/src/krog-1.py")
+	* [krog-seznam.py](http://media.matevzdolenc.com/python/src/krog-seznam.py")
+	* [krog-range.py](http://media.matevzdolenc.com/python/src/krog-range.py")
 
 {{< figure src="/img/py-izpis-tabele-krogov.png" caption="Izpis preproste tabele v konzolnem oknu." >}}
+
+### 4. teden - sreda, 20. 3. 2024
+
+- Uvod v Python:
+	- while zanka
+    - izpis v datoteko
+	- Uvoz tekstovnih podatkov v Excel in risanje razpršenih grafov.
+
+- Izvorna koda: - 
+    <!-- - Izračun ničle funkcije - bisekcija, [bisekcija-1.py](http://media.matevzdolenc.com/python/src/bisekcija-1.py), [bisekcija-2.py](http://media.matevzdolenc.com/python/src/bisekcija-2.py) -->
+
+{{< figure src="/img/py-bisekcija-graf.png" caption="" >}}

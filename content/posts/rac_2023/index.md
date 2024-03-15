@@ -30,6 +30,47 @@ Cilj predmeta je pridobiti osnovna računalniška znanja, ki so potrebna v nad
 - govorilne ure - ponedeljek 9-10, soba 035
 - email - [mdolenc@fgg.uni-lj.si](mailto:mdolenc@fgg.uni-lj.si)
 
+### Prisotnost
+
+{{< chart >}}
+type: 'bar',
+data: {
+  labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+  datasets: [{
+    label: 'prisotnost na predavanjih',
+    data: [39, 30, 26, , , , , , , , , , , , ],
+  }],
+},
+options: {
+	plugins: {
+		tooltip: {
+			enabled: false
+		},
+		title: {
+			display: true,
+			text: 'Prisotnost na predavanjih'
+		},
+		legend: {
+			display: false
+		},
+	},
+	scales: {
+		x: {
+			title: {
+          		display: true,
+          		text: 'teden'
+	        },
+		},
+		y: {
+			title: {
+          		display: true,
+          		text: 'število študentov'
+	        },
+		}
+	}
+}
+{{< /chart >}}
+
 ## Seminar
 
 ### 1. naloga
@@ -80,9 +121,19 @@ MS Word dokument in ZIP datoteko LaTeX ali Markdown zapisa oddate v spletni uči
 - Internet in splet:
 	* [Uvod v Internet](/files/internet.pdf) - zgodovina, protokoli, ...
 	* [Uvod v splet](/files/splet.pdf) - zgotovina, protokoli, uporaba, 1.0/2.0/3.0, ...
-    * [Uvod v splet 2.0](/files/splet-2.0-rk.pdf)
-    * [Osnove inženirske komunikacije](/files/komunikacija.pdf)
 
 {{< figure src="/img/web2.png" caption="" >}}
 
+### 4. teden - ponedeljek, 18. 3. 2024
+
+- Internet in splet:
+    * [Uvod v splet 2.0](/files/splet-2.0-rk.pdf)
+    * [Osnove inženirske komunikacije](/files/komunikacija.pdf)
+
+- Knjiga David Weinberger, “Everything is Miscellaneous: The Power of the New Digital Disorder”
+	* [Vse je različno](/files/vse-je-razlicno.pdf)
+    * [Everything is Miscellaneous](http://www.youtube.com/watch?v=x3wOhXsjPYM) - video
+    * [Information R/evolution](http://www.youtube.com/watch?v=-4CV05HyAbM) - video
+
+{{< figure src="/img/everything_is_miscellaneous.png" caption="" >}}
 
