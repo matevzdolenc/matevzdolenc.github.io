@@ -38,7 +38,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [39, 30, 26, , , , , , , , , , , , ],
+    data: [39, 30, 26, 22, , , , , , , , , , , ],
   }],
 },
 options: {
@@ -78,6 +78,18 @@ options: {
 Pripravite načrt za spletno stran (vsebina, izgled, ...) - spletno stran boste izdelali v okviru 2. seminarske naloge. Načrt pripravite v dveh oblikah: (1) s programom MS Word in (2) v obliki LaTeX ali Markdown dokumenta.
 
 MS Word dokument in ZIP datoteko LaTeX ali Markdown zapisa oddate v spletni učilnici najkasneje do 25.3.2024.
+
+### 2. naloga
+
+Samostojno izdelajte spletno stran, ki ste jo predlagali v 1. seminarski nalogi. Spletno stran oz. blog izdelajte na enem izmed brezplačnih servisov za gostovanje spletnih strani ali blogov ([Google Sites](http://sites.google.com/), [WordPress](http://wordpress.com/), [Wix](https://www.wix.com), ...)
+
+Spletno stran pripravite najkasneje do 22.4.2024. Obvestilo o spletnem naslovu izdelane spletne strani oddate v spletni učilnici.
+
+Povezave:
+- the balance, [8 Popular Types of Web Hosting Services](https://www.thebalance.com/types-of-web-hosting-services-2532072)
+- website.com, [Web Hosting](https://www.website.com/beginnerguide/webhosting/6/2/types-of-web-hosting-services.ws)
+
+{{< figure src="/img/og-rac-2016-spletne-strani.png" caption="Nekaj primerov spletnih strani študentov OG.">}}
 
 ## Predavanja
 
@@ -137,3 +149,11 @@ MS Word dokument in ZIP datoteko LaTeX ali Markdown zapisa oddate v spletni uči
 
 {{< figure src="/img/everything_is_miscellaneous.png" caption="" >}}
 
+### 5. teden - ponedeljek, 25. 3. 2024
+
+Spletna predstavitev je zagotovo ena izmed pomembnih odločitev, je rešitev, saj je pomemben in prodoren element komunikacije in (samo)predstavitve. Ne glede na to, ali želite predstaviti le sebe oz. imate že izdelano idejo in posel, morate biti v vsakem primeru prisotni in vidni tudi na spletu, saj ponuja veliko možnosti, kako se predstaviti in oblikovati svojo blagovno znamko na spletu.
+
+Predstavitev:
+- [Osebna spletna stran](http://media.matevzdolenc.com/ul-fgg/2022-2023/osebna-spletna-stran.pdf)
+
+{{< figure src="/img/osebna-spletna-stran.png" >}}

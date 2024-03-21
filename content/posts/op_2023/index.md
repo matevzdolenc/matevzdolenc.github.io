@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [10, 9, 8, , , , , , , , , , , , ],
+    data: [10, 9, 8, 8, , , , , , , , , , , ],
   }],
 },
 options: {
@@ -113,6 +113,11 @@ options: {
 	- Zagon Python skript iz ukazne vrstice
     - Seznami: for in while zanka
 
+- Izvorna koda:
+	* [krog-1.py](http://media.matevzdolenc.com/python/src/krog-1.py")
+	* [krog-seznam.py](http://media.matevzdolenc.com/python/src/krog-seznam.py")
+	* [krog-range.py](http://media.matevzdolenc.com/python/src/krog-range.py")
+
 {{< figure src="/img/py-izpis-tabele-krogov.png" caption="Izpis preproste tabele v konzolnem oknu." >}}
 
 ### 4. teden - torek, 19. 3. 2024
@@ -133,3 +138,22 @@ options: {
     	<!-- - Izračun ničle funkcije - bisekcija, [bisekcija-1.py](http://media.matevzdolenc.com/python/src/bisekcija-1.py), [bisekcija-2.py](http://media.matevzdolenc.com/python/src/bisekcija-2.py) -->
 
 {{< figure src="/img/py-bisekcija-graf.png" caption="" >}}
+
+### 5. teden - torek, 26. 3. 2024
+
+- Uvod v Python:
+	- branje in zapisovanje tekstovnih datotek
+	- vnos več podatkov v vrstici
+
+- Primer: [Izračun geometrijskih karakteristik](/files/geokar-formule.pdf)
+
+- Izvorna koda: -
+	<!-- - Podatki v programu, [geokar-1.py](http://media.matevzdolenc.com/python/src/geokar-1.py)
+	- Branje podatkov s tipkovnico (vsak podatek v svoji vrstici), [geokar-2.py](http://media.matevzdolenc.com/python/src/geokar-2.py)
+    - Branje podatkov s tipkovnico (x in y koordinati v isti vrstici), [geokar-3.py](http://media.matevzdolenc.com/python/src/geokar-3.py)
+    - Branje podatkov iz datoteke, [geokar-4.py](http://media.matevzdolenc.com/python/src/geokar-4.py)
+    - Izračun ploščine s funkcijo, [geokar-5.py](http://media.matevzdolenc.com/python/src/geokar-5.py)
+	- Vse geometrijske karakteristike, [geokar-6.py](http://media.matevzdolenc.com/python/src/geokar-6.py)
+    - Testni podatki, [geokar-podatki.txt](http://media.matevzdolenc.com/python/src/geokar-podatki.txt) -->
+
+{{< figure src="/img/py-geokar-sublimetext.png" >}}
