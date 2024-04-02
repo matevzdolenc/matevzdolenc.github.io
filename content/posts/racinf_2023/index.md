@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [76, 67, 59, 58, , , , , , , , , , , ],
+    data: [76, 67, 59, 58, 55, , , , , , , , , , ],
   }],
 },
 options: {
@@ -131,7 +131,11 @@ options: {
 
 - Uvod v Python:
 	- branje in zapisovanje tekstovnih datotek
-	- vnos več podatkov v vrstici
+
+- Izvorna koda: -
+
+
+### 6. teden - sreda, 3. 4. 2024
 
 - Primer: [Izračun geometrijskih karakteristik](/files/geokar-formule.pdf)
 
