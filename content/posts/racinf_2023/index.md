@@ -135,17 +135,23 @@ options: {
 - Izvorna koda: -
 
 
-### 6. teden - sreda, 3. 4. 2024
+### 6. - 7. teden - sreda, 3. 4. - 10. 4. 2024
+
+- Uvod v Python:
+	- branje in zapisovanje tekstovnih datotek
+	- vnos več podatkov v vrstici
+	- uporaba modulov
 
 - Primer: [Izračun geometrijskih karakteristik](/files/geokar-formule.pdf)
 
-- Izvorna koda: -
-	<!-- - Podatki v programu, [geokar-1.py](http://media.matevzdolenc.com/python/src/geokar-1.py)
+- Izvorna koda: 
+	- Podatki v programu, [geokar-1.py](http://media.matevzdolenc.com/python/src/geokar-1.py)
 	- Branje podatkov s tipkovnico (vsak podatek v svoji vrstici), [geokar-2.py](http://media.matevzdolenc.com/python/src/geokar-2.py)
     - Branje podatkov s tipkovnico (x in y koordinati v isti vrstici), [geokar-3.py](http://media.matevzdolenc.com/python/src/geokar-3.py)
     - Branje podatkov iz datoteke, [geokar-4.py](http://media.matevzdolenc.com/python/src/geokar-4.py)
-    - Izračun ploščine s funkcijo, [geokar-5.py](http://media.matevzdolenc.com/python/src/geokar-5.py)
+    - Testni podatki, [geokar-podatki.txt](http://media.matevzdolenc.com/python/src/geokar-podatki.txt)
+    <!-- - Izračun ploščine s funkcijo, [geokar-5.py](http://media.matevzdolenc.com/python/src/geokar-5.py)
 	- Vse geometrijske karakteristike, [geokar-6.py](http://media.matevzdolenc.com/python/src/geokar-6.py)
-    - Testni podatki, [geokar-podatki.txt](http://media.matevzdolenc.com/python/src/geokar-podatki.txt) -->
+	- Uporaba modulov, [geokar-7.py](http://media.matevzdolenc.com/python/src/geokar-7.py), [geometrijske_karakteristike.py](http://media.matevzdolenc.com/python/src/geometrijske_karakteristike.py) -->
 
 {{< figure src="/img/py-geokar-sublimetext.png" >}}
