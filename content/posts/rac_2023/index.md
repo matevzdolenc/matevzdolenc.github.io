@@ -157,3 +157,22 @@ Predstavitev:
 - [Osebna spletna stran](http://media.matevzdolenc.com/ul-fgg/2022-2023/osebna-spletna-stran.pdf)
 
 {{< figure src="/img/osebna-spletna-stran.png" >}}
+
+### 6. teden - ponedeljek, 8. 4. 2024
+
+Virtualizacija:
+- [Virtualizacija - uporaba navideznih računalnikov](/files/virtualizacija.pdf)
+- [Distro Watch](http://distrowatch.com/) - seznam Linux distribucij
+- [Oracle VirtualBox](https://www.virtualbox.org) - okolje za virtualizacijo oeracijskih sistemov
+- Linux distribucije: [Ubuntu](https://ubuntu.com), [Fedora](http://fedoraproject.org), [Redhat](http://www.redhat.com)
+- Naloga: Namestitev VirtualBox in preiskus ene izmed Linux distribucij.
+
+Podatkovni centri:
+- [Google Datacenters](https://www.google.com/about/datacenters/)
+- [AWS data centers](https://aws.amazon.com/compliance/data-center/data-centers/)
+- [Facebook Engineering](https://engineering.fb.com)
+
+Odprta koda:
+- [Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, kaj pomeni za končne upodarbnike
+
+{{< figure src="/img/virtualizacija-virtualbox.png" >}}
