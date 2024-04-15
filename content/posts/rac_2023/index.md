@@ -38,7 +38,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [39, 30, 26, 22, 20, 7, , , , , , , , , ],
+    data: [39, 30, 26, 22, 20, 9, , , , , , , , , ],
   }],
 },
 options: {
@@ -176,3 +176,17 @@ Odprta koda:
 - [Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, kaj pomeni za končne upodarbnike
 
 {{< figure src="/img/virtualizacija-virtualbox.png" >}}
+
+### 7. teden - ponedeljek, 15. 4. 2024
+
+Ogledali si bomo kako vzpostavimo in uporabimo visoko-propustno računsko okolje: 
+
+- [HTCondor](http://research.cs.wisc.edu/htcondor/)
+- [htc-predavanje-1.pdf](http://media.matevzdolenc.com/ul-fgg/2022-2023/htc-predavanje-1.pdf)
+- [htc-condor-tutorial.pdf](http://media.matevzdolenc.com/ul-fgg/2022-2023/htc-condor-tutorial.pdf)
+- [htc-condor-tutorial-75p.mov](http://media.matevzdolenc.com/ul-fgg/2022-2023/htc-condor-tutorial-75p.mov)
+<!-- - Video tutorial: [HTCondor za inženirje](http://matevzdolenc.com/htcondor/) -->
+
+{{< figure src="/img/fgg-rc-2014.png" >}}
+
+{{< figure src="/img/kgi-cl-2014.png" >}}

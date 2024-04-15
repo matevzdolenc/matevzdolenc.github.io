@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [10, 9, 8, 8, 8, , , , , , , , , , ],
+    data: [10, 9, 8, 8, 8, 9, 9, , , , , , , , ],
   }],
 },
 options: {
@@ -154,8 +154,28 @@ options: {
     - Branje podatkov s tipkovnico (x in y koordinati v isti vrstici), [geokar-3.py](http://media.matevzdolenc.com/python/src/geokar-3.py)
     - Branje podatkov iz datoteke, [geokar-4.py](http://media.matevzdolenc.com/python/src/geokar-4.py)
     - Testni podatki, [geokar-podatki.txt](http://media.matevzdolenc.com/python/src/geokar-podatki.txt)
-    <!-- - Izračun ploščine s funkcijo, [geokar-5.py](http://media.matevzdolenc.com/python/src/geokar-5.py)
+    - Izračun ploščine s funkcijo, [geokar-5.py](http://media.matevzdolenc.com/python/src/geokar-5.py)
 	- Vse geometrijske karakteristike, [geokar-6.py](http://media.matevzdolenc.com/python/src/geokar-6.py)
-	- Uporaba modulov, [geokar-7.py](http://media.matevzdolenc.com/python/src/geokar-7.py), [geometrijske_karakteristike.py](http://media.matevzdolenc.com/python/src/geometrijske_karakteristike.py) -->
+	- Uporaba modulov, [geokar-7.py](http://media.matevzdolenc.com/python/src/geokar-7.py), [geometrijske_karakteristike.py](http://media.matevzdolenc.com/python/src/geometrijske_karakteristike.py)
 
 {{< figure src="/img/py-geokar-sublimetext.png" >}}
+
+### 8. teden - torek, 16. 4. 2024
+
+Podatkovni standardi:
+- XML - Extended Markup Language
+- JSON - JavaScript Object Notation
+- IFC - Industry Foundation Classes
+
+Primeri:
+- Izdelajte XML/JSON dokument za shranjevanje poljubnega poligonalnega prereza. Točke prereza so podane z oznako in dvema koordinatama: x in y. Rešitve: [xml](http://media.matevzdolenc.com/ul-fgg/2021-2022/primer.xml) | [json](http://media.matevzdolenc.com/ul-fgg/2021-2022/primer.json)
+- Izdelajte XML dokument, ki vsebuje podatke o dveh geografskih točkah (ime/naslov, koordinate, nadmorska višina)
+- Povezave:
+	- [uvod-v-xml-zacasno.pdf](http://media.matevzdolenc.com/ul-fgg/2022-2023/uvod-v-xml-zacasno.pdf)
+    - [XML standard](http://www.w3.org/standards/xml/)
+    - [W3C](http://www.w3.org)
+    - [JSON](http://www.json.org)
+    - [IFC](http://www.buildingsmart.org/standards/ifc)
+    - [KML](https://developers.google.com/kml/?hl=en)
+
+{{< figure src="http://imgs.xkcd.com/comics/standards.png" >}}
