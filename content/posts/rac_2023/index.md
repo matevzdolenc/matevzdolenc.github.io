@@ -38,7 +38,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [39, 30, 26, 22, 20, 9, , , , , , , , , ],
+    data: [39, 30, 26, 22, 20, 9, 9, , , , , , , , ],
   }],
 },
 options: {
@@ -90,6 +90,22 @@ Povezave:
 - website.com, [Web Hosting](https://www.website.com/beginnerguide/webhosting/6/2/types-of-web-hosting-services.ws)
 
 {{< figure src="/img/og-rac-2016-spletne-strani.png" caption="Nekaj primerov spletnih strani študentov OG.">}}
+
+
+### 3. naloga
+
+Pripravite video predstavitev spletne strani, ki ste jo izdelali v 2. seminarski nalogi. Za zejem videa uporabite enega izmed brezplačnih [programov](http://thescreencastinghandbook.com/screencast-software/).
+
+Osnovne smernice za video predstavitev:
+- maksimalna dolžina 5 min
+- video shranite v "mov" formatu
+- video naložite na enega izmed video portalov (YouTube, Vimeo)
+
+Video pripravite do 24.5.2024. Obvestilo o pripravljeni video predstavitvi boste oddali v spletni učilnici.
+
+Navodila za pripravo predstavitve:
+- [10 Rules to Instantly Improve Your Presentations](http://blog.hubspot.com/blog/tabid/6307/bid/5975/10-Rules-to-Instantly-Improve-Your-Presentations.aspx)
+- [5 Rules for More Effective Presentations](http://michaelhyatt.com/5-rules-for-more-effective-presentations.html)
 
 ## Predavanja
 
@@ -190,3 +206,23 @@ Ogledali si bomo kako vzpostavimo in uporabimo visoko-propustno računsko okolje
 {{< figure src="/img/fgg-rc-2014.png" >}}
 
 {{< figure src="/img/kgi-cl-2014.png" >}}
+
+### 8. teden - ponedeljek, 22. 4. 2024
+
+Podatkovni standardi:
+- XML - Extended Markup Language
+- JSON - JavaScript Object Notation
+- IFC - Industry Foundation Classes
+
+Primeri:
+- Izdelajte XML/JSON dokument za shranjevanje poljubnega poligonalnega prereza. Točke prereza so podane z oznako in dvema koordinatama: x in y. Rešitve: [xml](http://media.matevzdolenc.com/ul-fgg/2021-2022/primer.xml) | [json](http://media.matevzdolenc.com/ul-fgg/2021-2022/primer.json)
+- Izdelajte XML dokument, ki vsebuje podatke o dveh geografskih točkah (ime/naslov, koordinate, nadmorska višina)
+- Povezave:
+	- [uvod-v-xml-zacasno.pdf](http://media.matevzdolenc.com/ul-fgg/2022-2023/uvod-v-xml-zacasno.pdf)
+    - [XML standard](http://www.w3.org/standards/xml/)
+    - [W3C](http://www.w3.org)
+    - [JSON](http://www.json.org)
+    - [IFC](http://www.buildingsmart.org/standards/ifc)
+    - [KML](https://developers.google.com/kml/?hl=en)
+
+{{< figure src="http://imgs.xkcd.com/comics/standards.png" >}}

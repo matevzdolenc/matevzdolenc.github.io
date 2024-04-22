@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [10, 9, 8, 8, 8, 9, 9, , , , , , , , ],
+    data: [10, 9, 8, 8, 8, 9, 9, 9, , , , , , , ],
   }],
 },
 options: {
@@ -179,3 +179,31 @@ Primeri:
     - [KML](https://developers.google.com/kml/?hl=en)
 
 {{< figure src="http://imgs.xkcd.com/comics/standards.png" >}}
+
+### 9. teden - torek, 23. 4. 2024
+
+- Uvod v Python: branje in zapisovanje XML datotek
+
+- Izvorna koda: -
+          <!-- <ul>
+            <li>19.4.2023: 
+              <a href="http://media.matevzdolenc.com/python/src/geokar-20230419.py">geokar-20230419.py</a>, 
+              <a href="http://media.matevzdolenc.com/python/src/geokar-podatki-20230419.txt">geokar-podatki-20230419.txt</a></li>
+          </ul>
+            <li>Zapis podatkov o prerezu v XML datoteko z uporabo Python XML knjižnice,
+              <a href="http://media.matevzdolenc.com/python/src/geokar-8-2.py">geokar-8-2.py</a> </li>
+            <li>Branje podatkov o prerezu iz XML datoteke,
+              <a href="http://media.matevzdolenc.com/python/src/geokar-9-1.py">geokar-9-1.py</a></li>
+            <li>Podajanje imena vhodne datoteke s podatko o prerezu v ukazni vrstici,
+              <a href="http://media.matevzdolenc.com/python/src/geokar-9-2.py">geokar-9-2.py</a></li>
+            <li>Podajanje imena vhodne datoteke s podatko o prerezu v ukazni vrstici,
+              <a href="http://media.matevzdolenc.com/python/src/geokar-9-3.py">geokar-9-3.py</a></li>
+            <li>Ostale potrebne datoteke ...
+              <a href="http://media.matevzdolenc.com/python/src/geometrijske_karakteristike.py">geometrijske_karakteristike.py</a>,
+              <a href="http://media.matevzdolenc.com/python/src/geokar-podatki.txt">geokar-podatki.txt</a>,
+              <a href="http://media.matevzdolenc.com/python/src/geokar-podatki.xml">geokar-podatki.xml</a></li>
+          </ul>
+        </div> -->
+
+{{< figure src="/img/py-geokar-xml.png" >}}
+
