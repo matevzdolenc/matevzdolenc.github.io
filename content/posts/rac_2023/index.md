@@ -38,7 +38,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [39, 30, 26, 22, 20, 9, 9, , , , , , , , ],
+    data: [39, 30, 26, 22, 20, 9, 9, 23, , , , , , , ],
   }],
 },
 options: {
@@ -226,3 +226,13 @@ Primeri:
     - [KML](https://developers.google.com/kml/?hl=en)
 
 {{< figure src="http://imgs.xkcd.com/comics/standards.png" >}}
+
+### 9. teden - ponedeljek, 29. 4. 2024
+
+Ponovitev vsebin prvih osmih tednov - priprava na izpit!
+
+Baze podatkov:
+- [Uvod v podatkovne baze](/files/baze-podatkov-1920.pdf)
+- [2019 Database Trends – SQL vs. NoSQL, Top Databases, Single vs. Multiple Database Use](https://scalegrid.io/blog/2019-database-trends-sql-vs-nosql-top-databases-single-vs-multiple-database-use/)
+
+{{< figure src="/img/DB-Engines-Ranking-2020.png" >}}
