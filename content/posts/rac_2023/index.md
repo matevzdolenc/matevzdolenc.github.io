@@ -227,7 +227,7 @@ Primeri:
 
 {{< figure src="http://imgs.xkcd.com/comics/standards.png" >}}
 
-### 9. teden - ponedeljek, 29. 4. 2024
+### 9./10. teden - ponedeljek, 29. 4. 2024/6. 5. 2024
 
 Ponovitev vsebin prvih osmih tednov - priprava na izpit!
 
