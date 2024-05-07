@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [10, 9, 8, 8, 8, 9, 9, 9, 8, , , , , , ],
+    data: [10, 9, 8, 8, 8, 9, 9, 9, 8, 0, , , , , ],
   }],
 },
 options: {
@@ -182,17 +182,23 @@ Primeri:
 
 ### 9. teden - torek, 23. 4. 2024
 
-- Uvod v Python: branje in zapisovanje XML datotek
+- Uvod v Python: zapisovanje XML datotek
 
-- Izvorna koda: -
-          <!-- <ul>
-            <li>19.4.2023: 
-              <a href="http://media.matevzdolenc.com/python/src/geokar-20230419.py">geokar-20230419.py</a>, 
-              <a href="http://media.matevzdolenc.com/python/src/geokar-podatki-20230419.txt">geokar-podatki-20230419.txt</a></li>
-          </ul>
-            <li>Zapis podatkov o prerezu v XML datoteko z uporabo Python XML knjižnice,
-              <a href="http://media.matevzdolenc.com/python/src/geokar-8-2.py">geokar-8-2.py</a> </li>
-            <li>Branje podatkov o prerezu iz XML datoteke,
+- Izvorna koda:
+	- Zapis podatkov o prerezu v XML datoteko, [geokar-8-1.py](http://media.matevzdolenc.com/python/src/geokar-8-1.py)
+	- Zapis podatkov o prerezu v XML datoteko z uporabo Python XML knjižnice, [geokar-8-2.py](http://media.matevzdolenc.com/python/src/geokar-8-2.py)
+
+{{< figure src="/img/py-geokar-xml.png" >}}
+
+### 10. teden - torek, 30. 4. 2024
+
+Predavanja odpadejo.
+
+### 11. teden - torek, 7. 5. 2024
+
+- Uvod v Python: branje XML datotek
+	- Izvorna koda: -
+            <!-- <li>Branje podatkov o prerezu iz XML datoteke,
               <a href="http://media.matevzdolenc.com/python/src/geokar-9-1.py">geokar-9-1.py</a></li>
             <li>Podajanje imena vhodne datoteke s podatko o prerezu v ukazni vrstici,
               <a href="http://media.matevzdolenc.com/python/src/geokar-9-2.py">geokar-9-2.py</a></li>
@@ -201,9 +207,23 @@ Primeri:
             <li>Ostale potrebne datoteke ...
               <a href="http://media.matevzdolenc.com/python/src/geometrijske_karakteristike.py">geometrijske_karakteristike.py</a>,
               <a href="http://media.matevzdolenc.com/python/src/geokar-podatki.txt">geokar-podatki.txt</a>,
-              <a href="http://media.matevzdolenc.com/python/src/geokar-podatki.xml">geokar-podatki.xml</a></li>
-          </ul>
-        </div> -->
+              <a href="http://media.matevzdolenc.com/python/src/geokar-podatki.xml">geokar-podatki.xml</a></li> -->
 
-{{< figure src="/img/py-geokar-xml.png" >}}
+- Naloga: Izdelaj program za menjalnico.
+	-  Programske zahteve:
+		- program naj prebere trenutno tečajno listo iz XML datoteke
+        - za podano vrednost v EUR naj program izpiše vrednosti v vseh ostali valutah
+        - za podano vredno v izbrani valuti naj program izračuna ustrezno vrednost v EUR
+	- Pomoč:
+		- Tečajno listo shranite na lokalni disk.
+        - V XML datoteki lahko odstranite atribute korenskega XML elementa.
+	- Podatki:
+		- [Banka Slovenije](http://www.bsi.si)
+		- [Tečajna lista](http://www.bsi.si/_data/tecajnice/dtecbs.xml)
+	- Rešitev: -
+		<!-- - Primer lokalno shranjene tečajne liste z odstranjenim imenskim prostorom, [dtecbs.xml](http://media.matevzdolenc.com/python/src/dtecbs.xml)
+        - Preprosta rešitev z lokalno datoteko in odstranjenim imenskim prostorom - implementiran samo prvi del naloge, ki za podan znesek v EUR izpiše vrednost v vseh ostalih valutah, [menjalnica-0.py](http://media.matevzdolenc.com/python/src/menjalnica-0.py)
+        - Preprosta rešitev z lokalno datoteko in odstranjenim imenskim prostorom, [menjalnica-1.py](http://media.matevzdolenc.com/python/src/menjalnica-1.py)
+        - Rešitev z branjem XML datoteke z Interneta, uporaba 2-D seznama, [menjalnica-2.py](http://media.matevzdolenc.com/python/src/menjalnica-2.py) -->
 
+{{< figure src="/img/py-menjalnica.png" >}}
