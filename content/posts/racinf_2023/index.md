@@ -180,26 +180,39 @@ Primeri:
 
 - Uvod v Python: branje in zapisovanje XML datotek
 
-- Izvorna koda: -
-          <!-- <ul>
-            <li>19.4.2023: 
-              <a href="http://media.matevzdolenc.com/python/src/geokar-20230419.py">geokar-20230419.py</a>, 
-              <a href="http://media.matevzdolenc.com/python/src/geokar-podatki-20230419.txt">geokar-podatki-20230419.txt</a></li>
-          </ul>
-            <li>Zapis podatkov o prerezu v XML datoteko z uporabo Python XML knjižnice,
-              <a href="http://media.matevzdolenc.com/python/src/geokar-8-2.py">geokar-8-2.py</a> </li>
-            <li>Branje podatkov o prerezu iz XML datoteke,
-              <a href="http://media.matevzdolenc.com/python/src/geokar-9-1.py">geokar-9-1.py</a></li>
-            <li>Podajanje imena vhodne datoteke s podatko o prerezu v ukazni vrstici,
-              <a href="http://media.matevzdolenc.com/python/src/geokar-9-2.py">geokar-9-2.py</a></li>
-            <li>Podajanje imena vhodne datoteke s podatko o prerezu v ukazni vrstici,
-              <a href="http://media.matevzdolenc.com/python/src/geokar-9-3.py">geokar-9-3.py</a></li>
-            <li>Ostale potrebne datoteke ...
-              <a href="http://media.matevzdolenc.com/python/src/geometrijske_karakteristike.py">geometrijske_karakteristike.py</a>,
-              <a href="http://media.matevzdolenc.com/python/src/geokar-podatki.txt">geokar-podatki.txt</a>,
-              <a href="http://media.matevzdolenc.com/python/src/geokar-podatki.xml">geokar-podatki.xml</a></li>
-          </ul>
-        </div> -->
+- Izvorna koda:
+	- Zapis podatkov o prerezu v XML datoteko z uporabo Python XML knjižnice, [geokar-8-2.py](http://media.matevzdolenc.com/python/src/geokar-8-2.py)
+    - Branje podatkov o prerezu iz XML datoteke, [geokar-9-1.py](http://media.matevzdolenc.com/python/src/geokar-9-1.py)
+    - Podajanje imena vhodne datoteke s podatko o prerezu v ukazni vrstici, [geokar-9-2.py](http://media.matevzdolenc.com/python/src/geokar-9-2.py)
+    - Podajanje imena vhodne datoteke s podatki o prerezu v ukazni vrstici, [geokar-9-3.py](http://media.matevzdolenc.com/python/src/geokar-9-3.py)
+    - Ostale potrebne datoteke ... [geometrijske_karakteristike.py](http://media.matevzdolenc.com/python/src/geometrijske_karakteristike.py), [geokar-podatki.txt](http://media.matevzdolenc.com/python/src/geokar-podatki.txt), [geokar-podatki.xml](http://media.matevzdolenc.com/python/src/geokar-podatki.xml)
 
 {{< figure src="/img/py-geokar-xml.png" >}}
 
+### 10. teden - sreda, 8. 5. 2024
+Knjižnice: [NumPy](https://www.numpy.org), [SciPy](https://scipy.org), [matplotlib](https://matplotlib.org)
+
+Python in SQL:
+- Baze podatkov: [SQLite](http://www.sqlite.org), [MySQL](http://www.mysql.com), ...
+- [Uporaba Python/SQL](http://www.python-course.eu/sql_python.php)
+- Zapis podatkov v bazo SQLite: [geokar-xml2db.py](http://media.matevzdolenc.com/python/src/geokar-xml2db.py), [geokar-podatki.xml](http://media.matevzdolenc.com/python/src/geokar-podatki.xml)
+- Iskanje podatkov v bazi SQLite: [geokar-10-1.py](http://media.matevzdolenc.com/python/src/geokar-10-1.py), [geometrijske_karakteristike.py](http://media.matevzdolenc.com/python/src/geometrijske_karakteristike.py)
+
+Python in Excel: 
+-  Uporaba knjižnice [openpyxl](https://openpyxl.readthedocs.io/en/stable/#): [mb_primer-1.py](http://media.matevzdolenc.com/python/src/mb_primer-1.py), [mb_primer-1.xlsx](http://media.matevzdolenc.com/python/src/mb_primer-1.xlsx)
+- Uporaba knjižnice [Pandas](http://pandas.pydata.org): [mb_primer-2.py](http://media.matevzdolenc.com/python/src/mb_primer-2.py), [mb_primer-2.xlsx](http://media.matevzdolenc.com/python/src/mb_primer-2.xlsx)
+
+Python in numerične analize:
+- Preprost primer izračuna sistema linearnih enačb, [linalg-1.py](http://media.matevzdolenc.com/python/src/linalg-1.py)
+- Izračun sistema linearnih enačb:
+	- Program: [linalg-2.py](http://media.matevzdolenc.com/python/src/linalg-2.py)
+	- Podatki - [Matrix Market](https://math.nist.gov/MatrixMarket/): [info](http://math.nist.gov/MatrixMarket/data/SPARSKIT/fidap/fidapm37.html), [fidapm37.mtx](http://media.matevzdolenc.com/python/src/fidapm37.mtx), [fidapm37_rhs1.mtx](http://media.matevzdolenc.com/python/src/fidapm37_rhs1.mtx)
+
+Uporaba knjižnice PyPlot:
+- Program za izris prereza: [geokar-plot.py](http://media.matevzdolenc.com/python/src/geokar-plot.py)
+- Podatki: [geokar-podatki-1.txt](http://media.matevzdolenc.com/python/src/geokar-podatki-1.txt), [geokar-podatki-2.txt](http://media.matevzdolenc.com/python/src/geokar-podatki-2.txt)
+
+Datoteke: [numpy-matplotlib-sqlite.zip](http://media.matevzdolenc.com/python/src/numpy-matplotlib-sqlite.zip)
+
+{{< figure src="/img/fidapm37_lg_city.gif" >}}
+{{< figure src="/img/py-geokar-pyplot.png" >}}
