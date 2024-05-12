@@ -216,3 +216,31 @@ Datoteke: [numpy-matplotlib-sqlite.zip](http://media.matevzdolenc.com/python/src
 
 {{< figure src="/img/fidapm37_lg_city.gif" >}}
 {{< figure src="/img/py-geokar-pyplot.png" >}}
+
+### 11. teden - sreda, 15. 5. 2024
+
+- Gradbena informatika:
+	- [Posebnosti gradbeništva](/files/posebnosti-gradbenistva.pdf)
+	- Uvod v gradbeno informatiko: [Splošno o gradbeni informatiki - značilnosti in posledice le-teh](/files/gradbena-informatika.pdf), [Informacije, podatki, znanje](/files/informacije-podatki-znanje.pdf)
+
+- Digitalni dokumenti:
+	* [Digitalni dokumenti](href="http://media.matevzdolenc.com/ul-fgg/2022-2023/digitalni-dokumenti.pdf) - prednosti in slabosti, standardi, itd.
+	* Excel - naslavljanje celic: absolutno/relativno, delo s formulami: pisanje/kopiranje, ...
+
+- LaTeX:
+	* [LaTeX](http://www.latex-project.org)
+ 	* [MiKTeX, LaTeX za Windows](http://miktex.org)
+	* [Ne najkrajši uvod v LaTeX](https://users.fmf.uni-lj.si/plestenjak/vaje/latex/lshort.pdf)
+	* [LaTeX Base](https://latexbase.com/)
+	* [Primer](/files/primer-latex.zip)
+	
+- Markdown:
+	* [Markdown](http://daringfireball.net/projects/markdown/)
+	* [Markdown Tutorial](http://markdowntutorial.com/)
+	* [Markdown za Windows](http://www.maketecheasier.com/best-markdown-editor-for-windows/)
+	* [Markdown hitra navodila](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+	* [Word to Markdown Converter](https://word-to-markdown.herokuapp.com)
+	* [Markdown Live Preview](https://markdownlivepreview.com)
+	* [Primer](/files/primer-md.zip)
+
+{{< figure src="/img/md-latex-preview.png" caption="Markdown (levo) in LaTeX (desno) predogled." >}}

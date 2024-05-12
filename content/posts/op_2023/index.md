@@ -197,17 +197,13 @@ Predavanja odpadejo.
 ### 11. teden - torek, 7. 5. 2024
 
 - Uvod v Python: branje XML datotek
-	- Izvorna koda: -
-            <!-- <li>Branje podatkov o prerezu iz XML datoteke,
-              <a href="http://media.matevzdolenc.com/python/src/geokar-9-1.py">geokar-9-1.py</a></li>
-            <li>Podajanje imena vhodne datoteke s podatko o prerezu v ukazni vrstici,
-              <a href="http://media.matevzdolenc.com/python/src/geokar-9-2.py">geokar-9-2.py</a></li>
-            <li>Podajanje imena vhodne datoteke s podatko o prerezu v ukazni vrstici,
-              <a href="http://media.matevzdolenc.com/python/src/geokar-9-3.py">geokar-9-3.py</a></li>
-            <li>Ostale potrebne datoteke ...
-              <a href="http://media.matevzdolenc.com/python/src/geometrijske_karakteristike.py">geometrijske_karakteristike.py</a>,
-              <a href="http://media.matevzdolenc.com/python/src/geokar-podatki.txt">geokar-podatki.txt</a>,
-              <a href="http://media.matevzdolenc.com/python/src/geokar-podatki.xml">geokar-podatki.xml</a></li> -->
+- Izvorna koda:
+	- Branje podatkov o prerezu iz XML datoteke, [geokar-9-1.py](http://media.matevzdolenc.com/python/src/geokar-9-1.py)
+    - Podajanje imena vhodne datoteke s podatko o prerezu v ukazni vrstici, [geokar-9-2.py](http://media.matevzdolenc.com/python/src/geokar-9-2.py)
+    - Podajanje imena vhodne datoteke s podatko o prerezu v ukazni vrstici, [geokar-9-3.py](http://media.matevzdolenc.com/python/src/geokar-9-3.py)
+    - Ostale potrebne datoteke ... [geometrijske_karakteristike.py](http://media.matevzdolenc.com/python/src/geometrijske_karakteristike.py), [geokar-podatki.txt](http://media.matevzdolenc.com/python/src/geokar-podatki.txt), [geokar-podatki.xml](http://media.matevzdolenc.com/python/src/geokar-podatki.xml)
+
+### 12. teden - torek, 14. 5. 2024
 
 - Naloga: Izdelaj program za menjalnico.
 	-  Programske zahteve:
