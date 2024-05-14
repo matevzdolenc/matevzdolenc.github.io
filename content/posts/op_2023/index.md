@@ -216,6 +216,11 @@ Predavanja odpadejo.
 	- Podatki:
 		- [Banka Slovenije](http://www.bsi.si)
 		- [Tečajna lista](http://www.bsi.si/_data/tecajnice/dtecbs.xml)
+		- [Primer popravljena XML datoteke tečajne liste](http://media.matevzdolenc.com/python/src/dtecbs.xml)
+	- Oddaja naloge:  
+		- Vsebino izdelane naloge zapakirajte v paket .zip. Oddate vse uporabljene oz. ustvarjene datoteke (python program, podatki, ...).
+		- Zip datoteko obvezno poimenujte takole: naloga-20240514-priimek-ime-vpisnaštevilka.zip
+		- Nalogo oddate v spletni učilnici - naloga Menjalnica
 	- Rešitev: -
 		<!-- - Primer lokalno shranjene tečajne liste z odstranjenim imenskim prostorom, [dtecbs.xml](http://media.matevzdolenc.com/python/src/dtecbs.xml)
         - Preprosta rešitev z lokalno datoteko in odstranjenim imenskim prostorom - implementiran samo prvi del naloge, ki za podan znesek v EUR izpiše vrednost v vseh ostalih valutah, [menjalnica-0.py](http://media.matevzdolenc.com/python/src/menjalnica-0.py)
