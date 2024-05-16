@@ -38,7 +38,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [39, 30, 26, 22, 20, 9, 9, 23, 1, 15, , , , , ],
+    data: [39, 30, 26, 22, 20, 9, 9, 23, 1, 15, 6, , , , ],
   }],
 },
 options: {
@@ -251,4 +251,22 @@ Internet stvari (angl. Internet of Things - IoT):
 
 {{< figure src="/img/vr-ar.jpeg" >}}
 
+### 12. teden - 20. 5. 2024
 
+Povzetek vsebin in priprava na izpit.
+
+### 13. teden - 27. 5. 2024
+
+Predstavitve seminarskih nalog:
+- Dolžina predstavitve:  3 - 5 minut
+- Predstavitev naj se začne z naslovnico (npr. v programu PowerPoint), ki vključuje: 
+	- ime in priimek študenta in 
+	- naslov izdelane spletne strani.
+- Pričakuje se, da bo v živo predstavljena izdelana spletna stran.
+- Predstavitve se bo ocenilo glede na:
+	- dolžino, vsebino in obliko predstavitve ter
+    - podajanje predstavitve.
+
+### 14. teden - 3. 6. 2024
+
+Predavanja odpadejo. Čas predavanj je namenjen predstavitvi seminarskih nalog, če to še niste opravili, in individualnim konzultacijam.

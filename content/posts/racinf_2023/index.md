@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [76, 67, 59, 58, 55, 58, 36, 46, 21, , , , , , ],
+    data: [76, 67, 59, 58, 55, 58, 36, 46, 21, 30, , , , , ],
   }],
 },
 options: {
@@ -244,3 +244,58 @@ Datoteke: [numpy-matplotlib-sqlite.zip](http://media.matevzdolenc.com/python/src
 	* [Primer](/files/primer-md.zip)
 
 {{< figure src="/img/md-latex-preview.png" caption="Markdown (levo) in LaTeX (desno) predogled." >}}
+
+### 12. teden - 22. 5. 2024
+
+- Internet in splet:
+	* [Uvod v Internet](/files/internet.pdf) - zgodovina, protokoli, ...
+	* [Uvod v splet](/files/splet.pdf) - zgotovina, protokoli, uporaba, 1.0/2.0/3.0, ...
+    * [Uvod v splet 2.0](/files/splet-2.0-rk.pdf)
+    * [Osnove inženirske komunikacije](/files/komunikacija.pdf)
+
+{{< figure src="/img/web2.png" caption="" >}}
+
+### 13. teden - 29. 5. 2024
+
+Virtualizacija:
+- [Virtualizacija - uporaba navideznih računalnikov](/files/virtualizacija.pdf)
+- [Distro Watch](http://distrowatch.com/) - seznam Linux distribucij
+- [Oracle VirtualBox](https://www.virtualbox.org) - okolje za virtualizacijo oeracijskih sistemov
+- Linux distribucije: [Ubuntu](https://ubuntu.com), [Fedora](http://fedoraproject.org), [Redhat](http://www.redhat.com)
+- Naloga: Namestitev VirtualBox in preiskus ene izmed Linux distribucij.
+
+Podatkovni centri:
+- [Google Datacenters](https://www.google.com/about/datacenters/)
+- [AWS data centers](https://aws.amazon.com/compliance/data-center/data-centers/)
+- [Facebook Engineering](https://engineering.fb.com)
+
+Baze podatkov:
+- [Uvod v podatkovne baze](/files/baze-podatkov-1920.pdf)
+- [2019 Database Trends – SQL vs. NoSQL, Top Databases, Single vs. Multiple Database Use](https://scalegrid.io/blog/2019-database-trends-sql-vs-nosql-top-databases-single-vs-multiple-database-use/)
+
+{{< figure src="/img/virtualizacija-virtualbox.png" >}}
+
+### 14. teden - 5. 6. 2024
+
+Knjiga David Weinberger, “Everything is Miscellaneous: The Power of the New Digital Disorder”:
+- [Vse je različno](/files/vse-je-razlicno.pdf)
+- [Everything is Miscellaneous](http://www.youtube.com/watch?v=x3wOhXsjPYM) - video
+- [Information R/evolution](http://www.youtube.com/watch?v=-4CV05HyAbM) - video
+
+Odprta koda:
+- [Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, kaj pomeni za končne upodarbnike
+
+Navidezna in razširjena resničnost:
+- [Osnove in primeri](http://media.matevzdolenc.com/ul-fgg/2021-2022/vr-ar.pdf)
+- DOLENC, Matevž. [Augmented reality in AEC industry](https://www.intechopen.com/online-first/1153616). V: BOULANGER, Pierre (ur.). Applications of Augmented Reality - Current State of the Art. London: IntechOpen Limited, 2023. Str. 1-14, ilustr. ISBN 978-1-83769-334-4., DOI: 10.5772/intechopen.1002371. [COBISS.SI-ID 164279299]
+- DE HUGO SILVA, Angela Cristina, GABER, Metod, DOLENC, Matevž. [Using Augmented Reality in Different BIM Workflows](https://www.intechopen.com/online-first/77894). V: Augmented Reality. London: IntechOpen Limited, 2021. Str. 1-14, ilustr. DOI: 10.5772/intechopen.99336. [COBISS.SI-ID 94789635]
+- Sebastjan Meža, [Razširjena resničnost kot infrastruktura za izboljšanje komunikacije v gradbenih projektih](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=30946&lang=slv)
+- Luka Gradišar, [Dan odprtih vrat: Digitalno modeliranje in navidzna resničnost](http://media.matevzdolenc.com/ul-fgg/2021-2022/Dan_odprtih_vrat_Digitalno_in_navidezna_resnicnost.pdf)
+- Naloga: Namestite in preiskusite [BIMx](http://www.graphisoft.com/bimx/)
+
+Internet stvari (angl. Internet of Things - IoT):
+- [Osnove in primeri](http://media.matevzdolenc.com/ul-fgg/2021-2022/iot.pdf)
+- [Internet of Things Infographic | What Is The "Internet of Things"?](https://www.postscapes.com/what-exactly-is-the-internet-of-things-infographic/)
+
+{{< figure src="/img/vr-ar.jpeg" >}}
+

@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [10, 9, 8, 8, 8, 9, 9, 9, 8, 0, , , , , ],
+    data: [10, 9, 8, 8, 8, 9, 9, 9, 8, 0, 8, , , , ],
   }],
 },
 options: {
@@ -205,26 +205,78 @@ Predavanja odpadejo.
 
 ### 12. teden - torek, 14. 5. 2024
 
-- Naloga: Izdelaj program za menjalnico.
-	-  Programske zahteve:
-		- program naj prebere trenutno tečajno listo iz XML datoteke
-        - za podano vrednost v EUR naj program izpiše vrednosti v vseh ostali valutah
-        - za podano vredno v izbrani valuti naj program izračuna ustrezno vrednost v EUR
-	- Pomoč:
-		- Tečajno listo shranite na lokalni disk.
-        - V XML datoteki lahko odstranite atribute korenskega XML elementa.
-	- Podatki:
-		- [Banka Slovenije](http://www.bsi.si)
-		- [Tečajna lista](http://www.bsi.si/_data/tecajnice/dtecbs.xml)
-		- [Primer popravljena XML datoteke tečajne liste](http://media.matevzdolenc.com/python/src/dtecbs.xml)
-	- Oddaja naloge:  
-		- Vsebino izdelane naloge zapakirajte v paket .zip. Oddate vse uporabljene oz. ustvarjene datoteke (python program, podatki, ...).
-		- Zip datoteko obvezno poimenujte takole: naloga-20240514-priimek-ime-vpisnaštevilka.zip
-		- Nalogo oddate v spletni učilnici - naloga Menjalnica
-	- Rešitev: -
-		<!-- - Primer lokalno shranjene tečajne liste z odstranjenim imenskim prostorom, [dtecbs.xml](http://media.matevzdolenc.com/python/src/dtecbs.xml)
-        - Preprosta rešitev z lokalno datoteko in odstranjenim imenskim prostorom - implementiran samo prvi del naloge, ki za podan znesek v EUR izpiše vrednost v vseh ostalih valutah, [menjalnica-0.py](http://media.matevzdolenc.com/python/src/menjalnica-0.py)
-        - Preprosta rešitev z lokalno datoteko in odstranjenim imenskim prostorom, [menjalnica-1.py](http://media.matevzdolenc.com/python/src/menjalnica-1.py)
-        - Rešitev z branjem XML datoteke z Interneta, uporaba 2-D seznama, [menjalnica-2.py](http://media.matevzdolenc.com/python/src/menjalnica-2.py) -->
+Naloga: Izdelaj program za menjalnico.
+
+-  Programske zahteve:
+	- program naj prebere trenutno tečajno listo iz XML datoteke
+	- za podano vrednost v EUR naj program izpiše vrednosti v vseh ostali valutah
+	- za podano vredno v izbrani valuti naj program izračuna ustrezno vrednost v EUR
+- Pomoč:
+	- Tečajno listo shranite na lokalni disk.
+	- V XML datoteki lahko odstranite atribute korenskega XML elementa.
+- Podatki:
+	- [Banka Slovenije](http://www.bsi.si)
+	- [Tečajna lista](http://www.bsi.si/_data/tecajnice/dtecbs.xml)
+	- [Primer popravljena XML datoteke tečajne liste](http://media.matevzdolenc.com/python/src/dtecbs.xml)
+- Oddaja naloge:  
+	- Vsebino izdelane naloge zapakirajte v paket .zip. Oddate vse uporabljene oz. ustvarjene datoteke (python program, podatki, ...).
+	- Zip datoteko obvezno poimenujte takole: naloga-20240514-priimek-ime-vpisnaštevilka.zip
+	- Nalogo oddate v spletni učilnici - naloga Menjalnica
+- Rešitev:
+	- Primer lokalno shranjene tečajne liste z odstranjenim imenskim prostorom, [dtecbs.xml](http://media.matevzdolenc.com/python/src/dtecbs.xml)
+	- Preprosta rešitev z lokalno datoteko in odstranjenim imenskim prostorom - implementiran samo prvi del naloge, ki za podan znesek v EUR izpiše vrednost v vseh ostalih valutah, [menjalnica-0.py](http://media.matevzdolenc.com/python/src/menjalnica-0.py)
+	- Preprosta rešitev z lokalno datoteko in odstranjenim imenskim prostorom, [menjalnica-1.py](http://media.matevzdolenc.com/python/src/menjalnica-1.py)
+	- Rešitev z branjem XML datoteke z Interneta, uporaba 2-D seznama, [menjalnica-2.py](http://media.matevzdolenc.com/python/src/menjalnica-2.py)
 
 {{< figure src="/img/py-menjalnica.png" >}}
+
+### 13. teden - 21. 5. 2024
+
+Naloga: Izdelajte Python program, ki podane podatke v tekstovni datoteki pretvori v [KML](https://developers.google.com/kml/) zapis. KML datoteko poglejte v programu Google Earth.
+
+Podatki (glej primer [KML-podatki.txt](http://media.matevzdolenc.com/ul-fgg/2022-2023/KML-podatki.txt)):
+- 1 vrstica: center x-centra y-centra __# ime kraja in x in y koordinata kraja v decimalnih stopinjah__
+- 2 vrstica: n __# število podanih krajev (celo število)__
+- 3 + n vrstica: kraj x y __# kraj in x in y koordinata kraja v decimalnih stopinjah__
+
+Navodila:
+- Pripravite tekstovno datoteko s podatki oz. uporabite podatke v datoteki KML-podatki.txt. Za podatke si lahko npr. sestavite s podatki o koordinatah krajev od koder so študenti v letniku.
+- V programu Google Earth pripravite preprost primer prikaza vaših izbranih podatkov. V programu shranite podatke v datoteko tipa KML (ne KMZ). V ustvarjeni datoteki preverite način zapisa uporabljenih podatkov. Natančno razlago zapisa KML datoteke lahko poiščete v [KML dokumentaciji](https://developers.google.com/kml/)
+- Izdelajte program, ki ga zahteva naloga. Delovanje programa preverite na testnih podatkih.
+
+Datoteke:
+- [KML-podatki.txt](http://media.matevzdolenc.com/ul-fgg/2022-2023/KML-podatki.txt)
+- [primer.kml](http://media.matevzdolenc.com/ul-fgg/2022-2023/primer.kml)
+
+Rešitev: -
+<!-- - [kml-studenti.py](http://media.matevzdolenc.com/python/src/kml-studenti.py) -->
+
+{{< figure src="/img/kml-kraji.jpg" >}}
+
+{{< figure src="/img/kml-kraji-crte.jpg" >}}
+
+### 14. teden - 28. 5. 2024
+
+Naloga z Excelom.
+
+Navodila:
+1. V programu Excel pripravite tabelo s tremi stolpci. Vsak študent določi podatke za eno vrstico:
+	- 1 stolpec: ime - ime študenta
+	- 2 stolpec: število1 - poljubno realno število od -100 do 100
+	- 3 stolpec: število2 - poljubno celo število od 0 do 100
+2. Podatke iz programa Excel prenesite v tekstovno datoteko. Datoteko lahko dopolnite tako, da bo branje podatkov s programom, izdelanem v programskem jeziku Python, bolj preprosto.
+V programskem jeziku Python izdelajte program, ki ...
+	- prebere podatke iz datoteke, ki ste jo pripravili v točki 2 in prebrane podatke izpiše na zaslon v obliki tabele,
+    - podatke izpiše v XML datoteko (oblika datoteke ni predpisana),
+    - izračuna in izpiše na zaslon povprečno vrednost števil v 2. in 3. stolpcu tabele,
+    - izračuna razliko med podanimi podatki v 2. in 3. stolpcu ter rezultate izpiše na zaslon in v izhodno tekstovno datoteko,
+3. v datoteko, ki ste jo pripravili v 1. točki naloge, prenesite rezultate iz izhodne tekstovne datoteke in izdelajte graf teh rezultatov.
+4. V programskem jeziku Python izdelajte program, ki prebere XML datoteko iz 3. točke naloge in podatke v obliki tabele izpiše na zaslon.
+
+Rešitev: - 
+<!-- [naloga_z_excelom.zip](http://media.matevzdolenc.com/python/src/naloga_z_excelom.zip) -->
+
+### 15. teden - 4. 6. 2024
+
+Ponovitev in priprava na izpit.
+
