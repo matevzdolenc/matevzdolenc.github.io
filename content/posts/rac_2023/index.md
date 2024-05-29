@@ -38,7 +38,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [39, 30, 26, 22, 20, 9, 9, 23, 1, 15, 6, , , , ],
+    data: [39, 30, 26, 22, 20, 9, 9, 23, 1, 15, 6, 11, 22, , ],
   }],
 },
 options: {
@@ -266,6 +266,45 @@ Predstavitve seminarskih nalog:
 - Predstavitve se bo ocenilo glede na:
 	- dolžino, vsebino in obliko predstavitve ter
     - podajanje predstavitve.
+
+{{< chart >}}
+type: 'bar',
+data: {
+  labels: ['Google Sites', 'Webador', 'Wix', 'Wordpress', 'Website Builder', 'Bookipi'],
+  datasets: [{
+    label: 'Spletni servisi za izdelavo spletnih strani',
+    data: [11, 4, 2, 2, 1, 1],
+  }],
+},
+options: {
+	plugins: {
+		tooltip: {
+			enabled: false
+		},
+		title: {
+			display: true,
+			text: 'Uporabljeni spletni servisi za izdelavo spletnih strani'
+		},
+		legend: {
+			display: false
+		},
+	},
+	scales: {
+		x: {
+			title: {
+          		display: true,
+          		text: 'Spletni servisi za izdelavo spletnih strani'
+	        },
+		},
+		y: {
+			title: {
+          		display: true,
+          		text: 'Število izdelanih spletnih strani'
+	        },
+		}
+	}
+}
+{{< /chart >}}
 
 ### 14. teden - 3. 6. 2024
 

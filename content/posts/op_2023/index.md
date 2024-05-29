@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [10, 9, 8, 8, 8, 9, 9, 9, 8, 0, 8, , , , ],
+    data: [10, 9, 8, 8, 8, 9, 9, 9, 8, 0, 8, 8, , , ],
   }],
 },
 options: {
@@ -248,8 +248,7 @@ Datoteke:
 - [KML-podatki.txt](http://media.matevzdolenc.com/ul-fgg/2022-2023/KML-podatki.txt)
 - [primer.kml](http://media.matevzdolenc.com/ul-fgg/2022-2023/primer.kml)
 
-Rešitev: -
-<!-- - [kml-studenti.py](http://media.matevzdolenc.com/python/src/kml-studenti.py) -->
+Rešitev: [kml-studenti.py](http://media.matevzdolenc.com/python/src/kml-studenti.py)
 
 {{< figure src="/img/kml-kraji.jpg" >}}
 
@@ -273,8 +272,7 @@ V programskem jeziku Python izdelajte program, ki ...
 3. v datoteko, ki ste jo pripravili v 1. točki naloge, prenesite rezultate iz izhodne tekstovne datoteke in izdelajte graf teh rezultatov.
 4. V programskem jeziku Python izdelajte program, ki prebere XML datoteko iz 3. točke naloge in podatke v obliki tabele izpiše na zaslon.
 
-Rešitev: - 
-<!-- [naloga_z_excelom.zip](http://media.matevzdolenc.com/python/src/naloga_z_excelom.zip) -->
+Rešitev: [naloga_z_excelom.zip](http://media.matevzdolenc.com/python/src/naloga_z_excelom.zip)
 
 ### 15. teden - 4. 6. 2024
 

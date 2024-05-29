@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [76, 67, 59, 58, 55, 58, 36, 46, 21, 30, , , , , ],
+    data: [76, 67, 59, 58, 55, 58, 36, 46, 21, 30, 20, , , , ],
   }],
 },
 options: {
@@ -264,26 +264,26 @@ Virtualizacija:
 - Linux distribucije: [Ubuntu](https://ubuntu.com), [Fedora](http://fedoraproject.org), [Redhat](http://www.redhat.com)
 - Naloga: Namestitev VirtualBox in preiskus ene izmed Linux distribucij.
 
-Podatkovni centri:
-- [Google Datacenters](https://www.google.com/about/datacenters/)
-- [AWS data centers](https://aws.amazon.com/compliance/data-center/data-centers/)
-- [Facebook Engineering](https://engineering.fb.com)
-
-Baze podatkov:
-- [Uvod v podatkovne baze](/files/baze-podatkov-1920.pdf)
-- [2019 Database Trends – SQL vs. NoSQL, Top Databases, Single vs. Multiple Database Use](https://scalegrid.io/blog/2019-database-trends-sql-vs-nosql-top-databases-single-vs-multiple-database-use/)
-
-{{< figure src="/img/virtualizacija-virtualbox.png" >}}
-
-### 14. teden - 5. 6. 2024
+Odprta koda:
+- [Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, kaj pomeni za končne upodarbnike
 
 Knjiga David Weinberger, “Everything is Miscellaneous: The Power of the New Digital Disorder”:
 - [Vse je različno](/files/vse-je-razlicno.pdf)
 - [Everything is Miscellaneous](http://www.youtube.com/watch?v=x3wOhXsjPYM) - video
 - [Information R/evolution](http://www.youtube.com/watch?v=-4CV05HyAbM) - video
 
-Odprta koda:
-- [Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, kaj pomeni za končne upodarbnike
+{{< figure src="/img/virtualizacija-virtualbox.png" >}}
+
+### 14. teden - 5. 6. 2024
+
+Baze podatkov:
+- [Uvod v podatkovne baze](/files/baze-podatkov-1920.pdf)
+- [2019 Database Trends – SQL vs. NoSQL, Top Databases, Single vs. Multiple Database Use](https://scalegrid.io/blog/2019-database-trends-sql-vs-nosql-top-databases-single-vs-multiple-database-use/)
+
+Podatkovni centri:
+- [Google Datacenters](https://www.google.com/about/datacenters/)
+- [AWS data centers](https://aws.amazon.com/compliance/data-center/data-centers/)
+- [Facebook Engineering](https://engineering.fb.com)
 
 Navidezna in razširjena resničnost:
 - [Osnove in primeri](http://media.matevzdolenc.com/ul-fgg/2021-2022/vr-ar.pdf)
