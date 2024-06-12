@@ -270,10 +270,10 @@ Predstavitve seminarskih nalog:
 {{< chart >}}
 type: 'bar',
 data: {
-  labels: ['Google Sites', 'Webador', 'Wix', 'Wordpress', 'Website Builder', 'Bookipi'],
+  labels: ['Google Sites', 'Webador', 'Wordpress', 'Wix', 'Website Builder', 'Bookipi'],
   datasets: [{
     label: 'Spletni servisi za izdelavo spletnih strani',
-    data: [11, 4, 2, 2, 1, 1],
+    data: [15, 10, 4, 2, 1, 1],
   }],
 },
 options: {
