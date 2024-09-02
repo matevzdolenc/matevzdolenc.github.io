@@ -12,7 +12,7 @@ weight: 16
 {{< param "description">}}
 {{< /lead >}}
 
-{{< youtubeLite id="eXN9GzfyzOI" label="Python za inženirje - video | 016 - Geometrijske karakteristike - moduli" >}}
+{{< youtubeLite id="ylsPrYo4mSk" label="Python za inženirje - video | 016 - Geometrijske karakteristike - moduli" >}}
 
 ## Povezave
 - [Definiranje funkcij](https://docs.python.org/3/tutorial/controlflow.html#defining-functions) 
