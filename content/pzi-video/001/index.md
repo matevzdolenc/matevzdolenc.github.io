@@ -5,6 +5,7 @@ description: "Uvod v serijo izobraževalnih video posnetkov z naslovom Python za
 tags: ["pzi", "python"]
 series: ["Python za inženirje - video"]
 series_order: 1
+weight: 1
 ---
 
 {{< lead >}}

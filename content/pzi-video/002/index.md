@@ -5,6 +5,7 @@ description: "Namestitev programskega sistema Python 3."
 tags: ["pzi", "python"]
 series: ["Python za inženirje - video"]
 series_order: 2
+weight: 2
 ---
 
 {{< lead >}}

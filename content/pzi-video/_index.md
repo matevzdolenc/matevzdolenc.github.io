@@ -7,6 +7,8 @@ cascade:
   showAuthor: false
   invertPagination: true
   showHero: false
+  showWordCount: false
+  showReadingTime: false
 ---
 
 {{< lead >}}

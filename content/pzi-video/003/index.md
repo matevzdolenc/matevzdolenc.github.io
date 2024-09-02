@@ -5,6 +5,7 @@ description: "Prvi program v programskem jeziku Python."
 tags: ["pzi", "python"]
 series: ["Python za inženirje - video"]
 series_order: 3
+weight: 3
 ---
 
 {{< lead >}}
