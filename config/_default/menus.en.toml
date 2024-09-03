@@ -60,6 +60,24 @@ parent = "Predavanja"
 pageRef = "/posts/rac_2023"
 weight = 50
 
+[[main]]
+name = "------"
+parent = "Predavanja"
+pageRef = ""
+weight = 60
+
+[[main]]
+name = "Python za inženirje - video"
+parent = "Predavanja"
+pageRef = "/pzi-video"
+weight = 70
+
+[[main]]
+name = "HTCondor za inženirje"
+parent = "Predavanja"
+pageRef = "/htcondor"
+weight = 80
+
 # 
 # [[main]]
 #  name = "BIM A+"

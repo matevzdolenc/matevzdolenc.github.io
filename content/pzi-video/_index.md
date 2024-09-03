@@ -1,8 +1,10 @@
 ---
 title: "Python za inženirje - video"
 description: "Naučite se programirati v programskem jeziku Python."
+showDate: false
 
 cascade:
+  showBreadcrumbs: true
   showDate: false
   showAuthor: false
   invertPagination: true
