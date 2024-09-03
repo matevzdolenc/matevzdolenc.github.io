@@ -2,7 +2,7 @@
 title: "023 - Geometrijske karakteristike - različni podatki"
 draft: false
 description: "Program za izračun geometrijskih karakteristik poligonalnih prerezov. Izvedba programa z možnostjo vnosa podatkov v različnih zapisih (TXT, XML, JSON, SQLite)."
-tags: ["pzi", "python", "sql"]
+tags: ["pzi", "python", "json", "xml", "sql"]
 series: ["Python za inženirje - video"]
 series_order: 23
 weight: 23

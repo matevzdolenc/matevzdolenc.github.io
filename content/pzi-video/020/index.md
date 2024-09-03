@@ -2,7 +2,7 @@
 title: "020 - Geometrijske karakteristike - json"
 draft: false
 description: "Program za izračun geometrijskih karakteristik poligonalnih prerezov. Uporaba JSON datotek - branje in zapisovanje podatkov."
-tags: ["pzi", "python"]
+tags: ["pzi", "python", "xml"]
 series: ["Python za inženirje - video"]
 series_order: 20
 weight: 20
