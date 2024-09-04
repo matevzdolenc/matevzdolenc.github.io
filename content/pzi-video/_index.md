@@ -2,6 +2,7 @@
 title: "Python za inženirje - video"
 description: "Naučite se programirati v programskem jeziku Python."
 showDate: false
+orderByWeight: true
 
 cascade:
   showBreadcrumbs: true
@@ -24,3 +25,4 @@ Video posnetki so v prvi vrsti namenjeni inženirjem in študentom gradbeništva
 Prepričan sem, da vam bodo video posnetki olajšali spoznavanje programskega jezika Python in omogočili razvoj uporabnih programskih rešitev.
 
 ---
+
