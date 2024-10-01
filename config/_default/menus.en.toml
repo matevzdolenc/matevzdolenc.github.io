@@ -45,8 +45,14 @@ weight = 20
 [[main]]
 name = "Programiranje"
 parent = "Predavanja"
-pageRef = "/posts/prog_2023"
+pageRef = "/posts/prog_2024"
 weight = 30
+
+[[main]]
+name = "Computer Programming (ERASMUS)"
+parent = "Predavanja"
+pageRef = "/posts/cp_2024"
+weight = 35
 
 [[main]]
 name = "Računalništvo in informatika"
