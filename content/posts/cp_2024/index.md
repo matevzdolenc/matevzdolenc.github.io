@@ -23,17 +23,17 @@ The aim of the course is to acquaint students with the basic concepts and techni
 
 ### Schedule
 
-- lectures, ...
-- project work, ...
+- Lectures: Wednesday, 12:15 - 13:00, classroom J-II/2 (II/2)
+- Project work: individual
 
 ### Contact
 
-- office hours - Monday 9-10, room 035
+- office hours - Monday 9 - 10, room 035
 - email - [mdolenc@fgg.uni-lj.si](mailto:mdolenc@fgg.uni-lj.si)
 
 ## Lectures
 
-### 2. week
+### 1. and 2. week, Oct 9 2024
 
 Introduction
 
@@ -44,4 +44,4 @@ Computer Programming:
 
 Project work:
 - Prepare programming project proposal - 5 to 7 slides.
-- Project proposal presentations: ...
+- Project proposal presentations 
