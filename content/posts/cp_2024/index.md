@@ -45,3 +45,12 @@ Computer Programming:
 Project work:
 - Prepare programming project proposal - 5 to 7 slides.
 - Project proposal presentations 
+
+### 3. week, Oct 16 2024
+
+Software development: 
+- [Agile manifesto](https://agilemanifesto.org)
+- [Agile methodologies](/files/BIM_A+3.2_Agile_methodologies.pdf)
+
+Project work:
+- Project proposal presentations 
