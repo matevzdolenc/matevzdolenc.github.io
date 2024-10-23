@@ -46,7 +46,7 @@ Project work:
 - Prepare programming project proposal - 5 to 7 slides.
 - Project proposal presentations 
 
-### 3. week, Oct 16 2024
+### 3. and 4. week, Oct 23 2024
 
 Software development: 
 - [Agile manifesto](https://agilemanifesto.org)
