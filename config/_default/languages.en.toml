@@ -13,7 +13,7 @@ title = "matevzdolenc.com"
   # description = "Sailing Lua around the World."
   copyright = "Copyright &copy; matevzdolenc.com | All rights reserved."
 
-[author]
+[params.author]
   name = "Matevž Dolenc"
   image = "img/logo.png"
   headline = "Late discoverer"

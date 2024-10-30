@@ -54,3 +54,16 @@ Software development:
 
 Project work:
 - Project proposal presentations 
+
+### 5. week, Oct 30 2024
+
+Introduction to Python programming language:
+- [Intro to Python](/files/BIM_A+3.2_Python.pdf)
+- [Python Homepage](https://www.python.org)
+- [Python Documentation](https://docs.python.org/3/)
+- A free full Python course I like - [Python Tutorial for Beginners - Learn Python in 5 Hours](https://www.youtube.com/watch?v=t8pPdKYpowI)
+
+{{< youtubeLite id="QOyRmtJyOIM" label="Installing Python Environment" >}}{{< youtubeLite id="C29KjrwoT4I" label="Installing Python Editor" >}}
+
+
+
