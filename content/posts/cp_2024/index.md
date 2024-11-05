@@ -65,5 +65,10 @@ Introduction to Python programming language:
 
 {{< youtubeLite id="QOyRmtJyOIM" label="Installing Python Environment" >}}{{< youtubeLite id="C29KjrwoT4I" label="Installing Python Editor" >}}
 
+### 6. week, Nov 6 2024
+
+Project work:
+- Progress in past 14 days
+- Q&A 
 
 
