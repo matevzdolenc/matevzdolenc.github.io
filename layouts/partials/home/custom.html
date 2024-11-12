@@ -1,71 +1,36 @@
 {{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
-<article
-  class="{{ if not .Site.Params.homepage.showRecent }}
+<article class="{{ if not .Site.Params.homepage.showRecent }}
     h-full
-  {{ end }} flex flex-col items-center justify-center text-center"
->
-  <header class="flex flex-col items-center mb-3">
+  {{ end }} flex flex-col items-center justify-center text-center">
+  <header class="relative px-1 py-1 flex flex-col items-center mb-3">
     {{ with .Site.Params.Author.image }}
-      {{ $authorImage := resources.Get . }}
+      {{ $authorImage := "" }}
+      {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+        {{ $authorImage = resources.GetRemote . }}
+      {{ else }}
+        {{ $authorImage = resources.Get . }}
+      {{ end }}
       {{ if $authorImage }}
         {{ if not $disableImageOptimization }}
-        {{ $authorImage = $authorImage.Fill "288x288" }}
+          {{ $authorImage = $authorImage.Fill (print "288x288 q" ( $.Site.Params.Author.imagequality | default "96" )) }}
         {{ end }}
-        <img
-          class="mb-2 rounded-full h-36 w-36"
-          width="144"
-          height="144"
-          alt="{{ $.Site.Params.Author.name | default "Author" }}"
-          src="{{ $authorImage.RelPermalink }}"
-        />
+        <img class="mb-2 rounded-full h-36 w-36" width="144" height="144" alt="{{ $.Site.Params.Author.name | default " Author" }}"
+          src="{{ $authorImage.RelPermalink }}" />
       {{ end }}
     {{ end }}
     <h1 class="text-4xl font-extrabold">
       {{ .Site.Params.Author.name | default .Site.Title }}
     </h1>
     {{ with .Site.Params.Author.headline }}
-      <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
-        {{ . | markdownify | emojify }}
-      </h2>
+    <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
+      {{ . | markdownify }}
+    </h2>
     {{ end }}
     <div class="mt-1 text-2xl">
       {{ partialCached "author-links.html" . }}
     </div>
   </header>
-<!-- 
-  <section>
-    <p class="text-xs text-neutral-500 dark:text-neutral-400" id="demo"></p>
-	</section>
- -->
-
-<!-- 
-<script>
-Date.difference = function (dateFrom, dateTo) {
-  var diff = { TotalMs: dateTo - dateFrom };
-  diff.Days = Math.floor(diff.TotalMs / 86400000);
-
-  var remHrs = diff.TotalMs % 86400000;
-  var remMin = remHrs % 3600000;
-  var remS   = remMin % 60000;
-
-  diff.Hours        = Math.floor(remHrs / 3600000);
-  diff.Minutes      = Math.floor(remMin / 60000);
-  diff.Seconds      = Math.floor(remS   / 1000);
-  diff.Milliseconds = Math.floor(remS % 1000);
-  return diff;
-};
-
-// Set the date we're counting down to
-var x = setInterval(function() {
-  var countDownDate = new Date("Feb 28, 2024 12:00:00").getTime();
-  var now = new Date().getTime();
-  var dateDiff = Date.difference(now, countDownDate)
-  document.getElementById("demo").innerHTML = dateDiff.Days + " days " + dateDiff.Hours + " hours " + dateDiff.Minutes + " minutes ";
-}, 1000);
-</script>
- -->
-
-<section class="prose dark:prose-invert">{{ .Content | emojify }}</section>
+  <section class="prose dark:prose-invert">{{ .Content }}</section>
 </article>
 <section>
   {{ partial "recent-articles/main.html" . }}
