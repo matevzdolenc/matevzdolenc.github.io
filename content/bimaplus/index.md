@@ -14,7 +14,7 @@ BIM A+ module 3 presentations and videos on programming related topics.
 
 - [Lecturer: Matevž Dolenc](/bimaplus//BIM_A+3.2_Matevz_Dolenc.pdf)
 - [AEC Specifics](/bimaplus/BIM_A+3.2_AEC_Specifics.pdf)
-- [Agile methodologies](bimaplus/BIM_A+3.2_Agile_methodologies.pdf)
+- [Agile methodologies](/bimaplus/BIM_A+3.2_Agile_methodologies.pdf)
 - [Git and GitHub](/bimaplus/BIM_A+3.2_Git_and_GitHub.pdf)
 - [Data science](/bimaplus/BIM_A+3.2_Data_science.pdf)
 - [Python programming language and environment](/bimaplus/BIM_A+3.2_Python.pdf)
@@ -26,13 +26,18 @@ BIM A+ module 3 presentations and videos on programming related topics.
 
 ## Videos
 
-{{< youtubeLite id="QOyRmtJyOIM" label="Installing Python Environment" >}}
-
-{{< youtubeLite id="C29KjrwoT4I" label="Installing Python Editor" >}}
-
+{{< youtubeLite id="QOyRmtJyOIM" label="Installing Python Environment" >}} 
+<p>&nbsp;</p> 
+{{< youtubeLite id="C29KjrwoT4I" label="Installing Python Editor" >}} 
+<p>&nbsp;</p> 
 {{< youtubeLite id="bdai0ZUwOCc" label="Setting up Git and GitHub" >}}
 
 ## Links
+
+Agile methodologies:
+- [Agile manifesto](https://agilemanifesto.org)
+- [Home of Scrum](https://www.scrum.org)
+- [Agile Alliance](https://www.agilealliance.org)
 
 General programming:
 - Andrew Hunt, David Thomas, [The Pragmatic Programmer: from journeyman to master](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
