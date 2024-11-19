@@ -84,6 +84,12 @@ parent = "Predavanja"
 pageRef = "/htcondor"
 weight = 80
 
+[[main]]
+name = "BIM A+ 3"
+parent = "Predavanja"
+pageRef = "/bimaplus"
+weight = 90
+
 # 
 # [[main]]
 #  name = "BIM A+"
