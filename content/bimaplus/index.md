@@ -23,6 +23,7 @@ BIM A+ module 3 presentations and videos on programming related topics.
 
 - [Programming assignment 1](/bimaplus/BIM_A+3.2_Programming_assignments_-_01.pdf)
 - [Programming assignment 2](/bimaplus/BIM_A+3.2_Programming_assignments_-_02.pdf)
+- Geo locations - Google Sheet URL @ BIM A+ e-Learning platform
 
 ## Videos
 
