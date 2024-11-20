@@ -1,5 +1,5 @@
 ---
-title: "BIM A+ 3 - Computer programming"
+title: "BIM A+ 3 - Fundamentals of programming"
 description: "Lectures for the BIM A+ 3"
 showWordCount: false
 showReadingTime: false
