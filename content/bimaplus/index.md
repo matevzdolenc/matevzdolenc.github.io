@@ -47,6 +47,7 @@ General programming:
 Introduction to Python programming language:
 - [Python Homepage](https://www.python.org)
 - [Python Documentation](https://docs.python.org/3/)
+- [Anaconda Python](https://www.anaconda.com)
 - A free full Python course I like - [Python Tutorial for Beginners - Learn Python in 5 Hours](https://www.youtube.com/watch?v=t8pPdKYpowI)
 - Programiz, [Python Online Compiler](https://www.programiz.com/python-programming/online-compiler/) 
 - Jupyter Project and Community, [Jupyter](https://jupyter.org/try)
