@@ -86,3 +86,9 @@ Links:
 
 {{< youtubeLite id="4XpnKHJAok8" label="Tech Talk: Linus Torvalds on git" >}}
 
+### 8. week, Nov 27 2024
+
+Project work:
+- Progress in past 14 days
+- Q&A 
+
