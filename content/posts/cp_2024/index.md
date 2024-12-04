@@ -92,3 +92,12 @@ Project work:
 - Progress in past 14 days
 - Q&A 
 
+### 9. teden, Dec 4 2024
+
+Personal website:
+- [A personal website - why and how](/files/personal-website.pdf)
+- Deadline: Dec 11 2024
+
+Project work:
+- Progress in past 14 days
+- Q&A 
