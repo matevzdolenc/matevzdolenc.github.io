@@ -101,3 +101,27 @@ Personal website:
 Project work:
 - Progress in past 14 days
 - Q&A 
+
+### 10. teden, Dec 11 2024
+
+Web programming:
+- HTML, CSS, JavaScript
+- Develop a simple web based application for calculating area of a circle solution: [krog-js.zip](http://media.matevzdolenc.com/ul-fgg/gig-prog-2016/krog-js.zip)
+- Links:
+  - [Bootstrap](http://getbootstrap.com)
+  - [Foundation](https://foundation.zurb.com)
+          
+JavaScript frameworks - some of the most popular ones:
+- [EMBER](http://emberjs.com/)
+- [ANGULAR](http://angularjs.org/)
+- [BACKBONE](http://backbonejs.org/)
+- [React](http://facebook.github.io/react/) and [React Native](https://facebook.github.io/react-native/)
+
+On JS libraries:
+- [Comparison of JS frameworks](http://blog.andyet.com/2014/08/13/opinionated-rundown-of-js-frameworks)
+- [A list of JS libraries](http://en.wikipedia.org/wiki/List_of_JavaScript_libraries)
+- [Libraries - State of JS 2023](https://2023.stateofjs.com/en-US/libraries)
+
+Project work:
+- Progress in past 14 days
+- Q&A 
