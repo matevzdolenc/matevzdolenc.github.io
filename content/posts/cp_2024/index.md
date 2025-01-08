@@ -125,3 +125,14 @@ On JS libraries:
 Project work:
 - Progress in past 14 days
 - Q&A 
+
+### 11. teden, Jan 8 2025 
+
+Project work:
+- Progress in past weeks
+- Q&A 
+
+### 12. teden, Jan 15 2025
+
+Final project presentations: 
+- Instructions to follow.
