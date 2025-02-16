@@ -135,4 +135,7 @@ Project work:
 ### 12. teden, Jan 15 2025
 
 Final project presentations: 
-- Instructions to follow.
+- Prepare a short (7 slides max) presentations on your project.
+- Demonstrate the developed solution for your project.
+- Present your personal website.
+

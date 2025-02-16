@@ -12,7 +12,7 @@ autoSwitchAppearance = false
 enableSearch = true
 enableCodeCopy = true
 
-# mainSections = ["section1", "section2"]
+mainSections = ["posts"]
 # robots = ""
 
 disableImageOptimization = false

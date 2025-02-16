@@ -31,9 +31,9 @@ pageRef = ""
 weight = 10
 
 [[main]]
-name = "Obdelava podatkov"
+name = "Programiranje in obdelava podatkov"
 parent = "Predavanja"
-pageRef = "/posts/op_2023"
+pageRef = "/posts/pop_2024"
 weight = 10
 
 [[main]]
@@ -57,13 +57,13 @@ weight = 35
 [[main]]
 name = "Računalništvo in informatika"
 parent = "Predavanja"
-pageRef = "/posts/racinf_2023"
+pageRef = "/posts/racinf_2024"
 weight = 40
 
 [[main]]
 name = "Računalništvo"
 parent = "Predavanja"
-pageRef = "/posts/rac_2023"
+pageRef = "/posts/rac_2024"
 weight = 50
 
 [[main]]
