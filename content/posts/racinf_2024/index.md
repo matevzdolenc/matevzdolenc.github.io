@@ -79,10 +79,11 @@ options: {
 	* [Agilni manifest](/files/agilni-manifest.pdf)
 	* [Agilne metodologije](/files/agilne-metodologije.pdf)
 - Uvod v programski jezik Python:
-	* [Zakaj Python?](http://media.matevzdolenc.com/ul-fgg/2022-2023/zakaj-python.pdf)
+	* [Zakaj Python?](/files/zakaj-python.pdf)
 	* Namestitev: [python.org](http://python.org), [Continuum Analytics - Anaconda](https://www.anaconda.com/download)
+	* Urejevalniki teksta: [Notepad++](https://notepad-plus-plus.org), [Visual Studio Code](https://code.visualstudio.com)
 - Naloga:
-	* Namestitev programskega sistema Python na domačem računalniku.
+	* Namestitev programskega sistema Python na domačem računalniku (Python + urejevalnik teksta).
 	
 {{< figure src="/img/agilne-metodologije.png" caption="Agilne metodologije predstavljajo nabor vrednot." >}}
 

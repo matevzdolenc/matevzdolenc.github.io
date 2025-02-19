@@ -79,7 +79,7 @@ options: {
 	* [Agilni manifest](/files/agilni-manifest.pdf)
 	* [Agilne metodologije](/files/agilne-metodologije.pdf)
 - Uvod v programski jezik Python:
-	* [Zakaj Python?](http://media.matevzdolenc.com/ul-fgg/2022-2023/zakaj-python.pdf)
+	* [Zakaj Python?](/files/zakaj-python.pdf)
 	* Namestitev: [python.org](http://python.org), [Continuum Analytics - Anaconda](https://www.anaconda.com/download)
 - Naloga:
 	* Namestitev programskega sistema Python na domačem računalniku.
