@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [, , , , , , , , , , , , , , ],
+    data: [70, , , , , , , , , , , , , , ],
   }],
 },
 options: {
@@ -75,15 +75,30 @@ options: {
 - Uvod:
 	* [Uvod v predmet- vsebina, program, osnovne informacije](/files/racinf-2024.pdf)
 	* [Posebnosti gradbeništva](/files/posebnosti-gradbenistva.pdf)
-- Razvoj programske opreme:
-	* [Agilni manifest](/files/agilni-manifest.pdf)
-	* [Agilne metodologije](/files/agilne-metodologije.pdf)
+
 - Uvod v programski jezik Python:
 	* [Zakaj Python?](/files/zakaj-python.pdf)
 	* Namestitev: [python.org](http://python.org), [Continuum Analytics - Anaconda](https://www.anaconda.com/download)
 	* Urejevalniki teksta: [Notepad++](https://notepad-plus-plus.org), [Visual Studio Code](https://code.visualstudio.com)
+
 - Naloga:
 	* Namestitev programskega sistema Python na domačem računalniku (Python + urejevalnik teksta).
 	
 {{< figure src="/img/agilne-metodologije.png" caption="Agilne metodologije predstavljajo nabor vrednot." >}}
+
+### 2. teden - sreda, 26. 2. 2025
+
+- Razvoj programske opreme:
+	* [Agilni manifest](/files/agilni-manifest.pdf)
+	* [Agilne metodologije](/files/agilne-metodologije.pdf)
+
+- Uvod v Python:
+	* Izvedba in zagon enostavnega Python programa/skripte (Spyder, iPython)
+	* Uporabljeni ukazi: input(), print(), float(), import, math.pi
+
+- Izvorna koda:
+	* Python: [krog-1.py](/src/python/krog-1.py)
+
+{{< figure src="/img/py-ploscina-kroga-spyder.png" caption="Python program krog.py v programskem okolju Spyder." >}}
+
 
