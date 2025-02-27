@@ -77,7 +77,7 @@ options: {
 
 Pripravite načrt za spletno stran (vsebina, izgled, ...) - spletno stran boste izdelali v okviru 2. seminarske naloge. Načrt pripravite v dveh oblikah: (1) s programom MS Word in (2) v obliki LaTeX ali Markdown dokumenta.
 
-MS Word dokument in ZIP datoteko LaTeX ali Markdown zapisa oddate v spletni učilnici najkasneje do 17.3.2025.
+Vse pripravljene datoteke združite v ZIP datoteko, ki jo oddate v spletni učilnici najkasneje do 17.3.2025.
 
 ## Predavanja
 
