@@ -38,7 +38,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [45, , , , , , , , , , , , , , ],
+    data: [45, 37, , , , , , , , , , , , , ],
   }],
 },
 options: {
@@ -115,3 +115,8 @@ MS Word dokument in ZIP datoteko LaTeX ali Markdown zapisa oddate v spletni uči
 	* Excel - naslavljanje celic: absolutno/relativno, delo s formulami: pisanje/kopiranje, ...
 
 {{< figure src="/img/md-latex-preview.png" caption="Markdown (levo) in LaTeX (desno) predogled." >}}
+
+### 3. teden - ponedeljek 3. 3. 2025
+
+Predavanja/seminar odpadejo zaradi odsotnosti predavatelja. Nadomeščanje bo izvedeno v dogovoru s študenti.
+

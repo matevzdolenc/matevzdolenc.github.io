@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [70, , , , , , , , , , , , , , ],
+    data: [70, 63, , , , , , , , , , , , , ],
   }],
 },
 options: {
@@ -100,5 +100,20 @@ options: {
 	* Python: [krog-1.py](/src/python/krog-1.py)
 
 {{< figure src="/img/py-ploscina-kroga-spyder.png" caption="Python program krog.py v programskem okolju Spyder." >}}
+
+### 2. teden - sreda, 5. 3. 2025
+
+- Uvod v Python:
+	- Zagon Python skript iz ukazne vrstice
+	- Program za izračun plošline kroga
+    - Seznami: for in while zanka
+
+- Izvorna koda:
+	* [krog-1.py](http://media.matevzdolenc.com/python/src/krog-1.py")
+	* [krog-seznam.py](http://media.matevzdolenc.com/python/src/krog-seznam.py")
+	* [krog-range.py](http://media.matevzdolenc.com/python/src/krog-range.py")
+
+{{< figure src="/img/py-izpis-tabele-krogov.png" caption="Izpis preproste tabele v konzolnem oknu." >}}
+
 
 

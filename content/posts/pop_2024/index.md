@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [13, , , , , , , , , , , , , , ],
+    data: [13, 14, , , , , , , , , , , , , ],
   }],
 },
 options: {
@@ -97,3 +97,25 @@ options: {
 	* Python: [krog-1.py](/src/python/krog-1.py)
 
 {{< figure src="/img/py-ploscina-kroga-spyder.png" caption="Python program krog.py v programskem okolju Spyder." >}}
+
+### 3. teden - torek, 4. 3. 2025
+
+- Uvod v Python:
+	- Zagon Python skript iz ukazne vrstice
+	- Seznami: for in while zanka
+
+- Naloga: V programskem jeziku Python izdelajte program za izračun nekaterih vrednosti v poljubnem pravokotniku naslednjimi zahtevami:
+	- Interaktivni vnos podatkov pravokotnika (stranici a in b).
+	- Izračun in izpis ploščine, obsega ter dolžine diagonale podanega pravokotnika.
+	- Izračun in izpis kota med diagonalo in osnovno stranico pravokotnika.
+	<!-- - Rešiteve: 
+		- Vnos podatkov v več korakih - [pravokotnik-1.py](http://media.matevzdolenc.com/python/src/pravokotnik-1.py)
+		- Vnos podatkov v eni vrstici - [pravokotnik-2.py]("http://media.matevzdolenc.com/python/src/pravokotnik-2.py)
+		- Vnos podatkov ob zagonu programa - [pravokotnik-3.py](http://media.matevzdolenc.com/python/src/pravokotnik-3.py) -->
+
+- Izvorna koda:
+	* [krog-1.py](http://media.matevzdolenc.com/python/src/krog-1.py")
+	* [krog-seznam.py](http://media.matevzdolenc.com/python/src/krog-seznam.py")
+	* [krog-range.py](http://media.matevzdolenc.com/python/src/krog-range.py")
+
+{{< figure src="/img/py-izpis-tabele-krogov.png" caption="Izpis preproste tabele v konzolnem oknu." >}}
