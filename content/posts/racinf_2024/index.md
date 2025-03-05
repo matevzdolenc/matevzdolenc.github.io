@@ -101,7 +101,7 @@ options: {
 
 {{< figure src="/img/py-ploscina-kroga-spyder.png" caption="Python program krog.py v programskem okolju Spyder." >}}
 
-### 2. teden - sreda, 5. 3. 2025
+### 3. teden - sreda, 5. 3. 2025
 
 - Uvod v Python:
 	- Zagon Python skript iz ukazne vrstice
