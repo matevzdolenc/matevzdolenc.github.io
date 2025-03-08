@@ -115,5 +115,16 @@ options: {
 
 {{< figure src="/img/py-izpis-tabele-krogov.png" caption="Izpis preproste tabele v konzolnem oknu." >}}
 
+### 4. teden - sreda, 12. 3. 2025
+
+- Uvod v Python:
+	- while zanka
+    - izpis v datoteko
+	- Uvoz tekstovnih podatkov v Excel in risanje razpršenih grafov.
+
+- Izvorna koda:
+    - Izračun ničle funkcije - bisekcija, [bisekcija-1.py](http://media.matevzdolenc.com/python/src/bisekcija-1.py), [bisekcija-2.py](http://media.matevzdolenc.com/python/src/bisekcija-2.py)
+
+{{< figure src="/img/py-bisekcija-graf.png" caption="" >}}
 
 

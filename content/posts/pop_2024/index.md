@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [13, 14, , , , , , , , , , , , , ],
+    data: [13, 14, 14, , , , , , , , , , , , ],
   }],
 },
 options: {
@@ -104,6 +104,15 @@ options: {
 	- Zagon Python skript iz ukazne vrstice
 	- Seznami: for in while zanka
 
+- Izvorna koda:
+	* [krog-1.py](http://media.matevzdolenc.com/python/src/krog-1.py")
+	* [krog-seznam.py](http://media.matevzdolenc.com/python/src/krog-seznam.py")
+	* [krog-range.py](http://media.matevzdolenc.com/python/src/krog-range.py")
+
+{{< figure src="/img/py-izpis-tabele-krogov.png" caption="Izpis preproste tabele v konzolnem oknu." >}}
+
+### 4. teden - ponedeljek, 10. 3. 2025
+
 - Naloga: V programskem jeziku Python izdelajte program za izračun nekaterih vrednosti v poljubnem pravokotniku naslednjimi zahtevami:
 	- Interaktivni vnos podatkov pravokotnika (stranici a in b).
 	- Izračun in izpis ploščine, obsega ter dolžine diagonale podanega pravokotnika.
@@ -113,9 +122,11 @@ options: {
 		- Vnos podatkov v eni vrstici - [pravokotnik-2.py]("http://media.matevzdolenc.com/python/src/pravokotnik-2.py)
 		- Vnos podatkov ob zagonu programa - [pravokotnik-3.py](http://media.matevzdolenc.com/python/src/pravokotnik-3.py) -->
 
-- Izvorna koda:
-	* [krog-1.py](http://media.matevzdolenc.com/python/src/krog-1.py")
-	* [krog-seznam.py](http://media.matevzdolenc.com/python/src/krog-seznam.py")
-	* [krog-range.py](http://media.matevzdolenc.com/python/src/krog-range.py")
+- Uvod v Python:
+	- while zanka
+    - izpis v datoteko
+	- Uvoz tekstovnih podatkov v Excel in risanje razpršenih grafov.
+	- Izvorna koda:
+    	- Izračun ničle funkcije - bisekcija, [bisekcija-1.py](http://media.matevzdolenc.com/python/src/bisekcija-1.py), [bisekcija-2.py](http://media.matevzdolenc.com/python/src/bisekcija-2.py)
 
-{{< figure src="/img/py-izpis-tabele-krogov.png" caption="Izpis preproste tabele v konzolnem oknu." >}}
+{{< figure src="/img/py-bisekcija-graf.png" caption="" >}}

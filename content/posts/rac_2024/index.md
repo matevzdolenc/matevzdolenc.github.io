@@ -120,3 +120,11 @@ Vse pripravljene datoteke združite v ZIP datoteko, ki jo oddate v spletni učil
 
 Predavanja/seminar odpadejo zaradi odsotnosti predavatelja. Nadomeščanje bo izvedeno v dogovoru s študenti.
 
+### 4. teden - ponedeljek, 10. 3. 2025
+
+- Internet in splet:
+	* [Uvod v Internet](/files/internet.pdf) - zgodovina, protokoli, ...
+	* [Uvod v splet](/files/splet.pdf) - zgotovina, protokoli, uporaba, 1.0/2.0/3.0, ...
+
+{{< figure src="/img/web2.png" caption="" >}}
+
