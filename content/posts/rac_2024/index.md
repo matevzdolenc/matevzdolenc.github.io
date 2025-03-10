@@ -125,6 +125,7 @@ Predavanja/seminar odpadejo zaradi odsotnosti predavatelja. Nadomeščanje bo iz
 - Internet in splet:
 	* [Uvod v Internet](/files/internet.pdf) - zgodovina, protokoli, ...
 	* [Uvod v splet](/files/splet.pdf) - zgotovina, protokoli, uporaba, 1.0/2.0/3.0, ...
+    * [Uvod v splet 2.0](/files/splet-2.0-rk.pdf)
 
 {{< figure src="/img/web2.png" caption="" >}}
 
