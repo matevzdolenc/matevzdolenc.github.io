@@ -105,9 +105,9 @@ options: {
 	- Seznami: for in while zanka
 
 - Izvorna koda:
-	* [krog-1.py](http://media.matevzdolenc.com/python/src/krog-1.py")
-	* [krog-seznam.py](http://media.matevzdolenc.com/python/src/krog-seznam.py")
-	* [krog-range.py](http://media.matevzdolenc.com/python/src/krog-range.py")
+	* [krog-1.py](/src/python/krog-1.py")
+	* [krog-seznam.py](/src/python/krog-seznam.py")
+	* [krog-range.py](/src/python/krog-range.py")
 
 {{< figure src="/img/py-izpis-tabele-krogov.png" caption="Izpis preproste tabele v konzolnem oknu." >}}
 
@@ -117,16 +117,16 @@ options: {
 	- Interaktivni vnos podatkov pravokotnika (stranici a in b).
 	- Izračun in izpis ploščine, obsega ter dolžine diagonale podanega pravokotnika.
 	- Izračun in izpis kota med diagonalo in osnovno stranico pravokotnika.
-	<!-- - Rešiteve: 
-		- Vnos podatkov v več korakih - [pravokotnik-1.py](http://media.matevzdolenc.com/python/src/pravokotnik-1.py)
-		- Vnos podatkov v eni vrstici - [pravokotnik-2.py]("http://media.matevzdolenc.com/python/src/pravokotnik-2.py)
-		- Vnos podatkov ob zagonu programa - [pravokotnik-3.py](http://media.matevzdolenc.com/python/src/pravokotnik-3.py) -->
+	- Rešiteve: 
+		- Vnos podatkov v več korakih - [pravokotnik-1.py](/src/python/pravokotnik-1.py)
+		- Vnos podatkov v eni vrstici - [pravokotnik-2.py](/src/python/pravokotnik-2.py)
+		- Vnos podatkov ob zagonu programa - [pravokotnik-3.py](/src/python/pravokotnik-3.py)
 
 - Uvod v Python:
 	- while zanka
     - izpis v datoteko
 	- Uvoz tekstovnih podatkov v Excel in risanje razpršenih grafov.
 	- Izvorna koda:
-    	- Izračun ničle funkcije - bisekcija, [bisekcija-1.py](http://media.matevzdolenc.com/python/src/bisekcija-1.py), [bisekcija-2.py](http://media.matevzdolenc.com/python/src/bisekcija-2.py)
+    	- Izračun ničle funkcije - bisekcija, [bisekcija-1.py](/src/python/bisekcija-1.py), [bisekcija-2.py](/src/python/bisekcija-2.py)
 
 {{< figure src="/img/py-bisekcija-graf.png" caption="" >}}
