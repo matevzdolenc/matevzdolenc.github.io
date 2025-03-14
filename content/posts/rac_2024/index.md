@@ -38,7 +38,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [45, 37, , , , , , , , , , , , , ],
+    data: [45, 37, 0, 19, , , , , , , , , , , ],
   }],
 },
 options: {
@@ -128,4 +128,17 @@ Predavanja/seminar odpadejo zaradi odsotnosti predavatelja. Nadomeščanje bo iz
     * [Uvod v splet 2.0](/files/splet-2.0-rk.pdf)
 
 {{< figure src="/img/web2.png" caption="" >}}
+
+### 5. teden - ponedeljek, 17. 3. 2024
+
+- Internet in splet:
+    * [Uvod v splet 2.0](/files/splet-2.0-rk.pdf)
+    * [Osnove inženirske komunikacije](/files/komunikacija.pdf)
+
+- Knjiga David Weinberger, “Everything is Miscellaneous: The Power of the New Digital Disorder”
+	* [Vse je različno](/files/vse-je-razlicno.pdf)
+    * [Everything is Miscellaneous](http://www.youtube.com/watch?v=x3wOhXsjPYM) - video
+    * [Information R/evolution](http://www.youtube.com/watch?v=-4CV05HyAbM) - video
+
+{{< figure src="/img/everything_is_miscellaneous.png" caption="" >}}
 
