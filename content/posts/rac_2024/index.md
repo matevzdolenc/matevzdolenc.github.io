@@ -79,6 +79,18 @@ Pripravite načrt za spletno stran (vsebina, izgled, ...) - spletno stran boste 
 
 Vse pripravljene datoteke združite v ZIP datoteko, ki jo oddate v spletni učilnici najkasneje do 17.3.2025.
 
+### 2. naloga
+
+Samostojno izdelajte spletno stran, ki ste jo predlagali v 1. seminarski nalogi. Spletno stran oz. blog izdelajte na enem izmed brezplačnih servisov za gostovanje spletnih strani ali blogov ([Google Sites](http://sites.google.com/), [WordPress](http://wordpress.com/), [Wix](https://www.wix.com), ...)
+
+Spletno stran pripravite najkasneje do 21.4.2025. Obvestilo o spletnem naslovu izdelane spletne strani oddate v spletni učilnici.
+
+Povezave:
+- the balance, [8 Popular Types of Web Hosting Services](https://www.thebalance.com/types-of-web-hosting-services-2532072)
+- website.com, [Web Hosting](https://www.website.com/beginnerguide/webhosting/6/2/types-of-web-hosting-services.ws)
+
+{{< figure src="/img/og-rac-2016-spletne-strani.png" caption="Nekaj primerov spletnih strani študentov OG.">}}
+
 ## Predavanja
 
 ### 1. teden - ponedeljek, 17. 2. 2025
