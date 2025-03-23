@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [13, 14, 14, 13, , , , , , , , , , , ],
+    data: [13, 14, 14, 13, 12, , , , , , , , , , ],
   }],
 },
 options: {
@@ -131,7 +131,7 @@ options: {
 
 {{< figure src="/img/py-bisekcija-graf.png" caption="" >}}
 
-### 5. teden - ponedeljek, 17. 3. 2025
+### 5./6. teden - ponedeljek, 17./24. 3. 2025
 
 - Uvod v Python:
 	- začetek daljšega primera
@@ -141,13 +141,13 @@ options: {
 - Primer: [Izračun geometrijskih karakteristik](/files/geokar-formule.pdf)
 
 - Izvorna koda: 
-	<!-- - Podatki v programu, [geokar-1.py](http://media.matevzdolenc.com/python/src/geokar-1.py)
+	- Podatki v programu, [geokar-1.py](http://media.matevzdolenc.com/python/src/geokar-1.py)
 	- Branje podatkov s tipkovnico (vsak podatek v svoji vrstici), [geokar-2.py](http://media.matevzdolenc.com/python/src/geokar-2.py)
     - Branje podatkov s tipkovnico (x in y koordinati v isti vrstici), [geokar-3.py](http://media.matevzdolenc.com/python/src/geokar-3.py)
     - Branje podatkov iz datoteke, [geokar-4.py](http://media.matevzdolenc.com/python/src/geokar-4.py)
     - Testni podatki, [geokar-podatki.txt](http://media.matevzdolenc.com/python/src/geokar-podatki.txt)
     - Izračun ploščine s funkcijo, [geokar-5.py](http://media.matevzdolenc.com/python/src/geokar-5.py)
 	- Vse geometrijske karakteristike, [geokar-6.py](http://media.matevzdolenc.com/python/src/geokar-6.py)
-	- Uporaba modulov, [geokar-7.py](http://media.matevzdolenc.com/python/src/geokar-7.py), [geometrijske_karakteristike.py](http://media.matevzdolenc.com/python/src/geometrijske_karakteristike.py) -->
+	- Uporaba modulov, [geokar-7.py](http://media.matevzdolenc.com/python/src/geokar-7.py), [geometrijske_karakteristike.py](http://media.matevzdolenc.com/python/src/geometrijske_karakteristike.py)
 
 {{< figure src="/img/py-geokar-sublimetext.png" >}}

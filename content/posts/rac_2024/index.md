@@ -38,7 +38,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [45, 37, 0, 19, , , , , , , , , , , ],
+    data: [45, 37, 0, 19, 32, , , , , , , , , , ],
   }],
 },
 options: {
@@ -141,7 +141,7 @@ Predavanja/seminar odpadejo zaradi odsotnosti predavatelja. Nadomeščanje bo iz
 
 {{< figure src="/img/web2.png" caption="" >}}
 
-### 5. teden - ponedeljek, 17. 3. 2024
+### 5. teden - ponedeljek, 17. 3. 2025
 
 - Internet in splet:
     * [Uvod v splet 2.0](/files/splet-2.0-rk.pdf)
@@ -154,3 +154,11 @@ Predavanja/seminar odpadejo zaradi odsotnosti predavatelja. Nadomeščanje bo iz
 
 {{< figure src="/img/everything_is_miscellaneous.png" caption="" >}}
 
+### 6. teden - ponedeljek, 24. 3. 2025
+
+Spletna predstavitev je zagotovo ena izmed pomembnih odločitev, je rešitev, saj je pomemben in prodoren element komunikacije in (samo)predstavitve. Ne glede na to, ali želite predstaviti le sebe oz. imate že izdelano idejo in posel, morate biti v vsakem primeru prisotni in vidni tudi na spletu, saj ponuja veliko možnosti, kako se predstaviti in oblikovati svojo blagovno znamko na spletu.
+
+Predstavitev:
+- [Osebna spletna stran](/files/personal-website.pdf)
+
+{{< figure src="/img/personal-website.png" >}}
