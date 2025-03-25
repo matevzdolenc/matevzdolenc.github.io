@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prerez>
+  <naslov>Primer 1</naslov>
+  <tocke>
+    <tocka id="1">
+      <x>0</x>
+      <y>0</y>
+    </tocka>
+    <tocka id="2">
+      <x>1</x>
+      <y>0</y>
+    </tocka>
+    <tocka id="3">
+      <x>1</x>
+      <y>1</y>
+    </tocka>
+    <tocka id="4">
+      <x>0</x>
+      <y>1</y>
+    </tocka>
+  </tocke>
+</prerez>

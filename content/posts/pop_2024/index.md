@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [13, 14, 14, 13, 12, , , , , , , , , , ],
+    data: [13, 14, 14, 13, 12, 11, , , , , , , , , ],
   }],
 },
 options: {
@@ -141,13 +141,41 @@ options: {
 - Primer: [Izračun geometrijskih karakteristik](/files/geokar-formule.pdf)
 
 - Izvorna koda: 
-	- Podatki v programu, [geokar-1.py](http://media.matevzdolenc.com/python/src/geokar-1.py)
-	- Branje podatkov s tipkovnico (vsak podatek v svoji vrstici), [geokar-2.py](http://media.matevzdolenc.com/python/src/geokar-2.py)
-    - Branje podatkov s tipkovnico (x in y koordinati v isti vrstici), [geokar-3.py](http://media.matevzdolenc.com/python/src/geokar-3.py)
-    - Branje podatkov iz datoteke, [geokar-4.py](http://media.matevzdolenc.com/python/src/geokar-4.py)
-    - Testni podatki, [geokar-podatki.txt](http://media.matevzdolenc.com/python/src/geokar-podatki.txt)
-    - Izračun ploščine s funkcijo, [geokar-5.py](http://media.matevzdolenc.com/python/src/geokar-5.py)
-	- Vse geometrijske karakteristike, [geokar-6.py](http://media.matevzdolenc.com/python/src/geokar-6.py)
-	- Uporaba modulov, [geokar-7.py](http://media.matevzdolenc.com/python/src/geokar-7.py), [geometrijske_karakteristike.py](http://media.matevzdolenc.com/python/src/geometrijske_karakteristike.py)
+	- Podatki v programu, [geokar-1.py](/src/python/geokar-1.py)
+	- Branje podatkov s tipkovnico (vsak podatek v svoji vrstici), [geokar-2.py](/src/python/geokar-2.py)
+    - Branje podatkov s tipkovnico (x in y koordinati v isti vrstici), [geokar-3.py](/src/python/geokar-3.py)
+    - Branje podatkov iz datoteke, [geokar-4.py](/src/python/geokar-4.py)
+    - Testni podatki, [geokar-podatki.txt](/src/python/geokar-podatki.txt)
+    - Izračun ploščine s funkcijo, [geokar-5.py](/src/python/geokar-5.py)
+	- Vse geometrijske karakteristike, [geokar-6.py](/src/python/geokar-6.py)
+	- Uporaba modulov, [geokar-7.py](/src/python/geokar-7.py), [geometrijske_karakteristike.py](/src/python/geometrijske_karakteristike.py)
 
 {{< figure src="/img/py-geokar-sublimetext.png" >}}
+
+Podatkovni standardi:
+- XML - Extended Markup Language
+- JSON - JavaScript Object Notation
+- IFC - Industry Foundation Classes
+
+Primeri:
+- Izdelajte XML/JSON dokument za shranjevanje poljubnega poligonalnega prereza. Točke prereza so podane z oznako in dvema koordinatama: x in y. Rešitve: [xml](/src/python/primer.xml) | [json](/src/python/primer.json)
+- Izdelajte XML dokument, ki vsebuje podatke o dveh geografskih točkah (ime/naslov, koordinate, nadmorska višina)
+- Povezave:
+	- [uvod-v-xml-zacasno.pdf](/files/uvod-v-xml-zacasno.pdf)
+    - [XML standard](https://www.w3.org/standards/xml/)
+    - [W3C](https://www.w3.org)
+    - [JSON](https://www.json.org)
+    - [IFC](https://www.buildingsmart.org/standards/ifc)
+    - [KML](https://developers.google.com/kml/?hl=en)
+
+{{< figure src="https://imgs.xkcd.com/comics/standards.png" >}}
+
+### 7. teden - ponedeljek, 31. 3. 2025
+
+- Uvod v Python: zapisovanje XML datotek
+
+- Izvorna koda:
+	- Zapis podatkov o prerezu v XML datoteko, [geokar-8-1.py](/src/python/geokar-8-1.py)
+	- Zapis podatkov o prerezu v XML datoteko z uporabo Python XML knjižnice, [geokar-8-2.py](/src/python/geokar-8-2.py)
+
+{{< figure src="/img/py-geokar-xml.png" >}}

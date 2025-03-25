@@ -38,7 +38,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [45, 37, 0, 19, 32, , , , , , , , , , ],
+    data: [45, 37, 0, 19, 32, 19, , , , , , , , , ],
   }],
 },
 options: {
@@ -162,3 +162,22 @@ Predstavitev:
 - [Osebna spletna stran](/files/personal-website.pdf)
 
 {{< figure src="/img/personal-website.png" >}}
+
+### 7. teden - ponedeljek, 31. 3. 2025
+
+Virtualizacija:
+- [Virtualizacija - uporaba navideznih računalnikov](/files/virtualizacija.pdf)
+- [Distro Watch](http://distrowatch.com/) - seznam Linux distribucij
+- [Oracle VirtualBox](https://www.virtualbox.org) - okolje za virtualizacijo oeracijskih sistemov
+- Linux distribucije: [Ubuntu](https://ubuntu.com), [Fedora](http://fedoraproject.org), [Redhat](http://www.redhat.com)
+- Naloga: Namestitev VirtualBox in preiskus ene izmed Linux distribucij.
+
+Podatkovni centri:
+- [Google Datacenters](https://www.google.com/about/datacenters/)
+- [AWS data centers](https://aws.amazon.com/compliance/data-center/data-centers/)
+- [Facebook Engineering](https://engineering.fb.com)
+
+Odprta koda:
+- [Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, kaj pomeni za končne upodarbnike
+
+{{< figure src="/img/virtualizacija-virtualbox.png" >}}
