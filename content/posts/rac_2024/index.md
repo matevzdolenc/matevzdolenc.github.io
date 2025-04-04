@@ -38,7 +38,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [45, 37, 0, 19, 32, 19, , , , , , , , , ],
+    data: [45, 37, 0, 19, 32, 19, 13, , , , , , , , ],
   }],
 },
 options: {
@@ -177,7 +177,11 @@ Podatkovni centri:
 - [AWS data centers](https://aws.amazon.com/compliance/data-center/data-centers/)
 - [Facebook Engineering](https://engineering.fb.com)
 
+{{< figure src="/img/virtualizacija-virtualbox.png" >}}
+
+### 8. teden - ponedeljek, 7. 4. 2025
+
 Odprta koda:
 - [Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, kaj pomeni za končne upodarbnike
 
-{{< figure src="/img/virtualizacija-virtualbox.png" >}}
+{{< figure src="/img/open-source.png" >}}

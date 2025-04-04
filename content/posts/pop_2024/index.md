@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [13, 14, 14, 13, 12, 11, , , , , , , , , ],
+    data: [13, 14, 14, 13, 12, 11, 11, , , , , , , , ],
   }],
 },
 options: {
@@ -172,10 +172,41 @@ Primeri:
 
 ### 7. teden - ponedeljek, 31. 3. 2025
 
-- Uvod v Python: zapisovanje XML datotek
+- Uvod v Python: zapisovanje in branje XML datotek
 
 - Izvorna koda:
 	- Zapis podatkov o prerezu v XML datoteko, [geokar-8-1.py](/src/python/geokar-8-1.py)
 	- Zapis podatkov o prerezu v XML datoteko z uporabo Python XML knjižnice, [geokar-8-2.py](/src/python/geokar-8-2.py)
+	- Branje podatkov o prerezu iz XML datoteke, [geokar-9-1.py](/src/python/geokar-9-1.py)
+    - Podajanje imena vhodne datoteke s podatko o prerezu v ukazni vrstici, [geokar-9-2.py](/src/python/geokar-9-2.py)
+    - Podajanje imena vhodne datoteke s podatko o prerezu v ukazni vrstici, [geokar-9-3.py](/src/python/geokar-9-3.py)
+    - Ostale potrebne datoteke ... [geometrijske_karakteristike.py](/src/python/geometrijske_karakteristike.py), [geokar-podatki.txt](/src/python/geokar-podatki.txt), [geokar-podatki.xml](/src/python/geokar-podatki.xml)
 
 {{< figure src="/img/py-geokar-xml.png" >}}
+
+### 8. teden - ponedeljek, 7. 4. 2025
+
+Naloga: Izdelaj program za menjalnico.
+
+-  Programske zahteve:
+	- program naj prebere trenutno tečajno listo iz XML datoteke
+	- za podano vrednost v EUR naj program izpiše vrednosti v vseh ostali valutah
+	- za podano vredno v izbrani valuti naj program izračuna ustrezno vrednost v EUR
+- Pomoč:
+	- Tečajno listo shranite na lokalni disk.
+	- V XML datoteki lahko odstranite atribute korenskega XML elementa.
+- Podatki:
+	- [Banka Slovenije](http://www.bsi.si)
+	- [Tečajna lista](http://www.bsi.si/_data/tecajnice/dtecbs.xml)
+	- [Primer popravljena XML datoteke tečajne liste](/src/python/dtecbs.xml)
+- Oddaja naloge:  
+	- Vsebino izdelane naloge zapakirajte v paket .zip. Oddate vse uporabljene oz. ustvarjene datoteke (python program, podatki, ...).
+	- Zip datoteko obvezno poimenujte takole: naloga-20240514-priimek-ime-vpisnaštevilka.zip
+	- Nalogo oddate v spletni učilnici - naloga Menjalnica
+<!-- - Rešitev:
+	- Primer lokalno shranjene tečajne liste z odstranjenim imenskim prostorom, [dtecbs.xml](/src/python/dtecbs.xml)
+	- Preprosta rešitev z lokalno datoteko in odstranjenim imenskim prostorom - implementiran samo prvi del naloge, ki za podan znesek v EUR izpiše vrednost v vseh ostalih valutah, [menjalnica-0.py](/src/python/menjalnica-0.py)
+	- Preprosta rešitev z lokalno datoteko in odstranjenim imenskim prostorom, [menjalnica-1.py](/src/python/menjalnica-1.py)
+	- Rešitev z branjem XML datoteke z Interneta, uporaba 2-D seznama, [menjalnica-2.py](/src/python/menjalnica-2.py) -->
+
+{{< figure src="/img/py-menjalnica.png" >}}

@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [70, 63, 56, 55, 39, 42, , , , , , , , , ],
+    data: [70, 63, 56, 55, 39, 42, 19, , , , , , , , ],
   }],
 },
 options: {
@@ -167,3 +167,17 @@ Primeri:
     - [KML](https://developers.google.com/kml/?hl=en)
 
 {{< figure src="https://imgs.xkcd.com/comics/standards.png" >}}
+
+### 8. teden - sreda, 9. 4. 2025
+
+- Uvod v Python: zapisovanje in branje XML datotek
+
+- Izvorna koda:
+	- Zapis podatkov o prerezu v XML datoteko, [geokar-8-1.py](/src/python/geokar-8-1.py)
+	- Zapis podatkov o prerezu v XML datoteko z uporabo Python XML knjižnice, [geokar-8-2.py](/src/python/geokar-8-2.py)
+	- Branje podatkov o prerezu iz XML datoteke, [geokar-9-1.py](/src/python/geokar-9-1.py)
+    - Podajanje imena vhodne datoteke s podatko o prerezu v ukazni vrstici, [geokar-9-2.py](/src/python/geokar-9-2.py)
+    - Podajanje imena vhodne datoteke s podatko o prerezu v ukazni vrstici, [geokar-9-3.py](/src/python/geokar-9-3.py)
+    - Ostale potrebne datoteke ... [geometrijske_karakteristike.py](/src/python/geometrijske_karakteristike.py), [geokar-podatki.txt](/src/python/geokar-podatki.txt), [geokar-podatki.xml](/src/python/geokar-podatki.xml)
+
+{{< figure src="/img/py-geokar-xml.png" >}}

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<DtecBS>
+  <tecajnica datum="2014-12-04">
+    <tecaj oznaka="USD" sifra="840">1.2311</tecaj>
+    <tecaj oznaka="JPY" sifra="392">147.64</tecaj>
+    <tecaj oznaka="BGN" sifra="975">1.9558</tecaj>
+    <tecaj oznaka="CZK" sifra="203">27.616</tecaj>
+    <tecaj oznaka="DKK" sifra="208">7.4400</tecaj>
+    <tecaj oznaka="GBP" sifra="826">0.78610</tecaj>
+    <tecaj oznaka="HUF" sifra="348">306.90</tecaj>
+    <tecaj oznaka="LTL" sifra="440">3.4528</tecaj>
+    <tecaj oznaka="PLN" sifra="985">4.1614</tecaj>
+    <tecaj oznaka="RON" sifra="946">4.4290</tecaj>
+    <tecaj oznaka="SEK" sifra="752">9.2747</tecaj>
+    <tecaj oznaka="CHF" sifra="756">1.2035</tecaj>
+    <tecaj oznaka="NOK" sifra="578">8.7210</tecaj>
+    <tecaj oznaka="HRK" sifra="191">7.6753</tecaj>
+    <tecaj oznaka="RUB" sifra="643">65.7875</tecaj>
+    <tecaj oznaka="TRY" sifra="949">2.7556</tecaj>
+    <tecaj oznaka="AUD" sifra="036">1.4692</tecaj>
+    <tecaj oznaka="BRL" sifra="986">3.1728</tecaj>
+    <tecaj oznaka="CAD" sifra="124">1.3998</tecaj>
+    <tecaj oznaka="CNY" sifra="156">7.5777</tecaj>
+    <tecaj oznaka="HKD" sifra="344">9.5440</tecaj>
+    <tecaj oznaka="IDR" sifra="360">15157.92</tecaj>
+    <tecaj oznaka="ILS" sifra="376">4.9109</tecaj>
+    <tecaj oznaka="INR" sifra="356">76.2063</tecaj>
+    <tecaj oznaka="KRW" sifra="410">1373.54</tecaj>
+    <tecaj oznaka="MXN" sifra="484">17.3743</tecaj>
+    <tecaj oznaka="MYR" sifra="458">4.2454</tecaj>
+    <tecaj oznaka="NZD" sifra="554">1.5888</tecaj>
+    <tecaj oznaka="PHP" sifra="608">54.846</tecaj>
+    <tecaj oznaka="SGD" sifra="702">1.6187</tecaj>
+    <tecaj oznaka="THB" sifra="764">40.518</tecaj>
+    <tecaj oznaka="ZAR" sifra="710">13.7641</tecaj>
+  </tecajnica>
+</DtecBS>
