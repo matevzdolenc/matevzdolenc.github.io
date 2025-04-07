@@ -182,6 +182,6 @@ Podatkovni centri:
 ### 8. teden - ponedeljek, 7. 4. 2025
 
 Odprta koda:
-- [Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, kaj pomeni za končne upodarbnike
+- [Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, kaj pomeni za končne uporabnike
 
 {{< figure src="/img/open-source.png" >}}

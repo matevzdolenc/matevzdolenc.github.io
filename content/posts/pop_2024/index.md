@@ -201,7 +201,7 @@ Naloga: Izdelaj program za menjalnico.
 	- [Primer popravljena XML datoteke tečajne liste](/src/python/dtecbs.xml)
 - Oddaja naloge:  
 	- Vsebino izdelane naloge zapakirajte v paket .zip. Oddate vse uporabljene oz. ustvarjene datoteke (python program, podatki, ...).
-	- Zip datoteko obvezno poimenujte takole: naloga-20240514-priimek-ime-vpisnaštevilka.zip
+	- Zip datoteko obvezno poimenujte takole: naloga-20250407-priimek-ime-vpisnaštevilka.zip
 	- Nalogo oddate v spletni učilnici - naloga Menjalnica
 <!-- - Rešitev:
 	- Primer lokalno shranjene tečajne liste z odstranjenim imenskim prostorom, [dtecbs.xml](/src/python/dtecbs.xml)
