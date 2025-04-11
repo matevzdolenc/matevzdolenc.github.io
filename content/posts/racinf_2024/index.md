@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [70, 63, 56, 55, 39, 42, 19, , , , , , , , ],
+    data: [70, 63, 56, 55, 39, 42, 19, 16, , , , , , , ],
   }],
 },
 options: {
@@ -168,7 +168,7 @@ Primeri:
 
 {{< figure src="https://imgs.xkcd.com/comics/standards.png" >}}
 
-### 8. teden - sreda, 9. 4. 2025
+### 8./9. teden - sreda, 9./16. 4. 2025
 
 - Uvod v Python: zapisovanje in branje XML datotek
 

@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [13, 14, 14, 13, 12, 11, 11, , , , , , , , ],
+    data: [13, 14, 14, 13, 12, 11, 11, 9, , , , , , , ],
   }],
 },
 options: {
@@ -203,10 +203,34 @@ Naloga: Izdelaj program za menjalnico.
 	- Vsebino izdelane naloge zapakirajte v paket .zip. Oddate vse uporabljene oz. ustvarjene datoteke (python program, podatki, ...).
 	- Zip datoteko obvezno poimenujte takole: naloga-20250407-priimek-ime-vpisnaštevilka.zip
 	- Nalogo oddate v spletni učilnici - naloga Menjalnica
-<!-- - Rešitev:
+- Rešitev:
 	- Primer lokalno shranjene tečajne liste z odstranjenim imenskim prostorom, [dtecbs.xml](/src/python/dtecbs.xml)
 	- Preprosta rešitev z lokalno datoteko in odstranjenim imenskim prostorom - implementiran samo prvi del naloge, ki za podan znesek v EUR izpiše vrednost v vseh ostalih valutah, [menjalnica-0.py](/src/python/menjalnica-0.py)
 	- Preprosta rešitev z lokalno datoteko in odstranjenim imenskim prostorom, [menjalnica-1.py](/src/python/menjalnica-1.py)
-	- Rešitev z branjem XML datoteke z Interneta, uporaba 2-D seznama, [menjalnica-2.py](/src/python/menjalnica-2.py) -->
+	- Rešitev z branjem XML datoteke z Interneta, uporaba 2-D seznama, [menjalnica-2.py](/src/python/menjalnica-2.py)
 
 {{< figure src="/img/py-menjalnica.png" >}}
+
+### 9. teden - ponedeljek, 14. 4. 2025
+
+Naloga: Izdelajte Python program, ki podane podatke v tekstovni datoteki pretvori v [KML](https://developers.google.com/kml/) zapis. KML datoteko poglejte v programu Google Earth.
+
+Podatki (glej primer [KML-podatki.txt](/src/python/kml-podatki.txt)):
+- 1 vrstica: center x-centra y-centra __# ime kraja in x in y koordinata kraja v decimalnih stopinjah__
+- 2 vrstica: n __# število podanih krajev (celo število)__
+- 3 + n vrstica: kraj x y __# kraj in x in y koordinata kraja v decimalnih stopinjah__
+
+Navodila:
+- Pripravite tekstovno datoteko s podatki oz. uporabite podatke v datoteki KML-podatki.txt. Za podatke si lahko npr. sestavite s podatki o koordinatah krajev od koder so študenti v letniku.
+- V programu Google Earth pripravite preprost primer prikaza vaših izbranih podatkov. V programu shranite podatke v datoteko tipa KML (ne KMZ). V ustvarjeni datoteki preverite način zapisa uporabljenih podatkov. Natančno razlago zapisa KML datoteke lahko poiščete v [KML dokumentaciji](https://developers.google.com/kml/)
+- Izdelajte program, ki ga zahteva naloga. Delovanje programa preverite na testnih podatkih.
+
+Datoteke:
+- [KML-podatki.txt](/src/python/KML-podatki.txt)
+- [primer.kml](/src/python/primer.kml)
+
+Rešitev: [kml-studenti.py](/src/python/kml-studenti.py)
+
+{{< figure src="/img/kml-kraji.jpg" >}}
+
+{{< figure src="/img/kml-kraji-crte.jpg" >}}

@@ -38,7 +38,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [45, 37, 0, 19, 32, 19, 13, , , , , , , , ],
+    data: [45, 37, 0, 19, 32, 19, 13, 13, , , , , , , ],
   }],
 },
 options: {
@@ -185,3 +185,15 @@ Odprta koda:
 - [Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, kaj pomeni za končne uporabnike
 
 {{< figure src="/img/open-source.png" >}}
+
+### 9. teden - ponedeljek, 14. 4. 2025
+
+Ogledali si bomo kako vzpostavimo in uporabimo visoko-propustno računsko okolje: 
+
+- [HTCondor](http://research.cs.wisc.edu/htcondor/)
+- Video tutorial: [HTCondor za inženirje](https://matevzdolenc.com/htcondor/)
+- [htc-predavanje.pdf](/files/htc-predavanje.pdf)
+
+{{< figure src="/img/fgg-rc-2014.png" >}}
+
+{{< figure src="/img/kgi-cl-2014.png" >}}
