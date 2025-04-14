@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Vse poti vodijo na UL-FGG.kml</name>
+	<Folder>
+		<name>Vse poti vodijo na UL-FGG</name>
+		<open>1</open>
+		<Placemark>
+			<name>Medvode</name>
+			<LineString>
+				<coordinates>
+					14.495010,46.045825,0 14.412657,46.140398,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Kranjska_Gora</name>
+			<LineString>
+				<coordinates>
+					14.495010,46.045825,0 13.782658,46.484729,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
