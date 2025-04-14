@@ -229,7 +229,7 @@ Datoteke:
 - [KML-podatki.txt](/src/python/KML-podatki.txt)
 - [primer.kml](/src/python/primer.kml)
 
-Rešitev: [kml-studenti.py](/src/python/kml-studenti.py)
+<!-- Rešitev: [kml-studenti.py](/src/python/kml-studenti.py) -->
 
 {{< figure src="/img/kml-kraji.jpg" >}}
 
