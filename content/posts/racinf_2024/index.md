@@ -181,3 +181,64 @@ Primeri:
     - Ostale potrebne datoteke ... [geometrijske_karakteristike.py](/src/python/geometrijske_karakteristike.py), [geokar-podatki.txt](/src/python/geokar-podatki.txt), [geokar-podatki.xml](/src/python/geokar-podatki.xml)
 
 {{< figure src="/img/py-geokar-xml.png" >}}
+
+### 10. teden - sreda, 23. 4. 2025
+Knjižnice: [NumPy](https://www.numpy.org), [SciPy](https://scipy.org), [matplotlib](https://matplotlib.org)
+
+Python in SQL:
+- Baze podatkov: [SQLite](http://www.sqlite.org), [MySQL](http://www.mysql.com), ...
+- [Uporaba Python/SQL](http://www.python-course.eu/sql_python.php)
+- Zapis podatkov v bazo SQLite: [geokar-xml2db.py](/src/python/geokar-xml2db.py), [geokar-podatki.xml](/src/python/geokar-podatki.xml)
+- Iskanje podatkov v bazi SQLite: [geokar-10-1.py](/src/python/geokar-10-1.py), [geometrijske_karakteristike.py](/src/python/geometrijske_karakteristike.py)
+
+Python in Excel: 
+-  Uporaba knjižnice [openpyxl](https://openpyxl.readthedocs.io/en/stable/#): [mb_primer-1.py](/src/python/mb_primer-1.py), [mb_primer-1.xlsx](/src/python/mb_primer-1.xlsx)
+- Uporaba knjižnice [Pandas](http://pandas.pydata.org): [mb_primer-2.py](/src/python/mb_primer-2.py), [mb_primer-2.xlsx](/src/python/mb_primer-2.xlsx)
+
+Python in numerične analize:
+- Preprost primer izračuna sistema linearnih enačb, [linalg-1.py](/src/python/linalg-1.py)
+- Izračun sistema linearnih enačb:
+	- Program: [linalg-2.py](/src/python/linalg-2.py)
+	- Podatki - [Matrix Market](https://math.nist.gov/MatrixMarket/): [info](http://math.nist.gov/MatrixMarket/data/SPARSKIT/fidap/fidapm37.html), [fidapm37.mtx](/src/python/fidapm37.mtx), [fidapm37_rhs1.mtx](/src/python/fidapm37_rhs1.mtx)
+
+Uporaba knjižnice PyPlot:
+- Program za izris prereza: [geokar-plot.py](/src/python/geokar-plot.py)
+- Podatki: [geokar-podatki-1.txt](/src/python/geokar-podatki-1.txt), [geokar-podatki-2.txt](/src/python/geokar-podatki-2.txt)
+
+Datoteke: [numpy-matplotlib-sqlite.zip](/src/python/numpy-matplotlib-sqlite.zip)
+
+{{< figure src="/img/fidapm37_lg_city.gif" >}}
+{{< figure src="/img/py-geokar-pyplot.png" >}}
+
+### 11. teden - sreda, 30. 4. 2025
+
+Samostojno delo. Naloga objavljena v spletni učilnici.
+
+### 12. teden - sreda, 7. 5. 2025
+
+- Gradbena informatika:
+	- [Posebnosti gradbeništva](/files/posebnosti-gradbenistva.pdf)
+	- Uvod v gradbeno informatiko: [Splošno o gradbeni informatiki - značilnosti in posledice le-teh](/files/gradbena-informatika.pdf), [Informacije, podatki, znanje](/files/informacije-podatki-znanje.pdf)
+
+- Digitalni dokumenti:
+	* [Digitalni dokumenti](href="http://media.matevzdolenc.com/ul-fgg/2022-2023/digitalni-dokumenti.pdf) - prednosti in slabosti, standardi, itd.
+	* Excel - naslavljanje celic: absolutno/relativno, delo s formulami: pisanje/kopiranje, ...
+
+- LaTeX:
+	* [LaTeX](http://www.latex-project.org)
+	* [MiKTeX, LaTeX za Windows](http://miktex.org)
+	* [Ne najkrajši uvod v LaTeX](https://users.fmf.uni-lj.si/plestenjak/vaje/latex/lshort.pdf)
+	* [LaTeX Base](https://latexbase.com/)
+	* [Primer](/files/primer-latex.zip)
+	
+- Markdown:
+	* [Markdown](http://daringfireball.net/projects/markdown/)
+	* [Markdown Tutorial](http://markdowntutorial.com/)
+	* [Markdown za Windows](http://www.maketecheasier.com/best-markdown-editor-for-windows/)
+	* [Markdown hitra navodila](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+	* [Word to Markdown Converter](https://word-to-markdown.herokuapp.com)
+	* [Markdown Live Preview](https://markdownlivepreview.com)
+	* [Primer](/files/primer-md.zip)
+
+{{< figure src="/img/md-latex-preview.png" caption="Markdown (levo) in LaTeX (desno) predogled." >}}
+

@@ -197,3 +197,15 @@ Ogledali si bomo kako vzpostavimo in uporabimo visoko-propustno računsko okolje
 {{< figure src="/img/fgg-rc-2014.png" >}}
 
 {{< figure src="/img/kgi-cl-2014.png" >}}
+
+### 10. teden - ponedeljek, 28. 4. 2025
+
+Samostojno delo. Naloga objavljena v spletni učilnici.
+
+### 11. teden - ponedeljek, 5. 5. 2025
+
+Baze podatkov:
+- [Uvod v podatkovne baze](/files/baze-podatkov-1920.pdf)
+- [2019 Database Trends – SQL vs. NoSQL, Top Databases, Single vs. Multiple Database Use](https://scalegrid.io/blog/2019-database-trends-sql-vs-nosql-top-databases-single-vs-multiple-database-use/)
+
+{{< figure src="/img/DB-Engines-Ranking-2020.png" >}}

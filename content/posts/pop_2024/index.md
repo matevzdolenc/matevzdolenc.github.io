@@ -234,3 +234,25 @@ Datoteke:
 {{< figure src="/img/kml-kraji.jpg" >}}
 
 {{< figure src="/img/kml-kraji-crte.jpg" >}}
+
+### 10. teden - ponedeljek, 28. 4. 2025
+
+Samostojno delo. Naloga objavljena v spletni učilnici.
+
+### 11. teden - ponedeljek, 5. 5. 2025
+
+Naloga z Excelom.
+
+Navodila:
+1. V programu Excel pripravite tabelo s tremi stolpci. Vsak študent določi podatke za eno vrstico:
+	- 1 stolpec: ime - ime študenta
+	- 2 stolpec: število1 - poljubno realno število od -100 do 100
+	- 3 stolpec: število2 - poljubno celo število od 0 do 100
+2. Podatke iz programa Excel prenesite v tekstovno datoteko. Datoteko lahko dopolnite tako, da bo branje podatkov s programom, izdelanem v programskem jeziku Python, bolj preprosto.
+V programskem jeziku Python izdelajte program, ki ...
+	- prebere podatke iz datoteke, ki ste jo pripravili v točki 2 in prebrane podatke izpiše na zaslon v obliki tabele,
+    - podatke izpiše v XML datoteko (oblika datoteke ni predpisana),
+    - izračuna in izpiše na zaslon povprečno vrednost števil v 2. in 3. stolpcu tabele,
+    - izračuna razliko med podanimi podatki v 2. in 3. stolpcu ter rezultate izpiše na zaslon in v izhodno tekstovno datoteko,
+3. v datoteko, ki ste jo pripravili v 1. točki naloge, prenesite rezultate iz izhodne tekstovne datoteke in izdelajte graf teh rezultatov.
+4. V programskem jeziku Python izdelajte program, ki prebere XML datoteko iz 3. točke naloge in podatke v obliki tabele izpiše na zaslon.
