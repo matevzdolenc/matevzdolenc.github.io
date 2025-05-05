@@ -91,6 +91,21 @@ Povezave:
 
 {{< figure src="/img/og-rac-2016-spletne-strani.png" caption="Nekaj primerov spletnih strani študentov OG.">}}
 
+### 3. naloga
+
+Pripravite video predstavitev spletne strani, ki ste jo izdelali v 2. seminarski nalogi. Za zejem videa uporabite enega izmed brezplačnih [programov](http://thescreencastinghandbook.com/screencast-software/).
+
+Osnovne smernice za video predstavitev:
+- maksimalna dolžina 5 min
+- video shranite v "mov" formatu
+- video naložite na enega izmed video portalov (YouTube, Vimeo)
+
+Video pripravite do 19.5.2025. Obvestilo o pripravljeni video predstavitvi oddate v spletni učilnici.
+
+Navodila za pripravo predstavitve:
+- [10 Rules to Instantly Improve Your Presentations](http://blog.hubspot.com/blog/tabid/6307/bid/5975/10-Rules-to-Instantly-Improve-Your-Presentations.aspx)
+- [5 Rules for More Effective Presentations](http://michaelhyatt.com/5-rules-for-more-effective-presentations.html)
+
 ## Predavanja
 
 ### 1. teden - ponedeljek, 17. 2. 2025
