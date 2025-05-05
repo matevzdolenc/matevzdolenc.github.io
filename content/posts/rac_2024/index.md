@@ -207,5 +207,7 @@ Samostojno delo. Naloga objavljena v spletni učilnici.
 Baze podatkov:
 - [Uvod v podatkovne baze](/files/baze-podatkov-1920.pdf)
 - [2019 Database Trends – SQL vs. NoSQL, Top Databases, Single vs. Multiple Database Use](https://scalegrid.io/blog/2019-database-trends-sql-vs-nosql-top-databases-single-vs-multiple-database-use/)
+- [Database Trends: A 2024 Review and a Look Ahead](https://thenewstack.io/database-trends-a-2024-review-and-a-look-ahead/)
+- [Startup Database Trends Report](https://www.springtail.io/startup-database-trends)
 
 {{< figure src="/img/DB-Engines-Ranking-2020.png" >}}
