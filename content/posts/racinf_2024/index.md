@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [70, 63, 56, 55, 39, 42, 19, 16, , , , , , , ],
+    data: [70, 63, 56, 55, 39, 42, 19, 16, 28, , 22, , , , ],
   }],
 },
 options: {
@@ -207,8 +207,10 @@ Uporaba knjižnice PyPlot:
 
 Datoteke: [numpy-matplotlib-sqlite.zip](/src/python/numpy-matplotlib-sqlite.zip)
 
-{{< figure src="/img/fidapm37_lg_city.gif" >}}
-{{< figure src="/img/py-geokar-pyplot.png" >}}
+{{< gallery >}}
+  <img src="/img/fidapm37_lg_city.gif" class="grid-w50" />
+  <img src="/img/py-geokar-pyplot.png" class="grid-w50" />
+{{< /gallery >}}
 
 ### 11. teden - sreda, 30. 4. 2025
 
@@ -221,7 +223,7 @@ Samostojno delo. Naloga objavljena v spletni učilnici.
 	- Uvod v gradbeno informatiko: [Splošno o gradbeni informatiki - značilnosti in posledice le-teh](/files/gradbena-informatika.pdf), [Informacije, podatki, znanje](/files/informacije-podatki-znanje.pdf)
 
 - Digitalni dokumenti:
-	* [Digitalni dokumenti](href="http://media.matevzdolenc.com/ul-fgg/2022-2023/digitalni-dokumenti.pdf) - prednosti in slabosti, standardi, itd.
+	* [Digitalni dokumenti](/files/digitalni-dokumenti.pdf) - prednosti in slabosti, standardi, itd.
 	* Excel - naslavljanje celic: absolutno/relativno, delo s formulami: pisanje/kopiranje, ...
 
 - LaTeX:
@@ -242,3 +244,56 @@ Samostojno delo. Naloga objavljena v spletni učilnici.
 
 {{< figure src="/img/md-latex-preview.png" caption="Markdown (levo) in LaTeX (desno) predogled." >}}
 
+### 13. teden - sreda, 14. 5. 2025
+
+- Internet in splet:
+	* [Uvod v Internet](/files/internet.pdf) - zgodovina, protokoli, ...
+	* [Uvod v splet](/files/splet.pdf) - zgotovina, protokoli, uporaba, 1.0/2.0/3.0, ...
+    * [Uvod v splet 2.0](/files/splet-2.0-rk.pdf)
+
+- Inženirska komunikacija:	
+    * [Osnove inženirske komunikacije](/files/komunikacija.pdf)
+
+{{< figure src="/img/web2.png" caption="" >}}
+
+### 14. teden - sreda, 21. 5. 2025
+
+- Knjiga David Weinberger, “Everything is Miscellaneous: The Power of the New Digital Disorder”
+	* [Vse je različno](/files/vse-je-razlicno.pdf)
+    * [Everything is Miscellaneous](http://www.youtube.com/watch?v=x3wOhXsjPYM) - video
+    * [Information R/evolution](http://www.youtube.com/watch?v=-4CV05HyAbM) - video
+
+Odprta koda:
+- [Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, kaj pomeni za končne uporabnike
+
+{{< gallery >}}
+  <img src="/img/everything_is_miscellaneous.png" class="grid-w50" />
+  <img src="/img/open-source.png" class="grid-w50" />
+{{< /gallery >}}
+
+### 15. teden - sreda, 28. 5. 2025
+
+Virtualizacija:
+- [Virtualizacija - uporaba navideznih računalnikov](/files/virtualizacija.pdf)
+- [Distro Watch](http://distrowatch.com/) - seznam Linux distribucij
+- [Oracle VirtualBox](https://www.virtualbox.org) - okolje za virtualizacijo oeracijskih sistemov
+- Linux distribucije: [Ubuntu](https://ubuntu.com), [Fedora](http://fedoraproject.org), [Redhat](http://www.redhat.com)
+- Naloga: Namestitev VirtualBox in preiskus ene izmed Linux distribucij.
+
+Podatkovni centri:
+- [Google Datacenters](https://www.google.com/about/datacenters/)
+- [AWS data centers](https://aws.amazon.com/compliance/data-center/data-centers/)
+- [Facebook Engineering](https://engineering.fb.com)
+
+{{< figure src="/img/virtualizacija-virtualbox.png" >}}
+
+Ogledali si bomo kako vzpostavimo in uporabimo visoko-propustno računsko okolje: 
+
+- [HTCondor](http://research.cs.wisc.edu/htcondor/)
+- Video tutorial: [HTCondor za inženirje](https://matevzdolenc.com/htcondor/)
+- [htc-predavanje.pdf](/files/htc-predavanje.pdf)
+
+{{< gallery >}}
+  <img src="/img/fgg-rc-2025.png" class="grid-w50" />
+  <img src="/img/fgg-cl-2025.png" class="grid-w50" />
+{{< /gallery >}}

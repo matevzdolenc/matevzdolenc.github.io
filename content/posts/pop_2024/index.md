@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [13, 14, 14, 13, 12, 11, 11, 9, 11, , , , , , ],
+    data: [13, 14, 14, 13, 12, 11, 11, 9, 11, 6, 10, , , , ],
   }],
 },
 options: {
@@ -231,9 +231,10 @@ Datoteke:
 
 <!-- Rešitev: [kml-studenti.py](/src/python/kml-studenti.py) -->
 
-{{< figure src="/img/kml-kraji.jpg" >}}
-
-{{< figure src="/img/kml-kraji-crte.jpg" >}}
+{{< gallery >}}
+  <img src="/img/kml-kraji.jpg" class="grid-w50" />
+  <img src="/img/kml-kraji-crte.jpg" class="grid-w50" />
+{{< /gallery >}}
 
 ### 10. teden - ponedeljek, 28. 4. 2025
 
@@ -256,3 +257,46 @@ V programskem jeziku Python izdelajte program, ki ...
     - izračuna razliko med podanimi podatki v 2. in 3. stolpcu ter rezultate izpiše na zaslon in v izhodno tekstovno datoteko,
 3. v datoteko, ki ste jo pripravili v 1. točki naloge, prenesite rezultate iz izhodne tekstovne datoteke in izdelajte graf teh rezultatov.
 4. V programskem jeziku Python izdelajte program, ki prebere XML datoteko iz 3. točke naloge in podatke v obliki tabele izpiše na zaslon.
+
+### 12. teden - ponedeljek, 12. 5. 2025
+
+Knjižnice: [NumPy](https://www.numpy.org), [SciPy](https://scipy.org), [matplotlib](https://matplotlib.org)
+
+Python in SQL:
+- Baze podatkov: [SQLite](http://www.sqlite.org), [MySQL](http://www.mysql.com), ...
+- [Uporaba Python/SQL](http://www.python-course.eu/sql_python.php)
+- Zapis podatkov v bazo SQLite: [geokar-xml2db.py](/src/python/geokar-xml2db.py), [geokar-podatki.xml](/src/python/geokar-podatki.xml)
+- Iskanje podatkov v bazi SQLite: [geokar-10-1.py](/src/python/geokar-10-1.py), [geometrijske_karakteristike.py](/src/python/geometrijske_karakteristike.py)
+
+Python in Excel: 
+-  Uporaba knjižnice [openpyxl](https://openpyxl.readthedocs.io/en/stable/#): [mb_primer-1.py](/src/python/mb_primer-1.py), [mb_primer-1.xlsx](/src/python/mb_primer-1.xlsx)
+- Uporaba knjižnice [Pandas](http://pandas.pydata.org): [mb_primer-2.py](/src/python/mb_primer-2.py), [mb_primer-2.xlsx](/src/python/mb_primer-2.xlsx)
+
+Python in numerične analize:
+- Preprost primer izračuna sistema linearnih enačb, [linalg-1.py](/src/python/linalg-1.py)
+- Izračun sistema linearnih enačb:
+	- Program: [linalg-2.py](/src/python/linalg-2.py)
+	- Podatki - [Matrix Market](https://math.nist.gov/MatrixMarket/): [info](http://math.nist.gov/MatrixMarket/data/SPARSKIT/fidap/fidapm37.html), [fidapm37.mtx](/src/python/fidapm37.mtx), [fidapm37_rhs1.mtx](/src/python/fidapm37_rhs1.mtx)
+
+Uporaba knjižnice PyPlot:
+- Program za izris prereza: [geokar-plot.py](/src/python/geokar-plot.py)
+- Podatki: [geokar-podatki-1.txt](/src/python/geokar-podatki-1.txt), [geokar-podatki-2.txt](/src/python/geokar-podatki-2.txt)
+
+Datoteke: [numpy-matplotlib-sqlite.zip](/src/python/numpy-matplotlib-sqlite.zip)
+
+{{< gallery >}}
+  <img src="/img/fidapm37_lg_city.gif" class="grid-w50" />
+  <img src="/img/py-geokar-pyplot.png" class="grid-w50" />
+{{< /gallery >}}
+
+### 13. teden - ponedeljek, 19. 5. 2025
+
+Priprava na izpit / kolokvij.
+
+### 14. teden - ponedeljek, 26. 5. 2025
+
+Kolokvij.
+
+### 15. teden - ponedeljek, 2. 6. 2025
+
+Zagovori kolokvijev - po potrebi.

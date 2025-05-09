@@ -38,7 +38,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [45, 37, 0, 19, 32, 19, 13, 13, 5, , , , , , ],
+    data: [45, 37, 0, 19, 32, 19, 13, 13, 5, , 9, , , , ],
   }],
 },
 options: {
@@ -226,3 +226,32 @@ Baze podatkov:
 - [Startup Database Trends Report](https://www.springtail.io/startup-database-trends)
 
 {{< figure src="/img/DB-Engines-Ranking-2020.png" >}}
+
+### 12. teden - 12. 5. 2025
+
+Navidezna in razširjena resničnost:
+- [Osnove in primeri](http://media.matevzdolenc.com/ul-fgg/2021-2022/vr-ar.pdf)
+- DOLENC, Matevž. [Augmented reality in AEC industry](https://www.intechopen.com/online-first/1153616). V: BOULANGER, Pierre (ur.). Applications of Augmented Reality - Current State of the Art. London: IntechOpen Limited, 2023. Str. 1-14, ilustr. ISBN 978-1-83769-334-4., DOI: 10.5772/intechopen.1002371. [COBISS.SI-ID 164279299]
+- DE HUGO SILVA, Angela Cristina, GABER, Metod, DOLENC, Matevž. [Using Augmented Reality in Different BIM Workflows](https://www.intechopen.com/online-first/77894). V: Augmented Reality. London: IntechOpen Limited, 2021. Str. 1-14, ilustr. DOI: 10.5772/intechopen.99336. [COBISS.SI-ID 94789635]
+- Sebastjan Meža, [Razširjena resničnost kot infrastruktura za izboljšanje komunikacije v gradbenih projektih](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=30946&lang=slv)
+- Luka Gradišar, [Dan odprtih vrat: Digitalno modeliranje in navidzna resničnost](http://media.matevzdolenc.com/ul-fgg/2021-2022/Dan_odprtih_vrat_Digitalno_in_navidezna_resnicnost.pdf)
+- Naloga: Namestite in preiskusite [BIMx](http://www.graphisoft.com/bimx/)
+
+Internet stvari (angl. Internet of Things - IoT):
+- [Osnove in primeri](http://media.matevzdolenc.com/ul-fgg/2021-2022/iot.pdf)
+- [Internet of Things Infographic | What Is The "Internet of Things"?](https://www.postscapes.com/what-exactly-is-the-internet-of-things-infographic/)
+
+{{< figure src="/img/vr-ar.jpeg" >}}
+
+### 13. teden - 19. 5. 2025
+
+Priprava na izpit.
+
+### 14. teden - 26. 5. 2025
+
+Predstavitve seminarskih nalog.
+
+### 15. teden - 2. 6. 2025
+
+Konzultacije.
+
