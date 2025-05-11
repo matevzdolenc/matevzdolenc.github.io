@@ -279,14 +279,16 @@ Python in numerične analize:
 	- Podatki - [Matrix Market](https://math.nist.gov/MatrixMarket/): [info](http://math.nist.gov/MatrixMarket/data/SPARSKIT/fidap/fidapm37.html), [fidapm37.mtx](/src/python/fidapm37.mtx), [fidapm37_rhs1.mtx](/src/python/fidapm37_rhs1.mtx)
 
 Uporaba knjižnice PyPlot:
+- Bisekcija: [bisekcija-plot.py](/src/python/bisekcija-plot.py)
 - Program za izris prereza: [geokar-plot.py](/src/python/geokar-plot.py)
 - Podatki: [geokar-podatki-1.txt](/src/python/geokar-podatki-1.txt), [geokar-podatki-2.txt](/src/python/geokar-podatki-2.txt)
 
 Datoteke: [numpy-matplotlib-sqlite.zip](/src/python/numpy-matplotlib-sqlite.zip)
 
 {{< gallery >}}
-  <img src="/img/fidapm37_lg_city.gif" class="grid-w50" />
-  <img src="/img/py-geokar-pyplot.png" class="grid-w50" />
+  <img src="/img/fidapm37_lg_city.gif" class="grid-w33" />
+  <img src="/img/py-geokar-pyplot.png" class="grid-w33" />
+  <img src="/img/bisekcija-plot.png" class="grid-w33" />
 {{< /gallery >}}
 
 ### 13. teden - ponedeljek, 19. 5. 2025
