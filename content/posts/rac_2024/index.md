@@ -227,7 +227,7 @@ Baze podatkov:
 
 {{< figure src="/img/DB-Engines-Ranking-2020.png" >}}
 
-### 12. teden - 12. 5. 2025
+### 12. teden - ponedeljek, 12. 5. 2025
 
 Navidezna in razširjena resničnost:
 - [Osnove in primeri](http://media.matevzdolenc.com/ul-fgg/2021-2022/vr-ar.pdf)
@@ -243,15 +243,15 @@ Internet stvari (angl. Internet of Things - IoT):
 
 {{< figure src="/img/vr-ar.jpeg" >}}
 
-### 13. teden - 19. 5. 2025
+### 13. teden - ponedeljek, 19. 5. 2025
 
 Priprava na izpit.
 
-### 14. teden - 26. 5. 2025
+### 14. teden - ponedeljek, 26. 5. 2025
 
 Predstavitve seminarskih nalog.
 
-### 15. teden - 2. 6. 2025
+### 15. teden - ponedeljek, 2. 6. 2025
 
 Konzultacije.
 
