@@ -38,7 +38,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [45, 37, 0, 19, 32, 19, 13, 13, 5, , 9, , , , ],
+    data: [45, 37, 0, 19, 32, 19, 13, 13, 5, , 9, 11, 15, 24, ],
   }],
 },
 options: {
@@ -250,6 +250,45 @@ Priprava na izpit.
 ### 14. teden - ponedeljek, 26. 5. 2025
 
 Predstavitve seminarskih nalog.
+
+{{< chart >}}
+type: 'bar',
+data: {
+  labels: ['Wix', 'Google Sites', 'Wordpress', 'Webador', 'Shopify', 'Carrd', 'Website Builder', 'Framer', 'html/css/js'],
+  datasets: [{
+    label: 'Spletni servisi za izdelavo spletnih strani',
+    data: [7, 6, 5, 3, 2, 1, 1, 1, 1],
+  }],
+},
+options: {
+	plugins: {
+		tooltip: {
+			enabled: false
+		},
+		title: {
+			display: true,
+			text: 'Uporabljeni spletni servisi za izdelavo spletnih strani'
+		},
+		legend: {
+			display: false
+		},
+	},
+	scales: {
+		x: {
+			title: {
+          		display: true,
+          		text: 'Spletni servisi za izdelavo spletnih strani'
+	        },
+		},
+		y: {
+			title: {
+          		display: true,
+          		text: 'Število izdelanih spletnih strani'
+	        },
+		}
+	}
+}
+{{< /chart >}}
 
 ### 15. teden - ponedeljek, 2. 6. 2025
 

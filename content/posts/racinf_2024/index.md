@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [70, 63, 56, 55, 39, 42, 19, 16, 28, , 22, 22, , , ],
+    data: [70, 63, 56, 55, 39, 42, 19, 16, 28, , 22, 22, 13, , ],
   }],
 },
 options: {
@@ -297,3 +297,7 @@ Ogledali si bomo kako vzpostavimo in uporabimo visoko-propustno računsko okolje
   <img src="/img/fgg-rc-2025.png" class="grid-w50" />
   <img src="/img/fgg-cl-2025.png" class="grid-w50" />
 {{< /gallery >}}
+
+### 16. teden - sreda, 4. 6. 2025
+
+Konzultacije.
