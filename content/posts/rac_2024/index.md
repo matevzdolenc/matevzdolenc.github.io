@@ -254,10 +254,10 @@ Predstavitve seminarskih nalog.
 {{< chart >}}
 type: 'bar',
 data: {
-  labels: ['Wix', 'Google Sites', 'Wordpress', 'Webador', 'Shopify', 'Carrd', 'Website Builder', 'Framer', 'html/css/js'],
+  labels: ['Google Sites', 'Wix', 'Wordpress', 'Webador', 'Shopify', 'Carrd', 'Website Builder', 'Framer', 'html/css/js'],
   datasets: [{
     label: 'Spletni servisi za izdelavo spletnih strani',
-    data: [7, 6, 5, 3, 2, 1, 1, 1, 1],
+    data: [10, 8, 6, 3, 2, 2, 1, 1, 1],
   }],
 },
 options: {
