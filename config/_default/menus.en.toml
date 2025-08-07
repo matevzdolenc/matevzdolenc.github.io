@@ -127,11 +127,11 @@ weight = 90
  pre = "link"
  weight = 10
 
-[[subnavigation]]
- name = "mojFGG"
- url = "https://buildingsmart.fgg.uni-lj.si"
- pre = "link"
- weight = 20
+#[[subnavigation]]
+# name = "mojFGG"
+# url = "https://app.fgg.si"
+# pre = "link"
+# weight = 20
 
 [[subnavigation]]
  name = "Programiranje za inženirje"
