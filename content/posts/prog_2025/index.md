@@ -31,7 +31,7 @@ Cilj predmeta je seznaniti študente z osnovnimi koncepti in tehnikami izdelave 
 - email - [mdolenc@fgg.uni-lj.si](mailto:mdolenc@fgg.uni-lj.si)
 
 ## Predavanja
-
+ 
 ### 1. teden - ponedeljek, 8. 10. 2025
 
 - Uvod
