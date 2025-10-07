@@ -23,6 +23,10 @@ buildFuture = false
 [imaging]
   anchor = 'Center'
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+    
 [taxonomies]
   tag = "tags"
   category = "categories"
