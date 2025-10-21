@@ -27,7 +27,7 @@ Cilj predmeta je seznaniti študente z osnovnimi koncepti in tehnikami izdelave 
 
 ### Kontakt
 
-- govorilne ure - torek 9-10, soba 035
+- govorilne ure - torek, 9-10, soba 035
 - email - [mdolenc@fgg.uni-lj.si](mailto:mdolenc@fgg.uni-lj.si)
 
 ## Predavanja
@@ -42,3 +42,12 @@ Cilj predmeta je seznaniti študente z osnovnimi koncepti in tehnikami izdelave 
 - Naloga za projektno delo:
 	* Pripravite predlog projekta (programa) - 5 do 7 prosojnic. 
 	* Rok za predstavitev: 15. 10. 2025
+
+### 2. teden - ponedeljek, 15. 10. 2025
+
+Predavanje odpade zaradi odsotnosti predavatelja. Nadomeščanje bo izvedeno v dogovoru s študenti.
+
+### 3. teden - ponedeljek, 22. 10. 2025
+
+- Projektno delo:
+	* Predstavitve predlogov projektov.
