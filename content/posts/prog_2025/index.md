@@ -51,3 +51,14 @@ Predavanje odpade zaradi odsotnosti predavatelja. Nadomeščanje bo izvedeno v d
 
 - Projektno delo:
 	* Predstavitve predlogov projektov.
+
+### 4. teden - ponedeljek, 29. 10. 2025
+
+- Razvoj programske opreme:
+	* [Agilni manifest](/files/agilni-manifest.pdf)
+	* [Agilne metodologije](/files/agilne-metodologije.pdf)
+
+- Projektno delo:
+	* Vprašanja in odgovori
+
+{{< figure src="/img/agilne-metodologije.png" caption="Agilne metodologije predstavljajo nabor vrednot." >}}
