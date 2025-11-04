@@ -32,7 +32,7 @@ Cilj predmeta je seznaniti študente z osnovnimi koncepti in tehnikami izdelave 
 
 ## Predavanja
  
-### 1. teden - ponedeljek, 8. 10. 2025
+### 1. teden - sreda, 8. 10. 2025
 
 - Uvod
 - Programiranje:
@@ -43,16 +43,16 @@ Cilj predmeta je seznaniti študente z osnovnimi koncepti in tehnikami izdelave 
 	* Pripravite predlog projekta (programa) - 5 do 7 prosojnic. 
 	* Rok za predstavitev: 15. 10. 2025
 
-### 2. teden - ponedeljek, 15. 10. 2025
+### 2. teden - sreda, 15. 10. 2025
 
 Predavanje odpade zaradi odsotnosti predavatelja. Nadomeščanje bo izvedeno v dogovoru s študenti.
 
-### 3. teden - ponedeljek, 22. 10. 2025
+### 3. teden - sreda, 22. 10. 2025
 
 - Projektno delo:
 	* Predstavitve predlogov projektov.
 
-### 4. teden - ponedeljek, 29. 10. 2025
+### 4. teden - sreda, 29. 10. 2025
 
 - Razvoj programske opreme:
 	* [Agilni manifest](/files/agilni-manifest.pdf)
@@ -62,3 +62,11 @@ Predavanje odpade zaradi odsotnosti predavatelja. Nadomeščanje bo izvedeno v d
 	* Vprašanja in odgovori
 
 {{< figure src="/img/agilne-metodologije.png" caption="Agilne metodologije predstavljajo nabor vrednot." >}}
+
+### 5. teden - sreda, 5. 11. 2025
+
+- [Programiranje za inženirje](https://pzi.si)
+- Projektno delo:
+	* Predstavitve dela za projektih
+	* Vprašanja in odgovori
+
