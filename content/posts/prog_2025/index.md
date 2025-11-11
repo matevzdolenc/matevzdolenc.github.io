@@ -70,3 +70,14 @@ Predavanje odpade zaradi odsotnosti predavatelja. Nadomeščanje bo izvedeno v d
 	* Predstavitve dela za projektih
 	* Vprašanja in odgovori
 
+### 6. teden - sreda, 12. 11. 2025
+
+- Git in GitHub:
+	* Namestitev Git sistema na domačem računalniku
+	* Prijava na GitHub
+	* Izdelava testnega programa (Python / Git / GitHub)
+- Povezave:
+	* [Introduction to Git and GitHub](/bimaplus/BIM_A+3.2_Git_and_GitHub.pdf)
+	* [Git - Fast Version Control System](http://git-scm.com/)
+	* [Tech Talk: Linus Torvalds on git](http://www.youtube.com/watch?v=4XpnKHJAok8)
+	* [GitHub - social coding](https://github.com/)
