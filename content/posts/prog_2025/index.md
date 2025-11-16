@@ -81,3 +81,9 @@ Predavanje odpade zaradi odsotnosti predavatelja. Nadomeščanje bo izvedeno v d
 	* [Git - Fast Version Control System](http://git-scm.com/)
 	* [Tech Talk: Linus Torvalds on git](http://www.youtube.com/watch?v=4XpnKHJAok8)
 	* [GitHub - social coding](https://github.com/)
+
+### 7. teden - sreda, 19. 11. 2025
+
+- Projektno delo:
+	* Predstavitve dela za projektih
+	* Vprašanja in odgovori
