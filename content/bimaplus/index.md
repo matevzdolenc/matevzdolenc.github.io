@@ -18,6 +18,7 @@ BIM A+ module 3 presentations and videos on programming related topics.
 - [Git and GitHub](/bimaplus/BIM_A+3.2_Git_and_GitHub.pdf)
 - [Data science](/bimaplus/BIM_A+3.2_Data_science.pdf)
 - [Python programming language and environment](/bimaplus/BIM_A+3.2_Python.pdf)
+- [HTCondor computing environment](/bimaplus/BIM_A+3.2_HTCondor.pdf)
 
 ## Assignments
 
