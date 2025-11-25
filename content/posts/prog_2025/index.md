@@ -87,3 +87,14 @@ Predavanje odpade zaradi odsotnosti predavatelja. Nadomeščanje bo izvedeno v d
 - Projektno delo:
 	* Predstavitve dela za projektih
 	* Vprašanja in odgovori
+
+### 8. teden - sreda, 26. 11. 2025
+
+- Spletno programiranje:
+	* HTML, CSS, JavaScript
+	* Izdelava prepostega spletnega programa za izračun ploščine kroga (rešitev: [krog-js.zip](/files/krog-js.zip)
+	* Povezave: [Bootstrap](https://getbootstrap.com), [Foundation](https://get.foundation)
+- JavaScript ogrodja: [Ember.js](https://emberjs.com), [Angular](https://angular.dev), [BACKBONE.JS](https://backbonejs.org)
+- Projektno delo:
+	* Predstavitve dela za projektih
+	* Vprašanja in odgovori
