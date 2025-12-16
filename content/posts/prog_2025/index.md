@@ -113,15 +113,28 @@ Projektno delo:
 
 ### 10. teden - sreda, 10. 12. 2025
 
+Odprta koda:
+- [Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, kaj pomeni za končne uporabnike
+
+Projektno delo:
+- Predstavitve dela za projektih
+- Vprašanja in odgovori
+
+{{< gallery >}}
+  <img src="/img/open-source.png" class="grid-w50" />
+{{< /gallery >}}
+
+### 11. teden - sreda, 17. 12. 2025
+
 Knjiga David Weinberger, “Everything is Miscellaneous: The Power of the New Digital Disorder”:
 - [Vse je različno](/files/vse-je-razlicno.pdf)
 - [Everything is Miscellaneous](http://www.youtube.com/watch?v=x3wOhXsjPYM) - video
 - [Information R/evolution](http://www.youtube.com/watch?v=-4CV05HyAbM) - video
 
-Odprta koda:
-- [Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, kaj pomeni za končne uporabnike
-
 {{< gallery >}}
   <img src="/img/everything_is_miscellaneous.png" class="grid-w50" />
-  <img src="/img/open-source.png" class="grid-w50" />
 {{< /gallery >}}
+
+Projektno delo:
+- Predstavitve dela za projektih
+- Vprašanja in odgovori
