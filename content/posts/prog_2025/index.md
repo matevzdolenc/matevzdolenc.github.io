@@ -148,7 +148,7 @@ Knjiga David Weinberger, “Everything is Miscellaneous: The Power of the New Di
 - [Information R/evolution](http://www.youtube.com/watch?v=-4CV05HyAbM) - video
 
 {{< gallery >}}
-  <img src="/img/everything_is_miscellaneous.png" class="grid-w50" />
+  <img src="/img/everything_is_miscellaneous.png" class="grid-w50" alt=""/>
 {{< /gallery >}}
 
 Projektno delo:
