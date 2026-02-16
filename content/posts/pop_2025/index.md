@@ -74,7 +74,7 @@ options: {
 
 Uvod:
 
-- [Uvod v predmet- vsebina, program, osnovne informacije](/files/pop-2024.pdf)
+- [Uvod v predmet- vsebina, program, osnovne informacije](/files/pop-2025.pdf)
 - [Posebnosti gradbeništva](/files/posebnosti-gradbenistva.pdf)
 
 Razvoj programske opreme:
@@ -86,6 +86,7 @@ Uvod v programski jezik Python:
 
 - [Zakaj Python?](/files/zakaj-python.pdf)
 - Namestitev: [python.org](http://python.org), [Continuum Analytics - Anaconda](https://www.anaconda.com/download)
+- [Programiranje za inženirje: Rešeni primeri v programskem jeziku Python](https://pzi.si/knjiga-2/)
 - Naloga: Namestitev programskega sistema Python na domačem računalniku.
 
 {{< figure src="/img/agilne-metodologije.png" caption="Agilne metodologije predstavljajo nabor vrednot." >}}
