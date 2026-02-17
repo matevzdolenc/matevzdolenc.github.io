@@ -74,15 +74,20 @@ options: {
 
 Uvod:
 
-- [Uvod v predmet- vsebina, program, osnovne informacije](/files/racinf-2024.pdf)
+- [Uvod v predmet- vsebina, program, osnovne informacije](/files/racinf-2025.pdf)
 - [Posebnosti gradbeništva](/files/posebnosti-gradbenistva.pdf)
+
+Razvoj programske opreme:
+
+- [Agilni manifest](/files/agilni-manifest.pdf)
+- [Agilne metodologije](/files/agilne-metodologije.pdf)
 
 Uvod v programski jezik Python:
 
 - [Zakaj Python?](/files/zakaj-python.pdf)
 - Namestitev: [python.org](http://python.org), [Continuum Analytics - Anaconda](https://www.anaconda.com/download)
+- [Programiranje za inženirje: Rešeni primeri v programskem jeziku Python](https://pzi.si/knjiga-2/)
 - Urejevalniki teksta: [Notepad++](https://notepad-plus-plus.org), [Visual Studio Code](https://code.visualstudio.com)
-
-Naloga: Namestitev programskega sistema Python na domačem računalniku (Python + urejevalnik teksta).
+- Naloga: Namestitev programskega sistema Python na domačem računalniku (Python + urejevalnik teksta).
 
 {{< figure src="/img/agilne-metodologije.png" caption="Agilne metodologije predstavljajo nabor vrednot." >}}
