@@ -94,7 +94,7 @@ options: {
 	* Uporabljeni ukazi: input(), print(), float(), import, math.pi
 
 - Izvorna koda:
-	* Python: [krog-1.py](http://media.matevzdolenc.com/python/src/krog-1.py")
+	* Python: [krog-1.py](/src/python/krog-1.py")
 
 {{< figure src="/img/py-ploscina-kroga-spyder.png" caption="Python program krog.py v programskem okolju Spyder." >}}
 
@@ -105,18 +105,18 @@ options: {
     - Izračun in izpis ploščine, obsega ter dolžine diagonale podanega pravokotnika.
     - Izračun in izpis kota med diagonalo in osnovno stranico pravokotnika.
 	- Rešiteve: 
-    	- Vnos podatkov v več korakih - [pravokotnik-1.py](http://media.matevzdolenc.com/python/src/pravokotnik-1.py)
-        - Vnos podatkov v eni vrstici - [pravokotnik-2.py]("http://media.matevzdolenc.com/python/src/pravokotnik-2.py)
-		- Vnos podatkov ob zagonu programa - [pravokotnik-3.py](http://media.matevzdolenc.com/python/src/pravokotnik-3.py)
+    	- Vnos podatkov v več korakih - [pravokotnik-1.py](/src/python/pravokotnik-1.py)
+        - Vnos podatkov v eni vrstici - [pravokotnik-2.py](/src/python/pravokotnik-2.py)
+		- Vnos podatkov ob zagonu programa - [pravokotnik-3.py](/src/python/pravokotnik-3.py)
 
 - Uvod v Python:
 	- Zagon Python skript iz ukazne vrstice
     - Seznami: for in while zanka
 
 - Izvorna koda:
-	* [krog-1.py](http://media.matevzdolenc.com/python/src/krog-1.py")
-	* [krog-seznam.py](http://media.matevzdolenc.com/python/src/krog-seznam.py")
-	* [krog-range.py](http://media.matevzdolenc.com/python/src/krog-range.py")
+	* [krog-1.py](/src/python/krog-1.py")
+	* [krog-seznam.py](/src/python/krog-seznam.py")
+	* [krog-range.py](/src/python/krog-range.py")
 
 {{< figure src="/img/py-izpis-tabele-krogov.png" caption="Izpis preproste tabele v konzolnem oknu." >}}
 
@@ -126,16 +126,16 @@ options: {
 	- Interaktivni vnos podatkov o velikosti matrike.
 	- Izpis elementov matrike v obliki [i,j].
 	- Rešitve:
-		- [matrika-1.py](http://media.matevzdolenc.com/python/src/matrika-1.py)
-		- [matrika-2.py](http://media.matevzdolenc.com/python/src/matrika-2.py)
-		- [matrika-3.py](http://media.matevzdolenc.com/python/src/matrika-3.py)
+		- [matrika-1.py](/src/python/matrika-1.py)
+		- [matrika-2.py](/src/python/matrika-2.py)
+		- [matrika-3.py](/src/python/matrika-3.py)
 
 - Uvod v Python:
 	- while zanka
     - izpis v datoteko
 	- Uvoz tekstovnih podatkov v Excel in risanje razpršenih grafov.
 	- Izvorna koda:
-    	- Izračun ničle funkcije - bisekcija, [bisekcija-1.py](http://media.matevzdolenc.com/python/src/bisekcija-1.py), [bisekcija-2.py](http://media.matevzdolenc.com/python/src/bisekcija-2.py)
+    	- Izračun ničle funkcije - bisekcija, [bisekcija-1.py](/src/python/bisekcija-1.py), [bisekcija-2.py](/src/python/bisekcija-2.py)
 
 {{< figure src="/img/py-bisekcija-graf.png" caption="" >}}
 
@@ -149,14 +149,14 @@ options: {
 - Primer: [Izračun geometrijskih karakteristik](/files/geokar-formule.pdf)
 
 - Izvorna koda: 
-	- Podatki v programu, [geokar-1.py](http://media.matevzdolenc.com/python/src/geokar-1.py)
-	- Branje podatkov s tipkovnico (vsak podatek v svoji vrstici), [geokar-2.py](http://media.matevzdolenc.com/python/src/geokar-2.py)
-    - Branje podatkov s tipkovnico (x in y koordinati v isti vrstici), [geokar-3.py](http://media.matevzdolenc.com/python/src/geokar-3.py)
-    - Branje podatkov iz datoteke, [geokar-4.py](http://media.matevzdolenc.com/python/src/geokar-4.py)
-    - Testni podatki, [geokar-podatki.txt](http://media.matevzdolenc.com/python/src/geokar-podatki.txt)
-    - Izračun ploščine s funkcijo, [geokar-5.py](http://media.matevzdolenc.com/python/src/geokar-5.py)
-	- Vse geometrijske karakteristike, [geokar-6.py](http://media.matevzdolenc.com/python/src/geokar-6.py)
-	- Uporaba modulov, [geokar-7.py](http://media.matevzdolenc.com/python/src/geokar-7.py), [geometrijske_karakteristike.py](http://media.matevzdolenc.com/python/src/geometrijske_karakteristike.py)
+	- Podatki v programu, [geokar-1.py](/src/python/geokar-1.py)
+	- Branje podatkov s tipkovnico (vsak podatek v svoji vrstici), [geokar-2.py](/src/python/geokar-2.py)
+    - Branje podatkov s tipkovnico (x in y koordinati v isti vrstici), [geokar-3.py](/src/python/geokar-3.py)
+    - Branje podatkov iz datoteke, [geokar-4.py](/src/python/geokar-4.py)
+    - Testni podatki, [geokar-podatki.txt](/src/python/geokar-podatki.txt)
+    - Izračun ploščine s funkcijo, [geokar-5.py](/src/python/geokar-5.py)
+	- Vse geometrijske karakteristike, [geokar-6.py](/src/python/geokar-6.py)
+	- Uporaba modulov, [geokar-7.py](/src/python/geokar-7.py), [geometrijske_karakteristike.py](/src/python/geometrijske_karakteristike.py)
 
 {{< figure src="/img/py-geokar-sublimetext.png" >}}
 
@@ -185,8 +185,8 @@ Primeri:
 - Uvod v Python: zapisovanje XML datotek
 
 - Izvorna koda:
-	- Zapis podatkov o prerezu v XML datoteko, [geokar-8-1.py](http://media.matevzdolenc.com/python/src/geokar-8-1.py)
-	- Zapis podatkov o prerezu v XML datoteko z uporabo Python XML knjižnice, [geokar-8-2.py](http://media.matevzdolenc.com/python/src/geokar-8-2.py)
+	- Zapis podatkov o prerezu v XML datoteko, [geokar-8-1.py](/src/python/geokar-8-1.py)
+	- Zapis podatkov o prerezu v XML datoteko z uporabo Python XML knjižnice, [geokar-8-2.py](/src/python/geokar-8-2.py)
 
 {{< figure src="/img/py-geokar-xml.png" >}}
 
@@ -198,10 +198,10 @@ Predavanja odpadejo.
 
 - Uvod v Python: branje XML datotek
 - Izvorna koda:
-	- Branje podatkov o prerezu iz XML datoteke, [geokar-9-1.py](http://media.matevzdolenc.com/python/src/geokar-9-1.py)
-    - Podajanje imena vhodne datoteke s podatko o prerezu v ukazni vrstici, [geokar-9-2.py](http://media.matevzdolenc.com/python/src/geokar-9-2.py)
-    - Podajanje imena vhodne datoteke s podatko o prerezu v ukazni vrstici, [geokar-9-3.py](http://media.matevzdolenc.com/python/src/geokar-9-3.py)
-    - Ostale potrebne datoteke ... [geometrijske_karakteristike.py](http://media.matevzdolenc.com/python/src/geometrijske_karakteristike.py), [geokar-podatki.txt](http://media.matevzdolenc.com/python/src/geokar-podatki.txt), [geokar-podatki.xml](http://media.matevzdolenc.com/python/src/geokar-podatki.xml)
+	- Branje podatkov o prerezu iz XML datoteke, [geokar-9-1.py](/src/python/geokar-9-1.py)
+    - Podajanje imena vhodne datoteke s podatko o prerezu v ukazni vrstici, [geokar-9-2.py](/src/python/geokar-9-2.py)
+    - Podajanje imena vhodne datoteke s podatko o prerezu v ukazni vrstici, [geokar-9-3.py](/src/python/geokar-9-3.py)
+    - Ostale potrebne datoteke ... [geometrijske_karakteristike.py](/src/python/geometrijske_karakteristike.py), [geokar-podatki.txt](/src/python/geokar-podatki.txt), [geokar-podatki.xml](/src/python/geokar-podatki.xml)
 
 ### 12. teden - torek, 14. 5. 2024
 
@@ -217,16 +217,16 @@ Naloga: Izdelaj program za menjalnico.
 - Podatki:
 	- [Banka Slovenije](http://www.bsi.si)
 	- [Tečajna lista](http://www.bsi.si/_data/tecajnice/dtecbs.xml)
-	- [Primer popravljena XML datoteke tečajne liste](http://media.matevzdolenc.com/python/src/dtecbs.xml)
+	- [Primer popravljena XML datoteke tečajne liste](/src/python/dtecbs.xml)
 - Oddaja naloge:  
 	- Vsebino izdelane naloge zapakirajte v paket .zip. Oddate vse uporabljene oz. ustvarjene datoteke (python program, podatki, ...).
 	- Zip datoteko obvezno poimenujte takole: naloga-20240514-priimek-ime-vpisnaštevilka.zip
 	- Nalogo oddate v spletni učilnici - naloga Menjalnica
 - Rešitev:
-	- Primer lokalno shranjene tečajne liste z odstranjenim imenskim prostorom, [dtecbs.xml](http://media.matevzdolenc.com/python/src/dtecbs.xml)
-	- Preprosta rešitev z lokalno datoteko in odstranjenim imenskim prostorom - implementiran samo prvi del naloge, ki za podan znesek v EUR izpiše vrednost v vseh ostalih valutah, [menjalnica-0.py](http://media.matevzdolenc.com/python/src/menjalnica-0.py)
-	- Preprosta rešitev z lokalno datoteko in odstranjenim imenskim prostorom, [menjalnica-1.py](http://media.matevzdolenc.com/python/src/menjalnica-1.py)
-	- Rešitev z branjem XML datoteke z Interneta, uporaba 2-D seznama, [menjalnica-2.py](http://media.matevzdolenc.com/python/src/menjalnica-2.py)
+	- Primer lokalno shranjene tečajne liste z odstranjenim imenskim prostorom, [dtecbs.xml](/src/python/dtecbs.xml)
+	- Preprosta rešitev z lokalno datoteko in odstranjenim imenskim prostorom - implementiran samo prvi del naloge, ki za podan znesek v EUR izpiše vrednost v vseh ostalih valutah, [menjalnica-0.py](/src/python/menjalnica-0.py)
+	- Preprosta rešitev z lokalno datoteko in odstranjenim imenskim prostorom, [menjalnica-1.py](/src/python/menjalnica-1.py)
+	- Rešitev z branjem XML datoteke z Interneta, uporaba 2-D seznama, [menjalnica-2.py](/src/python/menjalnica-2.py)
 
 {{< figure src="/img/py-menjalnica.png" >}}
 
@@ -248,7 +248,7 @@ Datoteke:
 - [KML-podatki.txt](http://media.matevzdolenc.com/ul-fgg/2022-2023/KML-podatki.txt)
 - [primer.kml](http://media.matevzdolenc.com/ul-fgg/2022-2023/primer.kml)
 
-Rešitev: [kml-studenti.py](http://media.matevzdolenc.com/python/src/kml-studenti.py)
+Rešitev: [kml-studenti.py](/src/python/kml-studenti.py)
 
 {{< figure src="/img/kml-kraji.jpg" >}}
 
@@ -272,7 +272,7 @@ V programskem jeziku Python izdelajte program, ki ...
 3. v datoteko, ki ste jo pripravili v 1. točki naloge, prenesite rezultate iz izhodne tekstovne datoteke in izdelajte graf teh rezultatov.
 4. V programskem jeziku Python izdelajte program, ki prebere XML datoteko iz 3. točke naloge in podatke v obliki tabele izpiše na zaslon.
 
-Rešitev: [naloga_z_excelom.zip](http://media.matevzdolenc.com/python/src/naloga_z_excelom.zip)
+Rešitev: [naloga_z_excelom.zip](/src/python/naloga_z_excelom.zip)
 
 ### 15. teden - 4. 6. 2024
 

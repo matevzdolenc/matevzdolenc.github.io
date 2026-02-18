@@ -16,11 +16,13 @@ Zgornja slika je bila ustvarjena z orodjem **Adobe Firefly 2**.
 ## Splošne informacije
 
 Cilj predmeta je pridobiti osnovna računalniška znanja, ki so potrebna v nadaljevanju študija ter kasneje pri samostojnem inženirskem delu. Predmetnospecifične kompetence, ki jih študent pridobi pri tem predmetu, so:
+
 - poznavanje in razumevanje sodobne računalniške in informacijske tehnologije,
 - poznavanje in razumevanje osnovnih konceptov sodobnega razvoja inženirske programske opreme,
 - poznavanje in razumevanje temeljnega znanja, ki mu omogoča nadaljnje samoizobraževanje oz. nadgradnjo pridobljenih znanj s področja računalniške tehnologije.
-        
+
 ### Urnik
+
 - predavanja - ponedeljek, 10-12, P II/6
 - seminar - ponedeljek, 12-13, P II/6
 - vaje - po skupinah
@@ -42,32 +44,32 @@ data: {
   }],
 },
 options: {
-	plugins: {
-		tooltip: {
-			enabled: false
-		},
-		title: {
-			display: true,
-			text: 'Prisotnost na predavanjih'
-		},
-		legend: {
-			display: false
-		},
-	},
-	scales: {
-		x: {
-			title: {
-          		display: true,
-          		text: 'teden'
-	        },
-		},
-		y: {
-			title: {
-          		display: true,
-          		text: 'število študentov'
-	        },
-		}
-	}
+ plugins: {
+  tooltip: {
+   enabled: false
+  },
+  title: {
+   display: true,
+   text: 'Prisotnost na predavanjih'
+  },
+  legend: {
+   display: false
+  },
+ },
+ scales: {
+  x: {
+   title: {
+            display: true,
+            text: 'teden'
+         },
+  },
+  y: {
+   title: {
+            display: true,
+            text: 'število študentov'
+         },
+  }
+ }
 }
 {{< /chart >}}
 
@@ -86,17 +88,18 @@ Samostojno izdelajte spletno stran, ki ste jo predlagali v 1. seminarski nalogi.
 Spletno stran pripravite najkasneje do 22.4.2024. Obvestilo o spletnem naslovu izdelane spletne strani oddate v spletni učilnici.
 
 Povezave:
+
 - the balance, [8 Popular Types of Web Hosting Services](https://www.thebalance.com/types-of-web-hosting-services-2532072)
 - website.com, [Web Hosting](https://www.website.com/beginnerguide/webhosting/6/2/types-of-web-hosting-services.ws)
 
 {{< figure src="/img/og-rac-2016-spletne-strani.png" caption="Nekaj primerov spletnih strani študentov OG.">}}
-
 
 ### 3. naloga
 
 Pripravite video predstavitev spletne strani, ki ste jo izdelali v 2. seminarski nalogi. Za zejem videa uporabite enega izmed brezplačnih [programov](http://thescreencastinghandbook.com/screencast-software/).
 
 Osnovne smernice za video predstavitev:
+
 - maksimalna dolžina 5 min
 - video shranite v "mov" formatu
 - video naložite na enega izmed video portalov (YouTube, Vimeo)
@@ -104,6 +107,7 @@ Osnovne smernice za video predstavitev:
 Video pripravite do 24.5.2024. Obvestilo o pripravljeni video predstavitvi boste oddali v spletni učilnici.
 
 Navodila za pripravo predstavitve:
+
 - [10 Rules to Instantly Improve Your Presentations](http://blog.hubspot.com/blog/tabid/6307/bid/5975/10-Rules-to-Instantly-Improve-Your-Presentations.aspx)
 - [5 Rules for More Effective Presentations](http://michaelhyatt.com/5-rules-for-more-effective-presentations.html)
 
@@ -111,57 +115,66 @@ Navodila za pripravo predstavitve:
 
 ### 1. teden - ponedeljek, 26. 2. 2024
 
-- Uvod:
-	* [Uvod v predmet- vsebina, program, osnovne informacije](/files/og-rac-2023.pdf)
-	* [Posebnosti gradbeništva](/files/posebnosti-gradbenistva.pdf)
-- Uvod v gradbeno informatiko:
-	* [Splošno o gradbeni informatiki - značilnosti in posledice le-teh](/files/gradbena-informatika.pdf)
-	* [Informacije, podatki, znanje](/files/informacije-podatki-znanje.pdf)
-	
+Uvod:
+
+- [Uvod v predmet- vsebina, program, osnovne informacije](/files/og-rac-2023.pdf)
+- [Posebnosti gradbeništva](/files/posebnosti-gradbenistva.pdf)
+
+Uvod v gradbeno informatiko:
+
+- [Splošno o gradbeni informatiki - značilnosti in posledice le-teh](/files/gradbena-informatika.pdf)
+- [Informacije, podatki, znanje](/files/informacije-podatki-znanje.pdf)
+
 {{< figure src="/img/posebnosti-gradbenistva.png" caption="Posebnosti gradbeništva določajo uporabo in uvajanje informacijsko-komunikacijskih tehnologij v gradbenem sektorju." >}}
 
 ### 2. teden - ponedeljek, 4. 3. 2024
 
-- LaTeX:
-	* [LaTeX](http://www.latex-project.org)
- 	* [MiKTeX, LaTeX za Windows](http://miktex.org)
-	* [Ne najkrajši uvod v LaTeX](https://users.fmf.uni-lj.si/plestenjak/vaje/latex/lshort.pdf)
-	* [LaTeX Base](https://latexbase.com/)
-	* [Primer](/files/primer-latex.zip)
-	
-- Markdown:
-	* [Markdown](http://daringfireball.net/projects/markdown/)
-	* [Markdown Tutorial](http://markdowntutorial.com/)
-	* [Markdown za Windows](http://www.maketecheasier.com/best-markdown-editor-for-windows/)
-	* [Markdown hitra navodila](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-	* [Word to Markdown Converter](https://word-to-markdown.herokuapp.com)
-	* [Markdown Live Preview](https://markdownlivepreview.com)
-	* [Primer](/files/primer-md.zip)
+LaTeX:
 
-- Digitalni dokumenti:
-	* [Digitalni dokumenti](href="http://media.matevzdolenc.com/ul-fgg/2022-2023/digitalni-dokumenti.pdf) - prednosti in slabosti, standardi, itd.
-	* Excel - naslavljanje celic: absolutno/relativno, delo s formulami: pisanje/kopiranje, ...
+- [LaTeX](http://www.latex-project.org)
+- [MiKTeX, LaTeX za Windows](http://miktex.org)
+- [Ne najkrajši uvod v LaTeX](https://users.fmf.uni-lj.si/plestenjak/vaje/latex/lshort.pdf)
+- [LaTeX Base](https://latexbase.com/)
+- [Primer](/files/primer-latex.zip)
+
+Markdown:
+
+- [Markdown](http://daringfireball.net/projects/markdown/)
+- [Markdown Tutorial](http://markdowntutorial.com/)
+- [Markdown za Windows](http://www.maketecheasier.com/best-markdown-editor-for-windows/)
+- [Markdown hitra navodila](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Word to Markdown Converter](https://word-to-markdown.herokuapp.com)
+- [Markdown Live Preview](https://markdownlivepreview.com)
+- [Primer](/files/primer-md.zip)
+
+Digitalni dokumenti:
+
+- [Digitalni dokumenti](/files/digitalni-dokumenti.pdf) - prednosti in slabosti, standardi, itd.
+- Excel - naslavljanje celic: absolutno/relativno, delo s formulami: pisanje/kopiranje, ...
 
 {{< figure src="/img/md-latex-preview.png" caption="Markdown (levo) in LaTeX (desno) predogled." >}}
 
 ### 3. teden - ponedeljek, 11. 3. 2024
 
-- Internet in splet:
-	* [Uvod v Internet](/files/internet.pdf) - zgodovina, protokoli, ...
-	* [Uvod v splet](/files/splet.pdf) - zgotovina, protokoli, uporaba, 1.0/2.0/3.0, ...
+Internet in splet:
+
+- [Uvod v Internet](/files/internet.pdf) - zgodovina, protokoli, ...
+- [Uvod v splet](/files/splet.pdf) - zgotovina, protokoli, uporaba, 1.0/2.0/3.0, ...
 
 {{< figure src="/img/web2.png" caption="" >}}
 
 ### 4. teden - ponedeljek, 18. 3. 2024
 
-- Internet in splet:
-    * [Uvod v splet 2.0](/files/splet-2.0-rk.pdf)
-    * [Osnove inženirske komunikacije](/files/komunikacija.pdf)
+Internet in splet:
 
-- Knjiga David Weinberger, “Everything is Miscellaneous: The Power of the New Digital Disorder”
-	* [Vse je različno](/files/vse-je-razlicno.pdf)
-    * [Everything is Miscellaneous](http://www.youtube.com/watch?v=x3wOhXsjPYM) - video
-    * [Information R/evolution](http://www.youtube.com/watch?v=-4CV05HyAbM) - video
+- [Uvod v splet 2.0](/files/splet-2.0-rk.pdf)
+- [Osnove inženirske komunikacije](/files/komunikacija.pdf)
+
+Knjiga David Weinberger, “Everything is Miscellaneous: The Power of the New Digital Disorder”
+
+- [Vse je različno](/files/vse-je-razlicno.pdf)
+- [Everything is Miscellaneous](http://www.youtube.com/watch?v=x3wOhXsjPYM) - video
+- [Information R/evolution](http://www.youtube.com/watch?v=-4CV05HyAbM) - video
 
 {{< figure src="/img/everything_is_miscellaneous.png" caption="" >}}
 
@@ -169,14 +182,14 @@ Navodila za pripravo predstavitve:
 
 Spletna predstavitev je zagotovo ena izmed pomembnih odločitev, je rešitev, saj je pomemben in prodoren element komunikacije in (samo)predstavitve. Ne glede na to, ali želite predstaviti le sebe oz. imate že izdelano idejo in posel, morate biti v vsakem primeru prisotni in vidni tudi na spletu, saj ponuja veliko možnosti, kako se predstaviti in oblikovati svojo blagovno znamko na spletu.
 
-Predstavitev:
-- [Osebna spletna stran](http://media.matevzdolenc.com/ul-fgg/2022-2023/osebna-spletna-stran.pdf)
+Predstavitev: [Osebna spletna stran](http://media.matevzdolenc.com/ul-fgg/2022-2023/osebna-spletna-stran.pdf)
 
 {{< figure src="/img/osebna-spletna-stran.png" >}}
 
 ### 6. teden - ponedeljek, 8. 4. 2024
 
 Virtualizacija:
+
 - [Virtualizacija - uporaba navideznih računalnikov](/files/virtualizacija.pdf)
 - [Distro Watch](http://distrowatch.com/) - seznam Linux distribucij
 - [Oracle VirtualBox](https://www.virtualbox.org) - okolje za virtualizacijo oeracijskih sistemov
@@ -184,11 +197,13 @@ Virtualizacija:
 - Naloga: Namestitev VirtualBox in preiskus ene izmed Linux distribucij.
 
 Podatkovni centri:
+
 - [Google Datacenters](https://www.google.com/about/datacenters/)
 - [AWS data centers](https://aws.amazon.com/compliance/data-center/data-centers/)
 - [Facebook Engineering](https://engineering.fb.com)
 
 Odprta koda:
+
 - [Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, kaj pomeni za končne upodarbnike
 
 {{< figure src="/img/virtualizacija-virtualbox.png" >}}
@@ -210,26 +225,30 @@ Ogledali si bomo kako vzpostavimo in uporabimo visoko-propustno računsko okolje
 ### 8. teden - ponedeljek, 22. 4. 2024
 
 Podatkovni standardi:
+
 - XML - Extended Markup Language
 - JSON - JavaScript Object Notation
 - IFC - Industry Foundation Classes
 
 Primeri:
+
 - Izdelajte XML/JSON dokument za shranjevanje poljubnega poligonalnega prereza. Točke prereza so podane z oznako in dvema koordinatama: x in y. Rešitve: [xml](http://media.matevzdolenc.com/ul-fgg/2021-2022/primer.xml) | [json](http://media.matevzdolenc.com/ul-fgg/2021-2022/primer.json)
 - Izdelajte XML dokument, ki vsebuje podatke o dveh geografskih točkah (ime/naslov, koordinate, nadmorska višina)
 - Povezave:
-	- [uvod-v-xml-zacasno.pdf](http://media.matevzdolenc.com/ul-fgg/2022-2023/uvod-v-xml-zacasno.pdf)
-    - [XML standard](http://www.w3.org/standards/xml/)
-    - [W3C](http://www.w3.org)
-    - [JSON](http://www.json.org)
-    - [IFC](http://www.buildingsmart.org/standards/ifc)
-    - [KML](https://developers.google.com/kml/?hl=en)
+
+  - [uvod-v-xml-zacasno.pdf](http://media.matevzdolenc.com/ul-fgg/2022-2023/uvod-v-xml-zacasno.pdf)
+  - [XML standard](http://www.w3.org/standards/xml/) 
+  - [W3C](http://www.w3.org)
+  - [JSON](http://www.json.org)
+  - [IFC](http://www.buildingsmart.org/standards/ifc)
+  - [KML](https://developers.google.com/kml/?hl=en)
 
 {{< figure src="http://imgs.xkcd.com/comics/standards.png" >}}
 
 ### 9./10. teden - ponedeljek, 29. 4. 2024/6. 5. 2024
 
 Baze podatkov:
+
 - [Uvod v podatkovne baze](/files/baze-podatkov-1920.pdf)
 - [2019 Database Trends – SQL vs. NoSQL, Top Databases, Single vs. Multiple Database Use](https://scalegrid.io/blog/2019-database-trends-sql-vs-nosql-top-databases-single-vs-multiple-database-use/)
 
@@ -238,6 +257,7 @@ Baze podatkov:
 ### 11. teden - 13. 5. 2024
 
 Navidezna in razširjena resničnost:
+
 - [Osnove in primeri](http://media.matevzdolenc.com/ul-fgg/2021-2022/vr-ar.pdf)
 - DOLENC, Matevž. [Augmented reality in AEC industry](https://www.intechopen.com/online-first/1153616). V: BOULANGER, Pierre (ur.). Applications of Augmented Reality - Current State of the Art. London: IntechOpen Limited, 2023. Str. 1-14, ilustr. ISBN 978-1-83769-334-4., DOI: 10.5772/intechopen.1002371. [COBISS.SI-ID 164279299]
 - DE HUGO SILVA, Angela Cristina, GABER, Metod, DOLENC, Matevž. [Using Augmented Reality in Different BIM Workflows](https://www.intechopen.com/online-first/77894). V: Augmented Reality. London: IntechOpen Limited, 2021. Str. 1-14, ilustr. DOI: 10.5772/intechopen.99336. [COBISS.SI-ID 94789635]
@@ -246,6 +266,7 @@ Navidezna in razširjena resničnost:
 - Naloga: Namestite in preiskusite [BIMx](http://www.graphisoft.com/bimx/)
 
 Internet stvari (angl. Internet of Things - IoT):
+
 - [Osnove in primeri](http://media.matevzdolenc.com/ul-fgg/2021-2022/iot.pdf)
 - [Internet of Things Infographic | What Is The "Internet of Things"?](https://www.postscapes.com/what-exactly-is-the-internet-of-things-infographic/)
 
@@ -258,14 +279,13 @@ Povzetek vsebin in priprava na izpit.
 ### 13. teden - 27. 5. 2024
 
 Predstavitve seminarskih nalog:
+
 - Dolžina predstavitve:  3 - 5 minut
 - Predstavitev naj se začne z naslovnico (npr. v programu PowerPoint), ki vključuje: 
-	- ime in priimek študenta in 
-	- naslov izdelane spletne strani.
+- ime in priimek študenta in 
+- naslov izdelane spletne strani.
 - Pričakuje se, da bo v živo predstavljena izdelana spletna stran.
-- Predstavitve se bo ocenilo glede na:
-	- dolžino, vsebino in obliko predstavitve ter
-    - podajanje predstavitve.
+- Predstavitve se bo ocenilo glede na: dolžino, vsebino in obliko predstavitve in podajanje predstavitve.
 
 {{< chart >}}
 type: 'bar',
@@ -277,32 +297,32 @@ data: {
   }],
 },
 options: {
-	plugins: {
-		tooltip: {
-			enabled: false
-		},
-		title: {
-			display: true,
-			text: 'Uporabljeni spletni servisi za izdelavo spletnih strani'
-		},
-		legend: {
-			display: false
-		},
-	},
-	scales: {
-		x: {
-			title: {
-          		display: true,
-          		text: 'Spletni servisi za izdelavo spletnih strani'
-	        },
-		},
-		y: {
-			title: {
-          		display: true,
-          		text: 'Število izdelanih spletnih strani'
-	        },
-		}
-	}
+ plugins: {
+  tooltip: {
+   enabled: false
+  },
+  title: {
+   display: true,
+   text: 'Uporabljeni spletni servisi za izdelavo spletnih strani'
+  },
+  legend: {
+   display: false
+  },
+ },
+ scales: {
+  x: {
+   title: {
+            display: true,
+            text: 'Spletni servisi za izdelavo spletnih strani'
+         },
+  },
+  y: {
+   title: {
+            display: true,
+            text: 'Število izdelanih spletnih strani'
+         },
+  }
+ }
 }
 {{< /chart >}}
 

@@ -87,12 +87,19 @@ Vse pripravljene datoteke združite v ZIP datoteko, ki jo oddate v spletni učil
 
 Uvod:
 
-- [Uvod v predmet- vsebina, program, osnovne informacije](/files/rac-2024.pdf)
+- [Uvod v predmet- vsebina, program, osnovne informacije](/files/rac-2025.pdf)
 - [Posebnosti gradbeništva](/files/posebnosti-gradbenistva.pdf)
 
 Uvod v gradbeno informatiko:
 
 - [Splošno o gradbeni informatiki - značilnosti in posledice le-teh](/files/gradbena-informatika.pdf)
 - [Informacije, podatki, znanje](/files/informacije-podatki-znanje.pdf)
+
+Digitalni dokumenti:
+
+- [Digitalni dokumenti](/files/digitalni-dokumenti.pdf) - prednosti in slabosti, standardi, itd.
+- Excel - naslavljanje celic: absolutno/relativno, delo s formulami: pisanje/kopiranje, ...
+
+{{< figure src="/img/md-latex-preview.png" caption="Markdown (levo) in LaTeX (desno) predogled." >}}
 
 {{< figure src="/img/posebnosti-gradbenistva.png" caption="Posebnosti gradbeništva določajo uporabo in uvajanje informacijsko-komunikacijskih tehnologij v gradbenem sektorju." >}}

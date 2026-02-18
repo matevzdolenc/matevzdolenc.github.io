@@ -224,7 +224,7 @@ Datoteke: [numpy-matplotlib-sqlite.zip](http://media.matevzdolenc.com/python/src
 	- Uvod v gradbeno informatiko: [Splošno o gradbeni informatiki - značilnosti in posledice le-teh](/files/gradbena-informatika.pdf), [Informacije, podatki, znanje](/files/informacije-podatki-znanje.pdf)
 
 - Digitalni dokumenti:
-	* [Digitalni dokumenti](href="http://media.matevzdolenc.com/ul-fgg/2022-2023/digitalni-dokumenti.pdf) - prednosti in slabosti, standardi, itd.
+	* [Digitalni dokumenti](/files/digitalni-dokumenti.pdf) - prednosti in slabosti, standardi, itd.
 	* Excel - naslavljanje celic: absolutno/relativno, delo s formulami: pisanje/kopiranje, ...
 
 - LaTeX:
