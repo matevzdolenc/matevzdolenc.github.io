@@ -40,7 +40,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [ , , , , , , , , , , , , , , ],
+    data: [46, , , , , , , , , , , , , , ],
   }],
 },
 options: {
@@ -95,11 +95,9 @@ Uvod v gradbeno informatiko:
 - [Splošno o gradbeni informatiki - značilnosti in posledice le-teh](/files/gradbena-informatika.pdf)
 - [Informacije, podatki, znanje](/files/informacije-podatki-znanje.pdf)
 
-Digitalni dokumenti:
+Razvoj programske opreme:
 
-- [Digitalni dokumenti](/files/digitalni-dokumenti.pdf) - prednosti in slabosti, standardi, itd.
-- Excel - naslavljanje celic: absolutno/relativno, delo s formulami: pisanje/kopiranje, ...
-
-{{< figure src="/img/md-latex-preview.png" caption="Markdown (levo) in LaTeX (desno) predogled." >}}
+- [Agilni manifest](/files/agilni-manifest.pdf)
+- [Agilne metodologije](/files/agilne-metodologije.pdf)
 
 {{< figure src="/img/posebnosti-gradbenistva.png" caption="Posebnosti gradbeništva določajo uporabo in uvajanje informacijsko-komunikacijskih tehnologij v gradbenem sektorju." >}}
