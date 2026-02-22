@@ -90,3 +90,17 @@ Uvod v programski jezik Python:
 - Naloga: Namestitev programskega sistema Python na domačem računalniku.
 
 {{< figure src="/img/agilne-metodologije.png" caption="Agilne metodologije predstavljajo nabor vrednot." >}}
+
+### 2. teden - ponedeljek, 23. 2. 2026
+
+Uvod v Python:
+
+- Izvedba in zagon enostavnega Python programa/skripte (Spyder, iPython)
+- Seznami v Pythonu - for in while zanka
+- Uporabljeni ukazi: input(), print(), float(), import, math.pi
+
+Izvorna koda:
+
+- Python: [krog-1.py](/src/python/krog-1.py)
+
+{{< figure src="/img/py-ploscina-kroga-spyder.png" caption="Python program krog.py v programskem okolju Spyder." >}}

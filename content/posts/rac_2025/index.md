@@ -95,9 +95,38 @@ Uvod v gradbeno informatiko:
 - [Splošno o gradbeni informatiki - značilnosti in posledice le-teh](/files/gradbena-informatika.pdf)
 - [Informacije, podatki, znanje](/files/informacije-podatki-znanje.pdf)
 
+{{< figure src="/img/posebnosti-gradbenistva.png" caption="Posebnosti gradbeništva določajo uporabo in uvajanje informacijsko-komunikacijskih tehnologij v gradbenem sektorju." >}}
+
+### 2. teden - četrtek, 26. 2. 2026
+
 Razvoj programske opreme:
 
 - [Agilni manifest](/files/agilni-manifest.pdf)
 - [Agilne metodologije](/files/agilne-metodologije.pdf)
 
-{{< figure src="/img/posebnosti-gradbenistva.png" caption="Posebnosti gradbeništva določajo uporabo in uvajanje informacijsko-komunikacijskih tehnologij v gradbenem sektorju." >}}
+{{< figure src="/img/agilne-metodologije.png" caption="Agilne metodologije predstavljajo nabor vrednot." >}}
+
+- LaTeX:
+
+  - [LaTeX](http://www.latex-project.org)
+  - [MiKTeX, LaTeX za Windows](http://miktex.org)
+  - [Ne najkrajši uvod v LaTeX](https://users.fmf.uni-lj.si/plestenjak/vaje/latex/lshort.pdf)
+  - [LaTeX Base](https://latexbase.com/)
+  - [Primer](/files/primer-latex.zip)
+
+- Markdown:
+
+  - [Markdown](http://daringfireball.net/projects/markdown/)
+  - [Markdown Tutorial](http://markdowntutorial.com/)
+  - [Markdown za Windows](http://www.maketecheasier.com/best-markdown-editor-for-windows/)
+  - [Markdown hitra navodila](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+  - [Word to Markdown Converter](https://word-to-markdown.herokuapp.com)
+  - [Markdown Live Preview](https://markdownlivepreview.com)
+  - [Primer](/files/primer-md.zip)
+
+- Digitalni dokumenti:
+
+  - [Digitalni dokumenti](/files/digitalni-dokumenti.pdf) - prednosti in slabosti, standardi, itd.
+  - Excel - naslavljanje celic: absolutno/relativno, delo s formulami: pisanje/kopiranje, ...
+
+{{< figure src="/img/md-latex-preview.png" caption="Markdown (levo) in LaTeX (desno) predogled." >}}

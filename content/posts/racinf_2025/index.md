@@ -82,6 +82,10 @@ Razvoj programske opreme:
 - [Agilni manifest](/files/agilni-manifest.pdf)
 - [Agilne metodologije](/files/agilne-metodologije.pdf)
 
+{{< figure src="/img/agilne-metodologije.png" caption="Agilne metodologije predstavljajo nabor vrednot." >}}
+
+### 2. teden - torek, 24. 2. 2026
+
 Uvod v programski jezik Python:
 
 - [Zakaj Python?](/files/zakaj-python.pdf)
@@ -90,4 +94,8 @@ Uvod v programski jezik Python:
 - Urejevalniki teksta: [Notepad++](https://notepad-plus-plus.org), [Visual Studio Code](https://code.visualstudio.com)
 - Naloga: Namestitev programskega sistema Python na domačem računalniku (Python + urejevalnik teksta).
 
-{{< figure src="/img/agilne-metodologije.png" caption="Agilne metodologije predstavljajo nabor vrednot." >}}
+Izvorna koda:
+
+- Python: [krog-1.py](/src/python/krog-1.py)
+
+{{< figure src="/img/py-ploscina-kroga-spyder.png" caption="Python program krog.py v programskem okolju Spyder." >}}
