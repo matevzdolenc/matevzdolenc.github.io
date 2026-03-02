@@ -99,3 +99,25 @@ Izvorna koda:
 - Python: [krog-1.py](/src/python/krog-1.py)
 
 {{< figure src="/img/py-ploscina-kroga-spyder.png" caption="Python program krog.py v programskem okolju Spyder." >}}
+
+### 3. teden - torek, 3. 3. 2026
+
+Uvod v Python:
+
+- Zagon Python skript iz ukazne vrstice
+- Program za izračun plošline kroga
+- Seznami: for in while zanka
+
+Izvorna koda:
+
+- [krog-1.py](/src/python/krog-1.py")
+- [krog-seznam.py](/src/python/krog-seznam.py")
+- [krog-range.py](/src/python/krog-range.py")
+
+Naloga: V programskem jeziku Python izdelajte program za izračun nekaterih vrednosti v poljubnem pravokotniku naslednjimi zahtevami:
+
+- Interaktivni vnos podatkov pravokotnika (stranici a in b).
+- Izračun in izpis ploščine, obsega ter dolžine diagonale podanega pravokotnika.
+- Izračun in izpis kota med diagonalo in osnovno stranico pravokotnika.
+
+{{< figure src="/img/py-izpis-tabele-krogov.png" caption="Izpis preproste tabele v konzolnem oknu." >}}
