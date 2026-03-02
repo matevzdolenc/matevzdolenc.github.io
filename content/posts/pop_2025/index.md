@@ -112,15 +112,17 @@ Naloga: V programskem jeziku Python izdelajte program za izračun nekaterih vred
 - Interaktivni vnos podatkov pravokotnika (stranici a in b).
 - Izračun in izpis ploščine, obsega ter dolžine diagonale podanega pravokotnika.
 - Izračun in izpis kota med diagonalo in osnovno stranico pravokotnika.
-<!-- - Rešiteve:
+- Rešiteve:
 
   - Vnos podatkov v več korakih - [pravokotnik-1.py](/src/python/pravokotnik-1.py)
   - Vnos podatkov v eni vrstici - [pravokotnik-2.py](/src/python/pravokotnik-2.py)
-  - Vnos podatkov ob zagonu programa - [pravokotnik-3.py](/src/python/pravokotnik-3.py) -->
+  - Vnos podatkov ob zagonu programa - [pravokotnik-3.py](/src/python/pravokotnik-3.py)
 
 Uvod v Python:
 
 - while zanka
 - izpis v datoteko
 - Uvoz tekstovnih podatkov v Excel in risanje razpršenih grafov.
-<!-- - Izvorna koda: Izračun ničle funkcije - bisekcija, [bisekcija-1.py](/src/python/bisekcija-1.py), [bisekcija-2.py](/src/python/bisekcija-2.py) -->
+- Izvorna koda: Izračun ničle funkcije - bisekcija, [bisekcija-1.py](/src/python/bisekcija-1.py), [bisekcija-2.py](/src/python/bisekcija-2.py)
+
+{{< figure src="/img/py-bisekcija-graf.png" caption="" >}}
