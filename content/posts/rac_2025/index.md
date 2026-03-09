@@ -40,7 +40,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [46, 40, , , , , , , , , , , , , ],
+    data: [46, 40, 27, , , , , , , , , , , , ],
   }],
 },
 options: {
@@ -124,14 +124,7 @@ Markdown:
 
 {{< figure src="/img/md-latex-preview.png" caption="Markdown (levo) in LaTeX (desno) predogled." >}}
 
-### 3. teden - četrtek, 5. 3. 2026
-
-Razvoj programske opreme:
-
-- [Agilni manifest](/files/agilni-manifest.pdf)
-- [Agilne metodologije](/files/agilne-metodologije.pdf)
-
-{{< figure src="/img/agilne-metodologije.png" caption="Agilne metodologije predstavljajo nabor vrednot." >}}
+### 3/4 teden - četrtek, 5/12. 3. 2026
 
 Internet in splet:
 

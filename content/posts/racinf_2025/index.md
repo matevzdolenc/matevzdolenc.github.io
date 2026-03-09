@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [90, 78, , , , , , , , , , , , , ],
+    data: [90, 78, 27, , , , , , , , , , , , ],
   }],
 },
 options: {
@@ -121,3 +121,15 @@ Naloga: V programskem jeziku Python izdelajte program za izračun nekaterih vred
 - Izračun in izpis kota med diagonalo in osnovno stranico pravokotnika.
 
 {{< figure src="/img/py-izpis-tabele-krogov.png" caption="Izpis preproste tabele v konzolnem oknu." >}}
+
+### 4. teden - torek, 10. 3. 2026
+
+Uvod v Python:
+
+- while zanka
+- izpis v datoteko
+- Uvoz tekstovnih podatkov v Excel in risanje razpršenih grafov.
+
+- Izvorna koda: Izračun ničle funkcije - bisekcija, [bisekcija-1.py](/src/python/bisekcija-1.py), [bisekcija-2.py](/src/python/bisekcija-2.py)
+
+{{< figure src="/img/py-bisekcija-graf.png" caption="" >}}

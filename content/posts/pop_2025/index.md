@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [11, 14, , , , , , , , , , , , , ],
+    data: [11, 14, 14, , , , , , , , , , , , ],
   }],
 },
 options: {
@@ -105,9 +105,9 @@ Izvorna koda:
 
 {{< figure src="/img/py-ploscina-kroga-spyder.png" caption="Python program krog.py v programskem okolju Spyder." >}}
 
-### 3. teden - ponedeljek, 2.3.2026
+### 3. teden - ponedeljek, 2. 3. 2026
 
-Naloga: V programskem jeziku Python izdelajte program za izračun nekaterih vrednosti v poljubnem pravokotniku naslednjimi zahtevami:
+Naloga: V programskem jeziku Python izdelajte program za izračun nekaterih vrednosti v poljubnem pravokotniku z naslednjimi zahtevami:
 
 - Interaktivni vnos podatkov pravokotnika (stranici a in b).
 - Izračun in izpis ploščine, obsega ter dolžine diagonale podanega pravokotnika.
@@ -121,8 +121,22 @@ Naloga: V programskem jeziku Python izdelajte program za izračun nekaterih vred
 Uvod v Python:
 
 - while zanka
-- izpis v datoteko
-- Uvoz tekstovnih podatkov v Excel in risanje razpršenih grafov.
 - Izvorna koda: Izračun ničle funkcije - bisekcija, [bisekcija-1.py](/src/python/bisekcija-1.py), [bisekcija-2.py](/src/python/bisekcija-2.py)
 
 {{< figure src="/img/py-bisekcija-graf.png" caption="" >}}
+
+### 4. teden - ponedeljek, 9. 3. 2026
+
+Naloga: V programskem jeziku Python izdelajte program za izpis indeksov elementov matrike z naslednjimi zahtevami:
+
+- Interaktivni vnos št. vrstic in št. stolpcev matrike.
+- Vnos podatkov v eni vrstici ali ob zagonu programa.
+<!-- - Rešitve:
+
+  - Vnos podatkov v programu - []()
+  - Vnos podatkov ob zagonu programa - []() -->
+
+Uvod v Python:
+
+- Izpis v datoteko
+- Uvoz tekstovnih podatkov v Excel in risanje razpršenih grafov.
