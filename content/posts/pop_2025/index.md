@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [11, 14, 14, , , , , , , , , , , , ],
+    data: [11, 14, 14, 14, , , , , , , , , , , ],
   }],
 },
 options: {
@@ -140,3 +140,13 @@ Uvod v Python:
 
 - Izpis v datoteko
 - Uvoz tekstovnih podatkov v Excel in risanje razpršenih grafov.
+
+### 5. teden - ponedeljek, 16. 3. 2026
+
+Uvod v Python:
+
+- začetek daljšega primera
+- vnos več podatkov v vrstici
+- seznami
+
+- Primer: [Izračun geometrijskih karakteristik](/files/geokar-formule.pdf)
