@@ -138,3 +138,13 @@ Uvod v Python:
 - Izvorna koda: Izračun ničle funkcije - bisekcija, [bisekcija-1.py](/src/python/bisekcija-1.py), [bisekcija-2.py](/src/python/bisekcija-2.py), [bisekcija-3.py](/src/python/bisekcija-3.py)
 
 {{< figure src="/img/py-bisekcija-graf.png" caption="" >}}
+
+### 5. teden - torek, 17. 3. 2026
+
+Uvod v Python:
+
+- začetek daljšega primera
+- vnos več podatkov v vrstici
+- seznami
+
+- Primer: [Izračun geometrijskih karakteristik](/files/geokar-formule.pdf)
