@@ -81,6 +81,14 @@ Pripravite načrt za spletno stran (vsebina, izgled, ...) - spletno stran boste 
 
 Vse pripravljene datoteke združite v ZIP datoteko, ki jo oddate v spletni učilnici najkasneje do 17.3.2025.
 
+### 2. naloga
+
+Samostojno izdelajte spletno stran, ki ste jo predlagali v 1. seminarski nalogi. Spletno stran oz. blog izdelajte na enem izmed brezplačnih servisov za gostovanje spletnih strani ali blogov ([Google Sites](http://sites.google.com/), [WordPress](http://wordpress.com/), [Wix](https://www.wix.com), ...)
+
+Spletno stran pripravite najkasneje do 21.4.2026. Obvestilo o spletnem naslovu izdelane spletne strani oddate v spletni učilnici.
+
+{{< figure src="/img/og-rac-2016-spletne-strani.png" caption="Nekaj primerov spletnih strani študentov OG.">}}
+
 ## Predavanja
 
 ### 1. teden - četrtek, 19. 2. 2026
@@ -134,3 +142,20 @@ Internet in splet:
 - [Osnove inženirske komunikacije](/files/komunikacija.pdf)
 
 {{< figure src="/img/web2.png" caption="" >}}
+
+### 5. teden - ponedeljek, 17. 3. 2025
+
+Knjiga David Weinberger, “Everything is Miscellaneous: The Power of the New Digital Disorder”
+
+- [Vse je različno](/files/vse-je-razlicno.pdf)
+- [Everything is Miscellaneous](http://www.youtube.com/watch?v=x3wOhXsjPYM) - video
+- [Information R/evolution](http://www.youtube.com/watch?v=-4CV05HyAbM) - video
+
+{{< figure src="/img/everything_is_miscellaneous.png" caption="" >}}
+
+Spletna predstavitev je zagotovo ena izmed pomembnih odločitev, je rešitev, saj je pomemben in prodoren element komunikacije in (samo)predstavitve. Ne glede na to, ali želite predstaviti le sebe oz. imate že izdelano idejo in posel, morate biti v vsakem primeru prisotni in vidni tudi na spletu, saj ponuja veliko možnosti, kako se predstaviti in oblikovati svojo blagovno znamko na spletu.
+
+Predstavitev:
+- [Osebna spletna stran](/files/personal-website.pdf)
+
+{{< figure src="/img/personal-website.png" >}}
