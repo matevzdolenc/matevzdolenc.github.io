@@ -155,7 +155,24 @@ Knjiga David Weinberger, “Everything is Miscellaneous: The Power of the New Di
 
 Spletna predstavitev je zagotovo ena izmed pomembnih odločitev, je rešitev, saj je pomemben in prodoren element komunikacije in (samo)predstavitve. Ne glede na to, ali želite predstaviti le sebe oz. imate že izdelano idejo in posel, morate biti v vsakem primeru prisotni in vidni tudi na spletu, saj ponuja veliko možnosti, kako se predstaviti in oblikovati svojo blagovno znamko na spletu.
 
-Predstavitev:
-- [Osebna spletna stran](/files/personal-website.pdf)
+Predstavitev: [Osebna spletna stran](/files/personal-website.pdf)
 
 {{< figure src="/img/personal-website.png" >}}
+
+### 6. teden - ponedeljek, 26. 3. 2026
+
+Virtualizacija:
+
+- [Virtualizacija - uporaba navideznih računalnikov](/files/virtualizacija.pdf)
+- [Distro Watch](http://distrowatch.com/) - seznam Linux distribucij
+- [Oracle VirtualBox](https://www.virtualbox.org) - okolje za virtualizacijo oeracijskih sistemov
+- Linux distribucije: [Ubuntu](https://ubuntu.com), [Fedora](http://fedoraproject.org), [Redhat](http://www.redhat.com)
+- Naloga: Namestitev VirtualBox in preiskus ene izmed Linux distribucij.
+
+Podatkovni centri:
+
+- [Google Datacenters](https://www.google.com/about/datacenters/)
+- [AWS data centers](https://aws.amazon.com/compliance/data-center/data-centers/)
+- [Facebook Engineering](https://engineering.fb.com)
+
+{{< figure src="/img/virtualizacija-virtualbox.png" >}}
