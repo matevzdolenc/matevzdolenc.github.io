@@ -162,7 +162,7 @@ Izvorna koda:
 
 {{< figure src="/img/py-geokar-sublimetext.png" >}}
 
-### 6. teden - ponedeljek, 24. 3. 2026
+### 6. teden - torek, 24. 3. 2026
 
 Podatkovni standardi:
 
