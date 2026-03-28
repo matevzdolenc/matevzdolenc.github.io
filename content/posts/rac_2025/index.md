@@ -143,7 +143,7 @@ Internet in splet:
 
 {{< figure src="/img/web2.png" caption="" >}}
 
-### 5. teden - ponedeljek, 17. 3. 2025
+### 5. teden - četrtek, 17. 3. 2025
 
 Knjiga David Weinberger, “Everything is Miscellaneous: The Power of the New Digital Disorder”
 
@@ -159,7 +159,7 @@ Predstavitev: [Osebna spletna stran](/files/personal-website.pdf)
 
 {{< figure src="/img/personal-website.png" >}}
 
-### 6. teden - ponedeljek, 26. 3. 2026
+### 6. teden - četrtek, 26. 3. 2026
 
 Virtualizacija:
 
@@ -176,3 +176,19 @@ Podatkovni centri:
 - [Facebook Engineering](https://engineering.fb.com)
 
 {{< figure src="/img/virtualizacija-virtualbox.png" >}}
+
+### 7. teden - četrtek, 2. 4. 2026
+
+Ogledali si bomo kako vzpostavimo in uporabimo visoko-propustno računsko okolje:
+
+- [HTCondor](http://research.cs.wisc.edu/htcondor/)
+- Video tutorial: [HTCondor za inženirje](https://matevzdolenc.com/htcondor/)
+- [htc-predavanje.pdf](/files/htc-predavanje.pdf)
+
+{{< figure src="/img/fgg-rc-2014.png" >}}
+
+{{< figure src="/img/kgi-cl-2014.png" >}}
+
+Odprta koda: [Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, kaj pomeni za končne uporabnike
+
+{{< figure src="/img/open-source.png" >}}

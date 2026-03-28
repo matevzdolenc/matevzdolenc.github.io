@@ -187,3 +187,28 @@ Povezave:
 - [KML](https://developers.google.com/kml/?hl=en)
 
 {{< figure src="https://imgs.xkcd.com/comics/standards.png" >}}
+
+### 7. teden - ponedeljek, 30. 3. 2026
+
+Samostojno delo.
+
+V programskem jeziku Python izdelajte program in preverite rezultete s programom Excel. Podatki so dostopni v datoteki: [podatki.txt](/src/python/solarna/podatki.txt). V programskem jeziku Python izdelajte program z naslednjimi zahtevami:
+
+- Python program zapišite v datoteki program.py.
+- Program na začetku na zaslon izpiše: datum, vpisno številko študenta ter ime in priimek študenta.
+- Program prebere tekstovno datoteko s podatki in jih shrani v ustrezne spremenljivke.
+- Program prebrane podatke izpiše na zaslon v obliki tabele.
+- Program izračuna oz. določi povprečno, minimalno in maksimalno vrednost podatkov ter jih izpiše na zaslon.
+- Izračunane oz. določene količine preverite v programu Excel.
+
+Vsebina datoteke s podatki:
+
+```txt
+1. vrstica: naslov podatkov
+2. vrstica: število vrstic s podatki
+Naslednje vrstice:
+Leto
+Letna poraba sončne energije v TJ
+```
+
+Vsebino naloge - vsi uporabljeni podatki, izdelan program (izvorna koda), Excel datoteka, ..., zapakirajte v ZIP datoteko in do 6.4.2026 pošljete na e-naslov [mdolenc@fgg.uni-lj.si](mailto:mdolenc@fgg.uni-lj.si). ZIP datoteko poimenujte takole: ime-priimek-vpisnaštevilka.zip
