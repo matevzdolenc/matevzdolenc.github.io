@@ -185,10 +185,14 @@ Ogledali si bomo kako vzpostavimo in uporabimo visoko-propustno računsko okolje
 - Video tutorial: [HTCondor za inženirje](https://matevzdolenc.com/htcondor/)
 - [htc-predavanje.pdf](/files/htc-predavanje.pdf)
 
-{{< figure src="/img/fgg-rc-2014.png" >}}
-
-{{< figure src="/img/kgi-cl-2014.png" >}}
+{{< gallery >}}
+  <img src="/img/fgg-rc-2026.png" class="grid-w50" />
+  <img src="/img/kgi-cl-2014.png" class="grid-w50" />
+{{< /gallery >}}
 
 Odprta koda: [Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, kaj pomeni za končne uporabnike
 
-{{< figure src="/img/open-source.png" >}}
+{{< gallery >}}
+  <img src="/img/free_software-free_society.png" class="grid-w50" />
+  <img src="/img/open-source.png" class="grid-w50" />
+{{< /gallery >}}

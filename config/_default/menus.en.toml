@@ -139,6 +139,12 @@ weight = 90
  pre = "link"
  weight = 30
 
+[[subnavigation]]
+ name = "HTCondor za inženirje"
+ url = "https://matevzdolenc.com/htcondor"
+ pre = "link"
+ weight = 30
+
 # [[main]]
 #  name = "Categories"
 #  pageRef = "categories"
