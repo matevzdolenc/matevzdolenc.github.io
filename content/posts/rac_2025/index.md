@@ -40,7 +40,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [46, 40, 27, 25, 25, 13, , , , , , , , , ],
+    data: [46, 40, 27, 25, 25, 13, 21, , , , , , , , ],
   }],
 },
 options: {
@@ -196,3 +196,14 @@ Odprta koda: [Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, k
   <img src="/img/free_software-free_society.png" class="grid-w50" />
   <img src="/img/open-source.png" class="grid-w50" />
 {{< /gallery >}}
+
+### 8. teden - četrtek, 9. 4. 2026
+
+Baze podatkov:
+
+- [Uvod v podatkovne baze](/files/baze-podatkov-1920.pdf)
+- [2019 Database Trends – SQL vs. NoSQL, Top Databases, Single vs. Multiple Database Use](https://scalegrid.io/blog/2019-database-trends-sql-vs-nosql-top-databases-single-vs-multiple-database-use/)
+- [Database Trends: A 2024 Review and a Look Ahead](https://thenewstack.io/database-trends-a-2024-review-and-a-look-ahead/)
+- [Startup Database Trends Report](https://www.springtail.io/startup-database-trends)
+
+{{< figure src="/img/DB-Engines-Ranking-2020.png" >}}

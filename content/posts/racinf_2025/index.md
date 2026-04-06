@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [90, 78, 27, 43, 50, 50, , , , , , , , , ],
+    data: [90, 78, 27, 43, 50, 50, 31, , , , , , , , ],
   }],
 },
 options: {
@@ -201,3 +201,39 @@ Izvorna koda:
 - Ostale potrebne datoteke ... [geometrijske_karakteristike.py](/src/python/geometrijske_karakteristike.py), [geokar-podatki.txt](/src/python/geokar-podatki.txt), [geokar-podatki.xml](/src/python/geokar-podatki.xml)
 
 {{< figure src="/img/py-geokar-xml.png" >}}
+
+### 8. teden - torek, 7. 4. 2026
+
+Knjižnice: [NumPy](https://www.numpy.org), [SciPy](https://scipy.org), [matplotlib](https://matplotlib.org)
+
+Python in SQL:
+
+- Baze podatkov: [SQLite](http://www.sqlite.org), [MySQL](http://www.mysql.com), ...
+- [Uporaba Python/SQL](http://www.python-course.eu/sql_python.php)
+- Zapis podatkov v bazo SQLite: [geokar-xml2db.py](/src/python/geokar-xml2db.py), [geokar-podatki.xml](/src/python/geokar-podatki.xml)
+- Iskanje podatkov v bazi SQLite: [geokar-10-1.py](/src/python/geokar-10-1.py), [geometrijske_karakteristike.py](/src/python/geometrijske_karakteristike.py)
+
+Python in Excel: 
+
+- Uporaba knjižnice [openpyxl](https://openpyxl.readthedocs.io/en/stable/#): [mb_primer-1.py](/src/python/mb_primer-1.py), [mb_primer-1.xlsx](/src/python/mb_primer-1.xlsx)
+- Uporaba knjižnice [Pandas](http://pandas.pydata.org): [mb_primer-2.py](/src/python/mb_primer-2.py), [mb_primer-2.xlsx](/src/python/mb_primer-2.xlsx)
+
+Python in numerične analize:
+
+- Preprost primer izračuna sistema linearnih enačb, [linalg-1.py](/src/python/linalg-1.py)
+- Izračun sistema linearnih enačb:
+
+  - Program: [linalg-2.py](/src/python/linalg-2.py)
+  - Podatki - [Matrix Market](https://math.nist.gov/MatrixMarket/): [info](http://math.nist.gov/MatrixMarket/data/SPARSKIT/fidap/fidapm37.html), [fidapm37.mtx](/src/python/fidapm37.mtx), [fidapm37_rhs1.mtx](/src/python/fidapm37_rhs1.mtx)
+
+Uporaba knjižnice PyPlot:
+
+- Program za izris prereza: [geokar-plot.py](/src/python/geokar-plot.py)
+- Podatki: [geokar-podatki-1.txt](/src/python/geokar-podatki-1.txt), [geokar-podatki-2.txt](/src/python/geokar-podatki-2.txt)
+
+Datoteke: [numpy-matplotlib-sqlite.zip](/src/python/numpy-matplotlib-sqlite.zip)
+
+{{< gallery >}}
+  <img src="/img/fidapm37_lg_city.gif" class="grid-w50" />
+  <img src="/img/py-geokar-pyplot.png" class="grid-w50" />
+{{< /gallery >}}
