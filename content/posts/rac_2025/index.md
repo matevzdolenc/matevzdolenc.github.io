@@ -40,7 +40,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [46, 40, 27, 25, 25, 13, 21, , , , , , , , ],
+    data: [46, 40, 27, 25, 25, 13, 21, 17, , , , , , , ],
   }],
 },
 options: {
@@ -85,7 +85,7 @@ Vse pripravljene datoteke združite v ZIP datoteko, ki jo oddate v spletni učil
 
 Samostojno izdelajte spletno stran, ki ste jo predlagali v 1. seminarski nalogi. Spletno stran oz. blog izdelajte na enem izmed brezplačnih servisov za gostovanje spletnih strani ali blogov ([Google Sites](http://sites.google.com/), [WordPress](http://wordpress.com/), [Wix](https://www.wix.com), ...)
 
-Spletno stran pripravite najkasneje do 21.4.2026. Obvestilo o spletnem naslovu izdelane spletne strani oddate v spletni učilnici.
+Spletno stran pripravite najkasneje do 28.4.2026. Obvestilo o spletnem naslovu izdelane spletne strani oddate v spletni učilnici.
 
 {{< figure src="/img/og-rac-2016-spletne-strani.png" caption="Nekaj primerov spletnih strani študentov OG.">}}
 
@@ -207,3 +207,21 @@ Baze podatkov:
 - [Startup Database Trends Report](https://www.springtail.io/startup-database-trends)
 
 {{< figure src="/img/DB-Engines-Ranking-2020.png" >}}
+
+### 9. teden - četrtek, 16. 4. 2026
+
+Navidezna in razširjena resničnost:
+
+- [Osnove in primeri](/files/vr-ar.pdf)
+- DOLENC, Matevž. [Augmented reality in AEC industry](https://www.intechopen.com/online-first/1153616). V: BOULANGER, Pierre (ur.). Applications of Augmented Reality - Current State of the Art. London: IntechOpen Limited, 2023. Str. 1-14, ilustr. ISBN 978-1-83769-334-4., DOI: 10.5772/intechopen.1002371. [COBISS.SI-ID 164279299]
+- DE HUGO SILVA, Angela Cristina, GABER, Metod, DOLENC, Matevž. [Using Augmented Reality in Different BIM Workflows](https://www.intechopen.com/online-first/77894). V: Augmented Reality. London: IntechOpen Limited, 2021. Str. 1-14, ilustr. DOI: 10.5772/intechopen.99336. [COBISS.SI-ID 94789635]
+- Sebastjan Meža, [Razširjena resničnost kot infrastruktura za izboljšanje komunikacije v gradbenih projektih](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=30946&lang=slv)
+- Luka Gradišar, [Dan odprtih vrat: Digitalno modeliranje in navidzna resničnost](/files/Dan_odprtih_vrat_Digitalno_in_navidezna_resnicnost.pdf)
+- Naloga: Namestite in preiskusite [BIMx](http://www.graphisoft.com/bimx/)
+
+Internet stvari (angl. Internet of Things - IoT):
+
+- [Osnove in primeri](/files/iot.pdf)
+- [Internet of Things Infographic | What Is The "Internet of Things"?](https://www.postscapes.com/what-exactly-is-the-internet-of-things-infographic/)
+
+{{< figure src="/img/vr-ar.jpeg" >}}

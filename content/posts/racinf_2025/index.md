@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [90, 78, 27, 43, 50, 50, 31, , , , , , , , ],
+    data: [90, 78, 27, 43, 50, 50, 31, 21, , , , , , , ],
   }],
 },
 options: {
@@ -237,3 +237,30 @@ Datoteke: [numpy-matplotlib-sqlite.zip](/src/python/numpy-matplotlib-sqlite.zip)
   <img src="/img/fidapm37_lg_city.gif" class="grid-w50" />
   <img src="/img/py-geokar-pyplot.png" class="grid-w50" />
 {{< /gallery >}}
+
+### 9. teden - torek, 14. 4. 2026
+
+Digitalni dokumenti:
+
+- [Digitalni dokumenti](/files/digitalni-dokumenti.pdf) - prednosti in slabosti, standardi, itd.
+- Excel - naslavljanje celic: absolutno/relativno, delo s formulami: pisanje/kopiranje, ...
+
+LaTeX:
+
+- [LaTeX](http://www.latex-project.org)
+- [MiKTeX, LaTeX za Windows](http://miktex.org)
+- [Ne najkrajši uvod v LaTeX](https://users.fmf.uni-lj.si/plestenjak/vaje/latex/lshort.pdf)
+- [LaTeX Base](https://latexbase.com/)
+- [Primer](/files/primer-latex.zip)
+
+Markdown:
+
+- [Markdown](http://daringfireball.net/projects/markdown/)
+- [Markdown Tutorial](http://markdowntutorial.com/)
+- [Markdown za Windows](http://www.maketecheasier.com/best-markdown-editor-for-windows/)
+- [Markdown hitra navodila](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Word to Markdown Converter](https://word-to-markdown.herokuapp.com)
+- [Markdown Live Preview](https://markdownlivepreview.com)
+- [Primer](/files/primer-md.zip)
+
+{{< figure src="/img/md-latex-preview.png" caption="Markdown (levo) in LaTeX (desno) predogled." >}}
