@@ -79,15 +79,36 @@ options: {
 
 Pripravite načrt za spletno stran (vsebina, izgled, ...) - spletno stran boste izdelali v okviru 2. seminarske naloge. Načrt pripravite v dveh oblikah: (1) s programom MS Word in (2) v obliki LaTeX ali Markdown dokumenta.
 
-Vse pripravljene datoteke združite v ZIP datoteko, ki jo oddate v spletni učilnici najkasneje do 17.3.2025.
+Vse pripravljene datoteke združite v ZIP datoteko, ki jo oddate v spletni učilnici najkasneje do 17. 3. 2026.
 
 ### 2. naloga
 
 Samostojno izdelajte spletno stran, ki ste jo predlagali v 1. seminarski nalogi. Spletno stran oz. blog izdelajte na enem izmed brezplačnih servisov za gostovanje spletnih strani ali blogov ([Google Sites](http://sites.google.com/), [WordPress](http://wordpress.com/), [Wix](https://www.wix.com), ...)
 
-Spletno stran pripravite najkasneje do 28.4.2026. Obvestilo o spletnem naslovu izdelane spletne strani oddate v spletni učilnici.
+Spletno stran pripravite najkasneje do 28. 4. 2026. Obvestilo o spletnem naslovu izdelane spletne strani oddate v spletni učilnici.
 
 {{< figure src="/img/og-rac-2016-spletne-strani.png" caption="Nekaj primerov spletnih strani študentov OG.">}}
+
+### 3. naloga
+
+Pripravite video predstavitev spletne strani, ki ste jo izdelali v 2. seminarski nalogi. Za zejem videa lahko uporabiti "Snipping tool" v Windows 11 oziroma kakšnega od brezplačnih programov za video zajem zaslona.
+
+{{< youtubeLite id="6GBprBFpAU8" label="How to Screen Record on Windows 11" >}}
+
+<!-- https://youtu.be/6GBprBFpAU8?si= -->
+
+Osnovne smernice za video predstavitev:
+
+- maksimalna dolžina 5 min
+- video shranite v "mp4" formatu
+- video naložite na enega izmed video portalov (YouTube, Vimeo)
+
+Video pripravite do 25. 5. 2026. Obvestilo o pripravljeni video predstavitvi oddate v spletni učilnici.
+
+Navodila za pripravo predstavitve:
+
+- [10 Rules to Instantly Improve Your Presentations](http://blog.hubspot.com/blog/tabid/6307/bid/5975/10-Rules-to-Instantly-Improve-Your-Presentations.aspx)
+- [5 Rules for More Effective Presentations](http://michaelhyatt.com/5-rules-for-more-effective-presentations.html)
 
 ## Predavanja
 
