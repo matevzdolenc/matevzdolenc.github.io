@@ -228,3 +228,31 @@ Izvorna koda:
 - Ostale potrebne datoteke ... [geometrijske_karakteristike.py](/src/python/geometrijske_karakteristike.py), [geokar-podatki.txt](/src/python/geokar-podatki.txt), [geokar-podatki.xml](/src/python/geokar-podatki.xml)
 
 {{< figure src="/img/py-geokar-xml.png" >}}
+
+### 9. teden - ponedeljek, 20. 4. 2026
+
+Naloga: Izdelajte Python program, ki podane podatke v tekstovni datoteki pretvori v [KML](https://developers.google.com/kml/) zapis. KML datoteko poglejte v programu Google Earth.
+
+Podatki (glej primer [KML-podatki.txt](/src/python/kml-podatki.txt)):
+
+- 1 vrstica: center x-centra y-centra __# ime kraja in x in y koordinata kraja v decimalnih stopinjah__
+- 2 vrstica: n __# število podanih krajev (celo število)__
+- 3 + n vrstica: kraj x y __# kraj in x in y koordinata kraja v decimalnih stopinjah__
+
+Navodila:
+
+- Pripravite tekstovno datoteko s podatki oz. uporabite podatke v datoteki KML-podatki.txt. Za podatke si lahko npr. sestavite s podatki o koordinatah krajev od koder so študenti v letniku.
+- V programu Google Earth pripravite preprost primer prikaza vaših izbranih podatkov. V programu shranite podatke v datoteko tipa KML (ne KMZ). V ustvarjeni datoteki preverite način zapisa uporabljenih podatkov. Natančno razlago zapisa KML datoteke lahko poiščete v [KML dokumentaciji](https://developers.google.com/kml/)
+- Izdelajte program, ki ga zahteva naloga. Delovanje programa preverite na testnih podatkih.
+
+Datoteke:
+
+- [KML-podatki.txt](/src/python/KML-podatki.txt)
+- [primer.kml](/src/python/primer.kml)
+
+<!-- Rešitev: [kml-studenti.py](/src/python/kml-studenti.py) -->
+
+{{< gallery >}}
+  <img src="/img/kml-kraji.jpg" class="grid-w50" />
+  <img src="/img/kml-kraji-crte.jpg" class="grid-w50" />
+{{< /gallery >}}

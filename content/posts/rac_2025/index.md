@@ -40,7 +40,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [46, 40, 27, 25, 25, 13, 21, 17, , , , , , , ],
+    data: [46, 40, 27, 25, 25, 13, 21, 17, 8, , , , , , ],
   }],
 },
 options: {
@@ -246,3 +246,27 @@ Internet stvari (angl. Internet of Things - IoT):
 - [Internet of Things Infographic | What Is The "Internet of Things"?](https://www.postscapes.com/what-exactly-is-the-internet-of-things-infographic/)
 
 {{< figure src="/img/vr-ar.jpeg" >}}
+
+### 10. teden - četrtek, 23. 4. 2026
+
+Podatkovni standardi:
+
+- XML - Extended Markup Language
+- JSON - JavaScript Object Notation
+- IFC - Industry Foundation Classes
+
+Primeri:
+
+- Izdelajte XML/JSON dokument za shranjevanje poljubnega poligonalnega prereza. Točke prereza so podane z oznako in dvema koordinatama: x in y. Rešitve: [xml](/src/python/primer.xml) | [json](/src/python/primer.json)
+- Izdelajte XML dokument, ki vsebuje podatke o dveh geografskih točkah (ime/naslov, koordinate, nadmorska višina)
+
+Povezave:
+
+- [uvod-v-xml-zacasno.pdf](/files/uvod-v-xml-zacasno.pdf)
+- [XML standard](https://www.w3.org/standards/xml/)
+- [W3C](https://www.w3.org)
+- [JSON](https://www.json.org)
+- [IFC](https://www.buildingsmart.org/standards/ifc)
+- [KML](https://developers.google.com/kml/?hl=en)
+
+{{< figure src="https://imgs.xkcd.com/comics/standards.png" >}}

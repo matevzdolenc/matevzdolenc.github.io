@@ -264,3 +264,17 @@ Markdown:
 - [Primer](/files/primer-md.zip)
 
 {{< figure src="/img/md-latex-preview.png" caption="Markdown (levo) in LaTeX (desno) predogled." >}}
+
+### 10. teden - torek, 21. 4. 2026
+
+Internet in splet:
+
+- [Uvod v Internet](/files/internet.pdf) - zgodovina, protokoli, ...
+- [Uvod v splet](/files/splet.pdf) - zgotovina, protokoli, uporaba, 1.0/2.0/3.0, ...
+- [Uvod v splet 2.0](/files/splet-2.0-rk.pdf)
+
+Inženirska komunikacija:	
+
+- [Osnove inženirske komunikacije](/files/komunikacija.pdf)
+
+{{< figure src="/img/web2.png" caption="" >}}
