@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [90, 78, 27, 43, 50, 50, 31, 21, 21, , , , , , ],
+    data: [90, 78, 27, 43, 50, 50, 31, 21, 21, 19, , , , , ],
   }],
 },
 options: {
@@ -273,8 +273,87 @@ Internet in splet:
 - [Uvod v splet](/files/splet.pdf) - zgotovina, protokoli, uporaba, 1.0/2.0/3.0, ...
 - [Uvod v splet 2.0](/files/splet-2.0-rk.pdf)
 
-Inženirska komunikacija:	
+Inženirska komunikacija:
 
 - [Osnove inženirske komunikacije](/files/komunikacija.pdf)
 
 {{< figure src="/img/web2.png" caption="" >}}
+
+### 11. teden - torek, 5. 5. 2026
+
+Knjiga David Weinberger, “Everything is Miscellaneous: The Power of the New Digital Disorder”
+
+- [Vse je različno](/files/vse-je-razlicno.pdf)
+- [Everything is Miscellaneous](http://www.youtube.com/watch?v=x3wOhXsjPYM) - video
+- [Information R/evolution](http://www.youtube.com/watch?v=-4CV05HyAbM) - video
+
+[Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, kaj pomeni za končne uporabnike
+
+{{< gallery >}}
+  <img src="/img/everything_is_miscellaneous.png" class="grid-w50" />
+  <img src="/img/open-source.png" class="grid-w50" />
+{{< /gallery >}}
+
+### 12. teden - torek, 12. 5. 2026
+
+Virtualizacija:
+
+- [Virtualizacija - uporaba navideznih računalnikov](/files/virtualizacija.pdf)
+- [Distro Watch](http://distrowatch.com/) - seznam Linux distribucij
+- [Oracle VirtualBox](https://www.virtualbox.org) - okolje za virtualizacijo oeracijskih sistemov
+- Linux distribucije: [Ubuntu](https://ubuntu.com), [Fedora](http://fedoraproject.org), [Redhat](http://www.redhat.com)
+- Naloga: Namestitev VirtualBox in preiskus ene izmed Linux distribucij.
+
+Podatkovni centri:
+
+- [Google Datacenters](https://www.google.com/about/datacenters/)
+- [AWS data centers](https://aws.amazon.com/compliance/data-center/data-centers/)
+- [Facebook Engineering](https://engineering.fb.com)
+
+{{< figure src="/img/virtualizacija-virtualbox.png" >}}
+
+Ogledali si bomo kako vzpostavimo in uporabimo visoko-propustno računsko okolje:
+
+- [HTCondor](http://research.cs.wisc.edu/htcondor/)
+- Video tutorial: [HTCondor za inženirje](https://matevzdolenc.com/htcondor/)
+- [htc-predavanje.pdf](/files/htc-predavanje.pdf)
+
+{{< gallery >}}
+  <img src="/img/fgg-rc-2026.png" class="grid-w50" />
+  <img src="/img/kgi-cl-2014.png" class="grid-w50" />
+{{< /gallery >}}
+
+### 13. teden - torek, 19. 5. 2026
+
+Predavanja odpadejo zaradi odsotnosti predavatelja.
+
+### 14. teden - torek, 26. 5. 2026
+
+Baze podatkov:
+
+- [Uvod v podatkovne baze](/files/baze-podatkov-1920.pdf)
+- [2019 Database Trends – SQL vs. NoSQL, Top Databases, Single vs. Multiple Database Use](https://scalegrid.io/blog/2019-database-trends-sql-vs-nosql-top-databases-single-vs-multiple-database-use/)
+- [Database Trends: A 2024 Review and a Look Ahead](https://thenewstack.io/database-trends-a-2024-review-and-a-look-ahead/)
+- [Startup Database Trends Report](https://www.springtail.io/startup-database-trends)
+
+{{< figure src="/img/DB-Engines-Ranking-2020.png" >}}
+
+Navidezna in razširjena resničnost:
+
+- [Osnove in primeri](/files/vr-ar.pdf)
+- DOLENC, Matevž. [Augmented reality in AEC industry](https://www.intechopen.com/online-first/1153616). V: BOULANGER, Pierre (ur.). Applications of Augmented Reality - Current State of the Art. London: IntechOpen Limited, 2023. Str. 1-14, ilustr. ISBN 978-1-83769-334-4., DOI: 10.5772/intechopen.1002371. [COBISS.SI-ID 164279299]
+- DE HUGO SILVA, Angela Cristina, GABER, Metod, DOLENC, Matevž. [Using Augmented Reality in Different BIM Workflows](https://www.intechopen.com/online-first/77894). V: Augmented Reality. London: IntechOpen Limited, 2021. Str. 1-14, ilustr. DOI: 10.5772/intechopen.99336. [COBISS.SI-ID 94789635]
+- Sebastjan Meža, [Razširjena resničnost kot infrastruktura za izboljšanje komunikacije v gradbenih projektih](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=30946&lang=slv)
+- Luka Gradišar, [Dan odprtih vrat: Digitalno modeliranje in navidzna resničnost](/files/Dan_odprtih_vrat_Digitalno_in_navidezna_resnicnost.pdf)
+- Naloga: Namestite in preiskusite [BIMx](http://www.graphisoft.com/bimx/)
+
+Internet stvari (angl. Internet of Things - IoT):
+
+- [Osnove in primeri](/files/iot.pdf)
+- [Internet of Things Infographic | What Is The "Internet of Things"?](https://www.postscapes.com/what-exactly-is-the-internet-of-things-infographic/)
+
+{{< figure src="/img/vr-ar.jpeg" >}}
+
+### 15. teden - torek, 2. 5. 2026
+
+Priprava na izpit.

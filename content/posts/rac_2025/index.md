@@ -270,3 +270,22 @@ Povezave:
 - [KML](https://developers.google.com/kml/?hl=en)
 
 {{< figure src="https://imgs.xkcd.com/comics/standards.png" >}}
+
+### 11. teden - četrtek, 7. 5. 2026
+
+### 12. teden - četrtek, 14. 5. 2026
+
+### 13. teden - četrtek, 21. 5. 2026
+
+Priprava na izpit.
+
+### 14. teden - četrtek, 28. 5. 2026
+
+Predstavitve seminarskih nalog:
+
+- Maksimalna dolžina predstavitve je 5 minut.
+- Prosim bodite pripravljeni na predstavitev - najbolje je predstavitev naložiti na računalnik pred zažetkom ure.
+
+### 15. teden - četrtek, 4. 6. 2026
+
+Predavanja odpadejo. V času predavanj in seminarja potekajo individualne konzultacije in predstavitve seminarskih nalog.

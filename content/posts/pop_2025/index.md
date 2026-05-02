@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [11, 14, 14, 14, 11, 8, 8, 6, , , , , , , ],
+    data: [11, 14, 14, 14, 11, 8, 8, 6, 5, , , , , , ],
   }],
 },
 options: {
@@ -250,9 +250,93 @@ Datoteke:
 - [KML-podatki.txt](/src/python/KML-podatki.txt)
 - [primer.kml](/src/python/primer.kml)
 
-<!-- Rešitev: [kml-studenti.py](/src/python/kml-studenti.py) -->
+Rešitev: [kml-studenti.py](/src/python/kml-studenti.py)
 
 {{< gallery >}}
   <img src="/img/kml-kraji.jpg" class="grid-w50" />
   <img src="/img/kml-kraji-crte.jpg" class="grid-w50" />
 {{< /gallery >}}
+
+### 10. teden - ponedeljek, 4. 5. 2026
+
+Naloga: Izdelaj program za menjalnico.
+
+Programske zahteve:
+
+- program naj prebere trenutno tečajno listo iz XML datoteke
+- za podano vrednost v EUR naj program izpiše vrednosti v vseh ostali valutah
+- za podano vredno v izbrani valuti naj program izračuna ustrezno vrednost v EUR
+
+Pomoč:
+
+- Tečajno listo shranite na lokalni disk.
+- V XML datoteki lahko odstranite atribute korenskega XML elementa.
+
+Podatki:
+
+- [Banka Slovenije](http://www.bsi.si)
+- [Tečajna lista](http://www.bsi.si/_data/tecajnice/dtecbs.xml)
+- [Primer popravljena XML datoteke tečajne liste](/src/python/dtecbs.xml)
+
+- Oddaja naloge:  
+- Vsebino izdelane naloge zapakirajte v paket .zip. Oddate vse uporabljene oz. ustvarjene datoteke (python program, podatki, ...).
+- Zip datoteko obvezno poimenujte takole: naloga-20260504-priimek-ime-vpisnaštevilka.zip
+- Nalogo oddate v spletni učilnici - naloga Menjalnica
+
+<!-- Rešitev:
+
+- Primer lokalno shranjene tečajne liste z odstranjenim imenskim prostorom, [dtecbs.xml](/src/python/dtecbs.xml)
+- Preprosta rešitev z lokalno datoteko in odstranjenim imenskim prostorom - implementiran samo prvi del naloge, ki za podan znesek v EUR izpiše vrednost v vseh ostalih valutah, [menjalnica-0.py](/src/python/menjalnica-0.py)
+- Preprosta rešitev z lokalno datoteko in odstranjenim imenskim prostorom, [menjalnica-1.py](/src/python/menjalnica-1.py)
+- Rešitev z branjem XML datoteke z Interneta, uporaba 2-D seznama, [menjalnica-2.py](/src/python/menjalnica-2.py) -->
+
+{{< figure src="/img/py-menjalnica.png" >}}
+
+### 11. teden - ponedeljek, 11. 5. 2026
+
+Knjižnice: [NumPy](https://www.numpy.org), [SciPy](https://scipy.org), [matplotlib](https://matplotlib.org)
+
+Python in SQL:
+
+- Baze podatkov: [SQLite](http://www.sqlite.org), [MySQL](http://www.mysql.com), ...
+- [Uporaba Python/SQL](http://www.python-course.eu/sql_python.php)
+- Zapis podatkov v bazo SQLite: [geokar-xml2db.py](/src/python/geokar-xml2db.py), [geokar-podatki.xml](/src/python/geokar-podatki.xml)
+- Iskanje podatkov v bazi SQLite: [geokar-10-1.py](/src/python/geokar-10-1.py), [geometrijske_karakteristike.py](/src/python/geometrijske_karakteristike.py)
+
+Python in Excel:
+
+- Uporaba knjižnice [openpyxl](https://openpyxl.readthedocs.io/en/stable/#): [mb_primer-1.py](/src/python/mb_primer-1.py), [mb_primer-1.xlsx](/src/python/mb_primer-1.xlsx)
+- Uporaba knjižnice [Pandas](http://pandas.pydata.org): [mb_primer-2.py](/src/python/mb_primer-2.py), [mb_primer-2.xlsx](/src/python/mb_primer-2.xlsx)
+
+Python in numerične analize:
+
+- Preprost primer izračuna sistema linearnih enačb, [linalg-1.py](/src/python/linalg-1.py)
+- Izračun sistema linearnih enačb:
+- Program: [linalg-2.py](/src/python/linalg-2.py)
+- Podatki - [Matrix Market](https://math.nist.gov/MatrixMarket/): [info](http://math.nist.gov/MatrixMarket/data/SPARSKIT/fidap/fidapm37.html), [fidapm37.mtx](/src/python/fidapm37.mtx), [fidapm37_rhs1.mtx](/src/python/fidapm37_rhs1.mtx)
+
+Uporaba knjižnice PyPlot:
+
+- Bisekcija: [bisekcija-plot.py](/src/python/bisekcija-plot.py)
+- Program za izris prereza: [geokar-plot.py](/src/python/geokar-plot.py)
+- Podatki: [geokar-podatki-1.txt](/src/python/geokar-podatki-1.txt), [geokar-podatki-2.txt](/src/python/geokar-podatki-2.txt)
+
+Datoteke: [numpy-matplotlib-sqlite.zip](/src/python/numpy-matplotlib-sqlite.zip)
+
+{{< gallery >}}
+  <img src="/img/fidapm37_lg_city.gif" class="grid-w33" />
+  <img src="/img/py-geokar-pyplot.png" class="grid-w33" />
+  <img src="/img/bisekcija-plot.png" class="grid-w33" />
+{{< /gallery >}}
+
+### 12. teden - ponedeljek, 18. 5. 2026
+
+Priprava na izpit / kolokvij.
+
+### 13. teden - ponedeljek, 25. 5. 2026
+
+Kolokvij.
+
+### 14. teden - ponedeljek, 1. 6. 2026
+
+Zagovori kolokvijev - po potrebi.
