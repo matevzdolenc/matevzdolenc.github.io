@@ -35,7 +35,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [11, 14, 14, 14, 11, 8, 8, 6, 5, , , , , , ],
+    data: [11, 14, 14, 14, 11, 8, 8, 6, 5, 5, , , , , ],
   }],
 },
 options: {
@@ -278,17 +278,18 @@ Podatki:
 - [Tečajna lista](http://www.bsi.si/_data/tecajnice/dtecbs.xml)
 - [Primer popravljena XML datoteke tečajne liste](/src/python/dtecbs.xml)
 
-- Oddaja naloge:  
+Oddaja naloge:  
+
 - Vsebino izdelane naloge zapakirajte v paket .zip. Oddate vse uporabljene oz. ustvarjene datoteke (python program, podatki, ...).
 - Zip datoteko obvezno poimenujte takole: naloga-20260504-priimek-ime-vpisnaštevilka.zip
 - Nalogo oddate v spletni učilnici - naloga Menjalnica
 
-<!-- Rešitev:
+Rešitev:
 
 - Primer lokalno shranjene tečajne liste z odstranjenim imenskim prostorom, [dtecbs.xml](/src/python/dtecbs.xml)
 - Preprosta rešitev z lokalno datoteko in odstranjenim imenskim prostorom - implementiran samo prvi del naloge, ki za podan znesek v EUR izpiše vrednost v vseh ostalih valutah, [menjalnica-0.py](/src/python/menjalnica-0.py)
 - Preprosta rešitev z lokalno datoteko in odstranjenim imenskim prostorom, [menjalnica-1.py](/src/python/menjalnica-1.py)
-- Rešitev z branjem XML datoteke z Interneta, uporaba 2-D seznama, [menjalnica-2.py](/src/python/menjalnica-2.py) -->
+- Rešitev z branjem XML datoteke z Interneta, uporaba 2-D seznama, [menjalnica-2.py](/src/python/menjalnica-2.py)
 
 {{< figure src="/img/py-menjalnica.png" >}}
 

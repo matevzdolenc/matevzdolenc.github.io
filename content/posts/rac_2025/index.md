@@ -273,6 +273,13 @@ Povezave:
 
 ### 11. teden - četrtek, 7. 5. 2026
 
+Razvoj programske opreme:
+
+- [Agilni manifest](/files/agilni-manifest.pdf)
+- [Agilne metodologije](/files/agilne-metodologije.pdf)
+
+{{< figure src="/img/agilne-metodologije.png" caption="Agilne metodologije predstavljajo nabor vrednot." >}}
+
 ### 12. teden - četrtek, 14. 5. 2026
 
 ### 13. teden - četrtek, 21. 5. 2026
@@ -283,8 +290,13 @@ Priprava na izpit.
 
 Predstavitve seminarskih nalog:
 
-- Maksimalna dolžina predstavitve je 5 minut.
+Predstavitve seminarskih nalog:
+
+- Dolžina predstavitve:  3 - 5 minut
 - Prosim bodite pripravljeni na predstavitev - najbolje je predstavitev naložiti na računalnik pred zažetkom ure.
+- Predstavitev naj se začne z naslovnico (npr. v programu PowerPoint), ki vključuje: ime in priimek študenta in naslov izdelane spletne strani.
+- Pričakuje se, da bo v živo predstavljena izdelana spletna stran.
+- Predstavitve se bo ocenilo glede na: dolžino, vsebino in obliko predstavitve in podajanje predstavitve.
 
 ### 15. teden - četrtek, 4. 6. 2026
 
