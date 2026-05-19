@@ -282,6 +282,12 @@ Razvoj programske opreme:
 
 ### 12. teden - četrtek, 14. 5. 2026
 
+Umetna inteligenca:
+
+- Anja Brelih, [Umetna inteligenca (UI) in veliki jezikovni modeli (VJM)](/files/ui_in_vjm-anja.pdf)
+
+{{< figure src="/img/ui_in_vjm-anja.png" caption="Umetna inteligenca (UI) in veliki jezikovni modeli (VJM)." >}}
+
 ### 13. teden - četrtek, 21. 5. 2026
 
 Priprava na izpit.
