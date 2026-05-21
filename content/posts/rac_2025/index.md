@@ -103,7 +103,7 @@ Osnovne smernice za video predstavitev:
 - video shranite v "mp4" formatu
 - video naložite na enega izmed video portalov (YouTube, Vimeo)
 
-Video pripravite do 25. 5. 2026. Obvestilo o pripravljeni video predstavitvi oddate v spletni učilnici.
+Video pripravite do 27. 5. 2026. Obvestilo o pripravljeni video predstavitvi oddate v spletni učilnici.
 
 Navodila za pripravo predstavitve:
 
