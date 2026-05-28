@@ -296,13 +296,50 @@ Priprava na izpit.
 
 Predstavitve seminarskih nalog:
 
-Predstavitve seminarskih nalog:
-
 - Dolžina predstavitve:  3 - 5 minut
 - Prosim bodite pripravljeni na predstavitev - najbolje je predstavitev naložiti na računalnik pred zažetkom ure.
 - Predstavitev naj se začne z naslovnico (npr. v programu PowerPoint), ki vključuje: ime in priimek študenta in naslov izdelane spletne strani.
 - Pričakuje se, da bo v živo predstavljena izdelana spletna stran.
 - Predstavitve se bo ocenilo glede na: dolžino, vsebino in obliko predstavitve in podajanje predstavitve.
+
+{{< chart >}}
+type: 'bar',
+data: {
+  labels: ['Google Sites', 'Wix', 'Wordpress', 'Lovable', 'AI (html/css/js)', 'Squarespace', 'SITE123', 'Base44'],
+  datasets: [{
+    label: 'Spletni servisi za izdelavo spletnih strani',
+    data: [14, 9, 6, 6, 2, 2, 1, 1],
+  }],
+},
+options: {
+	plugins: {
+		tooltip: {
+			enabled: false
+		},
+		title: {
+			display: true,
+			text: 'Uporabljeni spletni servisi za izdelavo spletnih strani'
+		},
+		legend: {
+			display: false
+		},
+	},
+	scales: {
+		x: {
+			title: {
+          		display: true,
+          		text: 'Spletni servisi za izdelavo spletnih strani'
+	        },
+		},
+		y: {
+			title: {
+          		display: true,
+          		text: 'Število izdelanih spletnih strani'
+	        },
+		}
+	}
+}
+{{< /chart >}}
 
 ### 15. teden - četrtek, 4. 6. 2026
 
