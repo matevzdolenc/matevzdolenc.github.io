@@ -343,4 +343,4 @@ options: {
 
 ### 15. teden - četrtek, 4. 6. 2026
 
-Predavanja odpadejo. V času predavanj in seminarja potekajo individualne konzultacije in predstavitve seminarskih nalog.
+Predavanja odpadejo! Vsi, ki še niste predstavili seminarske naloge, lahko to opravite v terminu od 10:15 do 12:00 v predavalnici J-II/6.
