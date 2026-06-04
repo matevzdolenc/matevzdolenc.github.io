@@ -305,10 +305,10 @@ Predstavitve seminarskih nalog:
 {{< chart >}}
 type: 'bar',
 data: {
-  labels: ['Google Sites', 'Wix', 'Wordpress', 'Lovable', 'AI (html/css/js)', 'Squarespace', 'SITE123', 'Base44'],
+  labels: ['Google Sites', 'Wix', 'Lovable', 'Wordpress', 'AI (html/css/js)', 'Squarespace', 'SITE123', 'Base44'],
   datasets: [{
     label: 'Spletni servisi za izdelavo spletnih strani',
-    data: [14, 9, 6, 6, 2, 2, 1, 1],
+    data: [15, 9, 9, 8, 3, 2, 1, 1],
   }],
 },
 options: {
