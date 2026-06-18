@@ -40,7 +40,7 @@ data: {
   labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
   datasets: [{
     label: 'prisotnost na predavanjih',
-    data: [46, 40, 27, 25, 25, 13, 21, 17, 8, 9, 12, 9, , , ],
+    data: [46, 40, 27, 25, 25, 13, 21, 17, 8, 9, 12, 9, 10, 7, 45],
   }],
 },
 options: {
@@ -305,10 +305,10 @@ Predstavitve seminarskih nalog:
 {{< chart >}}
 type: 'bar',
 data: {
-  labels: ['Google Sites', 'Wix', 'Lovable', 'Wordpress', 'AI (html/css/js)', 'Squarespace', 'SITE123', 'Base44'],
+  labels: ['Google Sites', 'Wordpress', 'Wix', 'Lovable', 'AI (html/css/js)', 'Squarespace', 'SITE123', 'Base44'],
   datasets: [{
     label: 'Spletni servisi za izdelavo spletnih strani',
-    data: [15, 9, 9, 8, 3, 2, 1, 1],
+    data: [17, 10, 10, 9, 3, 2, 2, 1],
   }],
 },
 options: {
