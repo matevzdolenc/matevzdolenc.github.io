@@ -1,6 +1,6 @@
 ---
 title: Computer Programming 2026/27
-date: 2025-10-06
+date: 2026-10-06
 draft: false
 showDate: true
 showDateUpdated: true
