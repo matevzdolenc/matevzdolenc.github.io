@@ -308,7 +308,7 @@ data: {
   labels: ['Google Sites', 'Wordpress', 'Wix', 'Lovable', 'AI (html/css/js)', 'Squarespace', 'SITE123', 'Base44'],
   datasets: [{
     label: 'Spletni servisi za izdelavo spletnih strani',
-    data: [17, 10, 10, 9, 3, 2, 2, 1],
+    data: [17, 10, 10, 10, 3, 2, 2, 1],
   }],
 },
 options: {
