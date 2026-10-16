@@ -28,7 +28,7 @@ Cilj predmeta je seznaniti študente z osnovnimi koncepti in tehnikami izdelave 
 
 ### Kontakt
 
-- govorilne ure - ponedeljek, 10-11, soba 021
+- govorilne ure - ponedeljek, 10-11, soba 035
 - email - [mdolenc@fgg.uni-lj.si](mailto:mdolenc@fgg.uni-lj.si)
 
 ## Predavanja
@@ -47,3 +47,22 @@ Naloga za projektno delo:
 
 - Pripravite predlog projekta (programa) - 5 do 7 prosojnic. 
 - Rok za predstavitev: 13. 10. 2026
+
+### 2. teden - torek, 13. 10. 2026
+
+Projektno delo:
+
+- Predstavitve predlogov projektov.
+
+### 3. teden - torek, 20. 10. 2026
+
+Razvoj programske opreme:
+
+- [Agilni manifest](/files/agilni-manifest.pdf)
+- [Agilne metodologije](/files/agilne-metodologije.pdf)
+
+Projektno delo:
+
+- Vprašanja in odgovori
+
+{{< figure src="/img/agilne-metodologije.png" caption="Agilne metodologije predstavljajo nabor vrednot." >}}

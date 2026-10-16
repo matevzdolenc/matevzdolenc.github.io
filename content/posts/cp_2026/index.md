@@ -28,7 +28,7 @@ The aim of the course is to acquaint students with the basic concepts and techni
 
 ### Contact
 
-- office hours - Monday 10 - 11, room 021
+- office hours - Monday 10 - 11, room 035
 - email - [mdolenc@fgg.uni-lj.si](mailto:mdolenc@fgg.uni-lj.si)
 
 ## Lectures
@@ -46,4 +46,21 @@ Computer Programming:
 Project work:
 
 - Prepare programming project proposal - 5 to 7 slides.
+- Project proposal presentations
+
+### 2. week, Oct 14 2026
+
+Project work:
+
+- Project proposal presentations
+
+### 3. week, Oct 21 2026
+
+Software development:
+
+- [Agile manifesto](https://agilemanifesto.org)
+- [Agile methodologies](/files/BIM_A+3.2_Agile_methodologies.pdf)
+
+Project work:
+
 - Project proposal presentations
