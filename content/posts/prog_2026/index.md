@@ -66,3 +66,9 @@ Projektno delo:
 - Vprašanja in odgovori
 
 {{< figure src="/img/agilne-metodologije.png" caption="Agilne metodologije predstavljajo nabor vrednot." >}}
+
+### 4. teden - torek, 27. 10. 2026
+
+Projektno delo:
+
+- Vprašanja in odgovori

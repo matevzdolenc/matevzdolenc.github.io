@@ -59,8 +59,14 @@ Project work:
 Software development:
 
 - [Agile manifesto](https://agilemanifesto.org)
-- [Agile methodologies](/files/BIM_A+3.2_Agile_methodologies.pdf)
+- [Agile methodologies](/files/bimaplus/BIM_A+3.2_Agile_methodologies.pdf)
 
 Project work:
 
-- Project proposal presentations
+- Q&A
+
+### 4. week, Oct 28 2026
+
+Project work:
+
+- Q&A
