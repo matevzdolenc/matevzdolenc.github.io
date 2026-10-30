@@ -72,3 +72,20 @@ Projektno delo:
 Projektno delo:
 
 - Vprašanja in odgovori
+
+### 5. teden - torek, 3. 11. 2026
+
+Git in GitHub:
+
+- Namestitev Git sistema na domačem računalniku
+- Prijava na GitHub
+- Izdelava testnega programa (Python / Git / GitHub)
+
+Povezave:
+
+- [Introduction to Git and GitHub](/bimaplus/BIM_A+3.2_Git_and_GitHub.pdf)
+- [Git - Fast Version Control System](http://git-scm.com/)
+- [Tech Talk: Linus Torvalds on git](http://www.youtube.com/watch?v=4XpnKHJAok8)
+- [GitHub - social coding](https://github.com/)
+
+{{< youtubeLite id="4XpnKHJAok8" label="Tech Talk: Linus Torvalds on git" >}}

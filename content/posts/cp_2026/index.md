@@ -59,7 +59,7 @@ Project work:
 Software development:
 
 - [Agile manifesto](https://agilemanifesto.org)
-- [Agile methodologies](/files/bimaplus/BIM_A+3.2_Agile_methodologies.pdf)
+- [Agile methodologies](/bimaplus/BIM_A+3.2_Agile_methodologies.pdf)
 
 Project work:
 
@@ -70,3 +70,18 @@ Project work:
 Project work:
 
 - Q&A
+
+### 5. week, Nov 4 2026
+
+Git and GitHub:
+- [Intro](/files/BIM_A+3.2_Git_and_GitHub.pdf)
+- Installing Git on your computer
+- Signup on GitHub
+
+Links:
+- [Git - Fast Version Control System](http://git-scm.com/)
+- [Tech Talk: Linus Torvalds on git](http://www.youtube.com/watch?v=4XpnKHJAok8)
+- [Git Source Control Provider](http://gitscc.codeplex.com/)
+- [GitHub - social coding](https://github.com/)
+
+{{< youtubeLite id="4XpnKHJAok8" label="Tech Talk: Linus Torvalds on git" >}}
