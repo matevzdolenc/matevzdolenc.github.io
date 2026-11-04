@@ -89,3 +89,9 @@ Povezave:
 - [GitHub - social coding](https://github.com/)
 
 {{< youtubeLite id="4XpnKHJAok8" label="Tech Talk: Linus Torvalds on git" >}}
+
+### 6. teden - torek, 10. 11. 2026
+
+Projektno delo:
+
+- Vprašanja in odgovori
