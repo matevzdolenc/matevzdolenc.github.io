@@ -74,7 +74,7 @@ Project work:
 ### 5. week, Nov 4 2026
 
 Git and GitHub:
-- [Intro](/files/BIM_A+3.2_Git_and_GitHub.pdf)
+- [Intro](/bimaplus/BIM_A+3.2_Git_and_GitHub.pdf)
 - Installing Git on your computer
 - Signup on GitHub
 
