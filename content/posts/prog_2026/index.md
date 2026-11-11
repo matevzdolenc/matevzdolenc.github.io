@@ -31,6 +31,47 @@ Cilj predmeta je seznaniti študente z osnovnimi koncepti in tehnikami izdelave 
 - govorilne ure - ponedeljek, 10-11, soba 035
 - email - [mdolenc@fgg.uni-lj.si](mailto:mdolenc@fgg.uni-lj.si)
 
+### Prisotnost
+
+{{< chart >}}
+type: 'bar',
+data: {
+  labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+  datasets: [{
+    label: 'prisotnost na predavanjih',
+    data: [14, 12, 12, 4, 1, 12, , , , , , , , , ],
+  }],
+},
+options: {
+ plugins: {
+  tooltip: {
+   enabled: false
+  },
+  title: {
+   display: true,
+   text: 'Prisotnost na predavanjih'
+  },
+  legend: {
+   display: false
+  },
+ },
+ scales: {
+  x: {
+   title: {
+            display: true,
+            text: 'teden'
+         },
+  },
+  y: {
+   title: {
+            display: true,
+            text: 'število študentov'
+         },
+  }
+ }
+}
+{{< /chart >}}
+
 ## Predavanja
 
 ### 1. teden - torek, 6. 10. 2026
@@ -103,3 +144,9 @@ Zanimiva Github skladišča:
 {{< github repo="nilbuild/developer-roadmap" showThumbnail=false >}}
 
 {{< github repo="Asabeneh/30-Days-Of-Python" showThumbnail=false >}}
+
+### 7. teden - torek, 17. 11. 2026
+
+Odprta koda:
+
+- [Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, kaj pomeni za končne uporabnike

@@ -31,6 +31,47 @@ The aim of the course is to acquaint students with the basic concepts and techni
 - office hours - Monday 10 - 11, room 035
 - email - [mdolenc@fgg.uni-lj.si](mailto:mdolenc@fgg.uni-lj.si)
 
+### Attendance
+
+{{< chart >}}
+type: 'bar',
+data: {
+  labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15'],
+  datasets: [{
+    label: 'attendance',
+    data: [4, 6, 5, 6, 5, 4, , , , , , , , , ],
+  }],
+},
+options: {
+ plugins: {
+  tooltip: {
+   enabled: false
+  },
+  title: {
+   display: true,
+   text: 'Attendance'
+  },
+  legend: {
+   display: false
+  },
+ },
+ scales: {
+  x: {
+   title: {
+            display: true,
+            text: 'Week'
+         },
+  },
+  y: {
+   title: {
+            display: true,
+            text: 'Number of students'
+         },
+  }
+ }
+}
+{{< /chart >}}
+
 ## Lectures
 
 ### 1. week, Oct 7 2026
@@ -99,3 +140,7 @@ Interesting GitHub repositories:
 {{< github repo="nilbuild/developer-roadmap" showThumbnail=false >}}
 
 {{< github repo="Asabeneh/30-Days-Of-Python" showThumbnail=false >}}
+
+### 7. week, Nov 18 2026
+
+Open source:
