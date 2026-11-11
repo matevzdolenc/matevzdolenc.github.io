@@ -95,3 +95,11 @@ Povezave:
 Projektno delo:
 
 - Vprašanja in odgovori
+
+Zanimiva Github skladišča:
+
+{{< github repo="microsoft/ML-For-Beginners" showThumbnail=false >}}
+
+{{< github repo="nilbuild/developer-roadmap" showThumbnail=false >}}
+
+{{< github repo="Asabeneh/30-Days-Of-Python" showThumbnail=false >}}

@@ -91,3 +91,11 @@ Links:
 Project work:
 
 - Q&A
+
+Interesting GitHub repositories:
+
+{{< github repo="microsoft/ML-For-Beginners" showThumbnail=false >}}
+
+{{< github repo="nilbuild/developer-roadmap" showThumbnail=false >}}
+
+{{< github repo="Asabeneh/30-Days-Of-Python" showThumbnail=false >}}
