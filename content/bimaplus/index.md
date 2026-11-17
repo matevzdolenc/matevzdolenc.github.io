@@ -67,3 +67,9 @@ Git and GitHub:
 Dynamo:
 - Autodesk, [Dynamo Package Manager](https://dynamopackages.com)
 - Autodesk, [The Dynamo Primer](https://primer.dynamobim.org/index.html)
+
+Interesting GitHub repositories:
+
+{{< github repo="microsoft/ML-For-Beginners" showThumbnail=false >}}
+{{< github repo="nilbuild/developer-roadmap" showThumbnail=false >}}
+{{< github repo="Asabeneh/30-Days-Of-Python" showThumbnail=false >}}
