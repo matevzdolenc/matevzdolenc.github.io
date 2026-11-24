@@ -154,6 +154,9 @@ Predavanje odpade.
 Odprta koda:
 
 - [Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, kaj pomeni za končne uporabnike
+- [Distro Watch](http://distrowatch.com/) - seznam Linux distribucij
+- [Oracle VirtualBox](https://www.virtualbox.org) - okolje za virtualizacijo oeracijskih sistemov
+- Linux distribucije: [Ubuntu](https://ubuntu.com), [Fedora](http://fedoraproject.org), [Redhat](http://www.redhat.com)
 
 Projektno delo:
 
