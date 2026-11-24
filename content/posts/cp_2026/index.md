@@ -143,4 +143,10 @@ Interesting GitHub repositories:
 
 ### 7. week, Nov 18 2026
 
-Open source:
+Lecutures are canceled. 
+
+### 8. week, Nov 25 2026
+
+Project work:
+
+- Q&A

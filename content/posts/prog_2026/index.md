@@ -147,6 +147,14 @@ Zanimiva Github skladišča:
 
 ### 7. teden - torek, 17. 11. 2026
 
+Predavanje odpade.
+
+### 8. teden - torek, 24. 11. 2026
+
 Odprta koda:
 
 - [Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, kaj pomeni za končne uporabnike
+
+Projektno delo:
+
+- Vprašanja in odgovori
