@@ -147,6 +147,22 @@ Lecutures are canceled.
 
 ### 8. week, Nov 25 2026
 
+Open-source:
+
+- [Open-source](/files/open-source-2017-en.pdf) - history, development and what is means for end-users
+
+Project work:
+
+- Q&A
+
+### 9. week, Dec 2 2026
+
+Linux operating system:
+
+- [Distro Watch](http://distrowatch.com/) - list of Linux dicstibutions
+- [Oracle VirtualBox](https://www.virtualbox.org) - virtualization environment
+- Linux distributions: [Ubuntu](https://ubuntu.com), [Fedora](http://fedoraproject.org), [Debian](https://www.debian.org)
+
 Project work:
 
 - Q&A

@@ -154,9 +154,18 @@ Predavanje odpade.
 Odprta koda:
 
 - [Odprta koda](/files/open-source-2017.pdf) - zgodovina in razvoj, kaj pomeni za končne uporabnike
+
+Projektno delo:
+
+- Vprašanja in odgovori
+
+### 9. teden - torek, 1. 12. 2026
+
+Operacijski sistem Linux:
+
 - [Distro Watch](http://distrowatch.com/) - seznam Linux distribucij
 - [Oracle VirtualBox](https://www.virtualbox.org) - okolje za virtualizacijo oeracijskih sistemov
-- Linux distribucije: [Ubuntu](https://ubuntu.com), [Fedora](http://fedoraproject.org), [Redhat](http://www.redhat.com)
+- Linux distribucije: [Ubuntu](https://ubuntu.com), [Fedora](http://fedoraproject.org), [Debian](https://www.debian.org)
 
 Projektno delo:
 
